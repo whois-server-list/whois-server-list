@@ -6,35 +6,35 @@
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK
 	</notes>
 	<server host="whois.denic.de">
-		<domain count="1072609" nic="http://www.denic.de/" country="Germany" name="de"></domain>
+		<domain nic="http://www.denic.de/" country="Germany" name="de"></domain>
 	</server>
 
 	<server host="whois.nic.de">
 		<info>DEutsches Network Information Center</info>
 		<availstring>status:      free</availstring>
-		<domain count="1072609" nic="http://www.denic.de/" country="Germany" name="de"></domain>
+		<domain nic="http://www.denic.de/" country="Germany" name="de"></domain>
 	</server>
 
 	<server host="whois.nic.uk">
 		<info>Nominet UK (.UK Domain Registrar)</info>
 		<availstring>no match</availstring>
-		<domain count="101" nic="http://www.nic.uk/" country="United Kingdom" name="uk">
-			<domain count="70707" name="co.uk"></domain>
-			<domain count="3224" name="org.uk"></domain>
-			<domain count="257" name="me.uk"></domain>
-			<domain count="3" name="ac.uk"></domain>
+		<domain nic="http://www.nic.uk/" country="United Kingdom" name="uk">
+			<domain name="co.uk"></domain>
+			<domain name="org.uk"></domain>
+			<domain name="me.uk"></domain>
+			<domain name="ac.uk"></domain>
 			<domain name="ltd.uk"></domain>
 			<domain name="plc.uk"></domain>
 		</domain>
 	</server>
 
 	<server host="whois.verisign-grs.com">
-		<domain count="49226" name="com">
-			<domain count="54" name="eu.com"></domain>
-			<domain count="8" name="uk.com"></domain>
-			<domain count="3" name="us.com"></domain>
-			<domain count="3" name="gb.com"></domain>
-			<domain count="1" name="hu.com"></domain>
+		<domain name="com">
+			<domain name="eu.com"></domain>
+			<domain name="uk.com"></domain>
+			<domain name="us.com"></domain>
+			<domain name="gb.com"></domain>
+			<domain name="hu.com"></domain>
 			<domain name="br.com"></domain>
 			<domain name="cn.com"></domain>
 			<domain name="no.com"></domain>
@@ -44,8 +44,8 @@
 			<domain name="uy.com"></domain>
 			<domain name="za.com"></domain>
 		</domain>
-		<domain count="11798" name="net">
-			<domain count="4" name="uk.net"></domain>
+		<domain name="net">
+			<domain name="uk.net"></domain>
 			<domain name="se.net"></domain>
 			<domain name="gb.net"></domain>
 		</domain>
@@ -54,12 +54,12 @@
 	<server host="whois.crsnic.net">
 		<info>Network Solutions, Inc. for Shared Registration System</info>
 		<availstring>no match for</availstring>
-		<domain count="49226" name="com">
-			<domain count="54" name="eu.com"></domain>
-			<domain count="8" name="uk.com"></domain>
-			<domain count="3" name="us.com"></domain>
-			<domain count="3" name="gb.com"></domain>
-			<domain count="1" name="hu.com"></domain>
+		<domain name="com">
+			<domain name="eu.com"></domain>
+			<domain name="uk.com"></domain>
+			<domain name="us.com"></domain>
+			<domain name="gb.com"></domain>
+			<domain name="hu.com"></domain>
 			<domain name="br.com"></domain>
 			<domain name="cn.com"></domain>
 			<domain name="no.com"></domain>
@@ -69,8 +69,8 @@
 			<domain name="uy.com"></domain>
 			<domain name="za.com"></domain>
 		</domain>
-		<domain count="11798" name="net">
-			<domain count="4" name="uk.net"></domain>
+		<domain name="net">
+			<domain name="uk.net"></domain>
 			<domain name="se.net"></domain>
 			<domain name="gb.net"></domain>
 		</domain>
@@ -78,76 +78,76 @@
 
 	<server host="whois.biz">
 		<availstring>not found</availstring>
-		<domain count="19248" name="biz"></domain>
+		<domain name="biz"></domain>
 	</server>
 
 	<server host="whois.nic.biz">
 		<availstring>not found</availstring>
-		<domain count="19248" name="biz"></domain>
+		<domain name="biz"></domain>
 	</server>
 
 	<server host="whois.afilias.net">
 		<availstring>not found</availstring>
-		<domain count="6618" name="info"></domain>
+		<domain name="info"></domain>
 	</server>
 
 	<server host="whois.publicinterestregistry.net">
 		<availstring>not found</availstring>
-		<domain count="6494" name="org"></domain>
+		<domain name="org"></domain>
 	</server>
 
 	<server host="whois.pir.org">
-		<domain count="6494" name="org"></domain>
+		<domain name="org"></domain>
 	</server>
 
 	<server host="whois.nic.at">
 		<availstring>nothing found</availstring>
-		<domain count="4846" nic="http://www.nic.at/" country="Austria" name="at">
-			<domain count="44" name="co.at"></domain>
-			<domain count="27" name="ac.at"></domain>
-			<domain count="17" name="gv.at"></domain>
-			<domain count="17" name="or.at"></domain>
+		<domain nic="http://www.nic.at/" country="Austria" name="at">
+			<domain name="co.at"></domain>
+			<domain name="ac.at"></domain>
+			<domain name="gv.at"></domain>
+			<domain name="or.at"></domain>
 		</domain>
 	</server>
 
 	<server host="whois.www.tv">
 		<availstring>.tv
 you have used</availstring>
-		<domain count="4245" nic="http://www.tv" country="Tuvalu" name="tv"></domain>
+		<domain nic="http://www.tv" country="Tuvalu" name="tv"></domain>
 	</server>
 
 	<server host="whois.nic.ch">
 		<info>SWITCH Swiss Academic and Research Network</info>
 		<availstring>not have an entry</availstring>
-		<domain count="3844" nic="http://www.nic.ch/" country="Switzerland" name="ch"></domain>
+		<domain nic="http://www.nic.ch/" country="Switzerland" name="ch"></domain>
 	</server>
 
 	<server host="whois.domain-registry.nl">
 		<availstring>is free</availstring>
-		<domain count="2948" nic="http://www.domain-registry.nl/" country="Netherlands" name="nl"></domain>
+		<domain nic="http://www.domain-registry.nl/" country="Netherlands" name="nl"></domain>
 	</server>
 
 	<server host="whois.nic.us">
 		<availstring>not found:</availstring>
-		<domain count="2522" nic="http://www.nic.us" country="United States" name="us"></domain>
+		<domain nic="http://www.nic.us" country="United States" name="us"></domain>
 	</server>
 
 	<server host="whois.nic.ws">
 		<availstring>no match for</availstring>
-		<domain count="2158" nic="http://www.samoanic.ws" country="Samoa" name="ws"></domain>
+		<domain nic="http://www.samoanic.ws" country="Samoa" name="ws"></domain>
 	</server>
 
 	<server host="whois.nic.it">
 		<info>Italian Network Information Center</info>
 		<availstring>no entries found</availstring>
-		<domain count="1245" nic="http://www.nic.it/" country="Italy" name="it"></domain>
+		<domain nic="http://www.nic.it/" country="Italy" name="it"></domain>
 	</server>
 
 	<server host="whois.ripn.net">
 		<info>Russian Institute for Public Networks</info>
 		<availstring>no entries found</availstring>
-		<domain count="616" nic="http://www.cctld.ru/en" country="Russian Federation" name="ru">
-			<domain count="3" name="com.ru"></domain>
+		<domain nic="http://www.cctld.ru/en" country="Russian Federation" name="ru">
+			<domain name="com.ru"></domain>
 			<domain name="net.ru"></domain>
 			<domain name="org.ru"></domain>
 		</domain>
@@ -155,24 +155,24 @@ you have used</availstring>
 
 	<server host="whois.dns.be">
 		<availstring>no such domain</availstring>
-		<domain count="598" nic="http://www.dns.be" country="Belgium" name="be">
-			<domain count="1" name="ac.be"></domain>
+		<domain nic="http://www.dns.be" country="Belgium" name="be">
+			<domain name="ac.be"></domain>
 		</domain>
 	</server>
 
 	<server host="whois.dns.pl">
 		<availstring>no information about</availstring>
-		<domain count="472" nic="http://www.dns.pl/english/" country="Poland" name="pl">
-			<domain count="316" name="net.pl"></domain>
-			<domain count="98" name="com.pl"></domain>
-			<domain count="7" name="travel.pl"></domain>
-			<domain count="4" name="org.pl"></domain>
-			<domain count="4" name="biz.pl"></domain>
-			<domain count="2" name="info.pl"></domain>
-			<domain count="1" name="agro.pl"></domain>
-			<domain count="1" name="edu.pl"></domain>
-			<domain count="1" name="mail.pl"></domain>
-			<domain count="1" name="targi.pl"></domain>
+		<domain nic="http://www.dns.pl/english/" country="Poland" name="pl">
+			<domain name="net.pl"></domain>
+			<domain name="com.pl"></domain>
+			<domain name="travel.pl"></domain>
+			<domain name="org.pl"></domain>
+			<domain name="biz.pl"></domain>
+			<domain name="info.pl"></domain>
+			<domain name="agro.pl"></domain>
+			<domain name="edu.pl"></domain>
+			<domain name="mail.pl"></domain>
+			<domain name="targi.pl"></domain>
 			<domain name="aid.pl"></domain>
 			<domain name="atm.pl"></domain>
 			<domain name="auto.pl"></domain>
@@ -197,19 +197,19 @@ you have used</availstring>
 
 	<server host="whois.nic.br">
 		<availstring>no match for</availstring>
-		<domain count="39" nic="http://registro.br/" country="Brazil" name="br">
-			<domain count="355" name="com.br"></domain>
-			<domain count="81" name="adv.br"></domain>
-			<domain count="5" name="org.br"></domain>
-			<domain count="4" name="inf.br"></domain>
-			<domain count="2" name="arq.br"></domain>
-			<domain count="1" name="eng.br"></domain>
-			<domain count="1" name="fm.br"></domain>
-			<domain count="1" name="fot.br"></domain>
-			<domain count="1" name="gov.br"></domain>
-			<domain count="1" name="pro.br"></domain>
-			<domain count="1" name="slg.br"></domain>
-			<domain count="1" name="tv.br"></domain>
+		<domain nic="http://registro.br/" country="Brazil" name="br">
+			<domain name="com.br"></domain>
+			<domain name="adv.br"></domain>
+			<domain name="org.br"></domain>
+			<domain name="inf.br"></domain>
+			<domain name="arq.br"></domain>
+			<domain name="eng.br"></domain>
+			<domain name="fm.br"></domain>
+			<domain name="fot.br"></domain>
+			<domain name="gov.br"></domain>
+			<domain name="pro.br"></domain>
+			<domain name="slg.br"></domain>
+			<domain name="tv.br"></domain>
 			<domain name="adm.br"></domain>
 			<domain name="am.br"></domain>
 			<domain name="art.br"></domain>
@@ -244,48 +244,48 @@ you have used</availstring>
 
 	<server host="whois.nic.name">
 		<availstring>no match</availstring>
-		<domain count="306" name="name"></domain>
+		<domain name="name"></domain>
 	</server>
 
 	<server host="whois.nic.cc">
 		<info>NIC.CC Registration Services</info>
 		<availstring>no match</availstring>
-		<domain count="276" nic="http://www.nic.cc/" country="Cocos (Keeling) Islands" name="cc"></domain>
+		<domain nic="http://www.nic.cc/" country="Cocos (Keeling) Islands" name="cc"></domain>
 	</server>
 
 	<server host="monarch.tonic.to">
 		<availstring>no match for</availstring>
-		<domain count="232" nic="http://www.tonic.to/" country="Tonga" name="to"></domain>
+		<domain nic="http://www.tonic.to/" country="Tonga" name="to"></domain>
 	</server>
 
 	<server host="whois.dot.tk">
 		<availstring>not known</availstring>
-		<domain count="163" nic="http://www.dot.tk" country="Tokelau" name="tk"></domain>
+		<domain nic="http://www.dot.tk" country="Tokelau" name="tk"></domain>
 	</server>
 
 	<server host="whois.nic.ag">
 		<availstring>not found</availstring>
-		<domain count="147" nic="http://www.nic.ag" country="Antigua and Barbuda" name="ag"></domain>
+		<domain nic="http://www.nic.ag" country="Antigua and Barbuda" name="ag"></domain>
 	</server>
 
 	<server host="whois.nic-se.se">
 		<info>Network Information Centre Sweden</info>
 		<availstring>no data found</availstring>
-		<domain count="146" nic="http://www.iis.se" country="Sweden" name="se"></domain>
+		<domain nic="http://www.iis.se" country="Sweden" name="se"></domain>
 	</server>
 
 	<server host="whois.nic.se">
-		<domain count="146" nic="http://www.iis.se" country="Sweden" name="se"></domain>
+		<domain nic="http://www.iis.se" country="Sweden" name="se"></domain>
 	</server>
 
 	<server host="whois.iis.se">
-		<domain count="146" nic="http://www.iis.se" country="Sweden" name="se"></domain>
+		<domain nic="http://www.iis.se" country="Sweden" name="se"></domain>
 	</server>
 
 	<server host="whois.nic.fr">
 		<info>Association Francaise pour le Nommage Internet en Cooperation</info>
 		<availstring>no entries found</availstring>
-		<domain count="140" nic="http://www.nic.fr/" country="France" name="fr">
+		<domain nic="http://www.nic.fr/" country="France" name="fr">
 			<domain name="tm.fr"></domain>
 			<domain name="com.fr"></domain>
 			<domain name="asso.fr"></domain>
@@ -295,13 +295,13 @@ you have used</availstring>
 
 	<server host="whois.dk-hostmaster.dk">
 		<availstring>no entries found</availstring>
-		<domain count="127" nic="http://www.dk-hostmaster.dk/" country="Denmark" name="dk"></domain>
+		<domain nic="http://www.dk-hostmaster.dk/" country="Denmark" name="dk"></domain>
 	</server>
 
 	<server host="whois.rotld.ro">
 		<availstring>no entries found</availstring>
-		<domain count="115" nic="http://www.rotld.ro/" country="Romania" name="ro">
-			<domain count="1" name="com.ro"></domain>
+		<domain nic="http://www.rotld.ro/" country="Romania" name="ro">
+			<domain name="com.ro"></domain>
 			<domain name="org.ro"></domain>
 			<domain name="store.ro"></domain>
 			<domain name="tm.ro"></domain>
@@ -317,7 +317,7 @@ you have used</availstring>
 
 	<server host="whois.nic.cz">
 		<availstring>no data found</availstring>
-		<domain count="96" nic="http://www.nic.cz/" country="Czech Republic" name="cz"></domain>
+		<domain nic="http://www.nic.cz/" country="Czech Republic" name="cz"></domain>
 	</server>
 
 	<server host="whois.ausregistry.net.au">
@@ -327,9 +327,9 @@ you have used</availstring>
 	<server host="whois.nic.ac">
 		<info>nic.ac</info>
 		<availstring>no match for</availstring>
-		<domain count="85" nic="http://www.nic.ac/" country="Ascension Island" name="ac">
-			<domain count="4" name="or.ac"></domain>
-			<domain count="2" name="co.ac"></domain>
+		<domain nic="http://www.nic.ac/" country="Ascension Island" name="ac">
+			<domain name="or.ac"></domain>
+			<domain name="co.ac"></domain>
 			<domain name="gv.ac"></domain>
 			<domain name="ac.ac"></domain>
 		</domain>
@@ -338,50 +338,50 @@ you have used</availstring>
 	<server host="whois.adamsnames.tc">
 		<info>AdamsNames (.GS, .MS, .TC, .TF, .VG)</info>
 		<availstring>is not registered</availstring>
-		<domain count="85" nic="http://www.adamsnames.tc/" country="Montserrat" name="ms"></domain>
-		<domain count="56" nic="http://www.nic.tf/" country="French Southern Territories" name="tf"></domain>
-		<domain count="32" nic="http://www.adamsnames.tc/" country="Turks and Caicos Islands" name="tc"></domain>
-		<domain count="18" nic="http://www.nic.gs/" country="South Georgia and the South Sandwich Islands" name="gs"></domain>
-		<domain count="4" nic="http://www.adamsnames.tc/" country="Virgin Islands, British" name="vg"></domain>
+		<domain nic="http://www.adamsnames.tc/" country="Montserrat" name="ms"></domain>
+		<domain nic="http://www.nic.tf/" country="French Southern Territories" name="tf"></domain>
+		<domain nic="http://www.adamsnames.tc/" country="Turks and Caicos Islands" name="tc"></domain>
+		<domain nic="http://www.nic.gs/" country="South Georgia and the South Sandwich Islands" name="gs"></domain>
+		<domain nic="http://www.adamsnames.tc/" country="Virgin Islands, British" name="vg"></domain>
 	</server>
 
 	<server host="whois.nic.li">
 		<info>SWITCH Swiss Academic and Research Network</info>
 		<availstring>not have an entry</availstring>
-		<domain count="81" nic="http://www.nic.li" country="Liechtenstein" name="li"></domain>
+		<domain nic="http://www.nic.li" country="Liechtenstein" name="li"></domain>
 	</server>
 
 	<server host="whois.amnic.net">
-		<domain count="79" nic="http://www.amnic.net" country="Armenia" name="am"></domain>
+		<domain nic="http://www.amnic.net" country="Armenia" name="am"></domain>
 	</server>
 
 	<server host="whois.nic.am">
 		<info>AM Network Information Centre</info>
 		<availstring>no match</availstring>
-		<domain count="79" nic="http://www.amnic.net" country="Armenia" name="am"></domain>
+		<domain nic="http://www.amnic.net" country="Armenia" name="am"></domain>
 	</server>
 
 	<server host="whois.ripe.net">
 		<info>Reseaux IP Europeens</info>
 		<availstring>no entries found</availstring>
-		<domain count="76" nic="http://www.gr" country="Greece" name="gr"></domain>
-		<domain count="64" nic="http://www.dns.pt/" country="Portugal" name="pt"></domain>
-		<domain count="53" nic="http://www.sk-nic.sk" country="Slovak Republic" name="sk"></domain>
-		<domain count="51" nic="http://www.tld.by" country="Belarus" name="by"></domain>
-		<domain count="30" nic="http://www.nic.lv/DNS/" country="Latvia" name="lv">
+		<domain nic="http://www.gr" country="Greece" name="gr"></domain>
+		<domain nic="http://www.dns.pt/" country="Portugal" name="pt"></domain>
+		<domain nic="http://www.sk-nic.sk" country="Slovak Republic" name="sk"></domain>
+		<domain nic="http://www.tld.by" country="Belarus" name="by"></domain>
+		<domain nic="http://www.nic.lv/DNS/" country="Latvia" name="lv">
 			<domain name="eu.lv"></domain>
 		</domain>
-		<domain count="26" nic="http://www.domreg.lt" country="Lithuania" name="lt"></domain>
-		<domain count="5" nic="http://www.nic.ad" country="Andorra" name="ad"></domain>
-		<domain count="2" nic="http://www.nic.fo/" country="Faroe Islands" name="fo"></domain>
+		<domain nic="http://www.domreg.lt" country="Lithuania" name="lt"></domain>
+		<domain nic="http://www.nic.ad" country="Andorra" name="ad"></domain>
+		<domain nic="http://www.nic.fo/" country="Faroe Islands" name="fo"></domain>
 	</server>
 
 	<server host="whois.cira.ca">
 		<availstring>avail</availstring>
-		<domain count="71" nic="http://www.cira.ca/" country="Canada" name="ca">
-			<domain count="2" name="on.ca"></domain>
-			<domain count="2" name="qc.ca"></domain>
-			<domain count="1" name="ns.ca"></domain>
+		<domain nic="http://www.cira.ca/" country="Canada" name="ca">
+			<domain name="on.ca"></domain>
+			<domain name="qc.ca"></domain>
+			<domain name="ns.ca"></domain>
 			<domain name="ab.ca"></domain>
 			<domain name="bc.ca"></domain>
 			<domain name="mb.ca"></domain>
@@ -397,12 +397,12 @@ you have used</availstring>
 	<server host="whois.nic.mx">
 		<info>Network Information Center - Mexico</info>
 		<availstring>referencias de organization no encontradas</availstring>
-		<domain count="23" nic="http://www.nic.mx/" country="Mexico" name="mx">
-			<domain count="71" name="com.mx"></domain>
-			<domain count="7" name="gob.mx"></domain>
-			<domain count="2" name="org.mx"></domain>
-			<domain count="1" name="edu.mx"></domain>
-			<domain count="1" name="gov.mx"></domain>
+		<domain nic="http://www.nic.mx/" country="Mexico" name="mx">
+			<domain name="com.mx"></domain>
+			<domain name="gob.mx"></domain>
+			<domain name="org.mx"></domain>
+			<domain name="edu.mx"></domain>
+			<domain name="gov.mx"></domain>
 			<domain name="net.mx"></domain>
 		</domain>
 	</server>
@@ -410,11 +410,11 @@ you have used</availstring>
 	<server host="whois.cnnic.net.cn">
 		<info>Computer Network Center, Chinese Academy of Sciences</info>
 		<availstring>no matching record</availstring>
-		<domain count="68" nic="http://www.cnnic.net.cn/" country="China" name="cn">
-			<domain count="46" name="com.cn"></domain>
-			<domain count="6" name="gd.cn"></domain>
-			<domain count="4" name="org.cn"></domain>
-			<domain count="3" name="edu.cn"></domain>
+		<domain nic="http://www.cnnic.net.cn/" country="China" name="cn">
+			<domain name="com.cn"></domain>
+			<domain name="gd.cn"></domain>
+			<domain name="org.cn"></domain>
+			<domain name="edu.cn"></domain>
 			<domain name="ac.cn"></domain>
 			<domain name="gov.cn"></domain>
 			<domain name="net.cn"></domain>
@@ -455,24 +455,24 @@ you have used</availstring>
 	</server>
 
 	<server host="whois.educause.edu">
-		<domain count="59" name="edu"></domain>
+		<domain name="edu"></domain>
 	</server>
 
 	<server host="whois.internic.net">
 		<info>Network Solutions, Inc.</info>
 		<availstring>no match for</availstring>
-		<domain count="59" name="edu"></domain>
-		<domain count="40" name="pro"></domain>
-		<domain count="12" name="mil"></domain>
+		<domain name="edu"></domain>
+		<domain name="pro"></domain>
+		<domain name="mil"></domain>
 	</server>
 
 	<server host="whois.dns.lu">
 		<availstring>% no such domain</availstring>
-		<domain count="59" nic="http://www.dns.lu" country="Luxembourg" name="lu"></domain>
+		<domain nic="http://www.dns.lu" country="Luxembourg" name="lu"></domain>
 	</server>
 
 	<server host="whois.nic.tf">
-		<domain count="56" nic="http://www.nic.tf/" country="French Southern Territories" name="tf"></domain>
+		<domain nic="http://www.nic.tf/" country="French Southern Territories" name="tf"></domain>
 	</server>
 
 	<server host="whois.centralnic.com">
@@ -481,27 +481,27 @@ you have used</availstring>
 
 	<server host="whois.nic.cx">
 		<availstring>no match for</availstring>
-		<domain count="53" nic="http://www.nic.cx" country="Christmas Island" name="cx"></domain>
+		<domain nic="http://www.nic.cx" country="Christmas Island" name="cx"></domain>
 	</server>
 
 	<server host="whois.nic.ad.jp">
 		<info>Japan Network Information Center</info>
 		<availstring>no match!!</availstring>
-		<domain count="47" nic="http://jprs.jp/" country="Japan" name="jp">
-			<domain count="23" name="co.jp"></domain>
-			<domain count="8" name="or.jp"></domain>
-			<domain count="3" name="ne.jp"></domain>
-			<domain count="2" name="ac.jp"></domain>
+		<domain nic="http://jprs.jp/" country="Japan" name="jp">
+			<domain name="co.jp"></domain>
+			<domain name="or.jp"></domain>
+			<domain name="ne.jp"></domain>
+			<domain name="ac.jp"></domain>
 			<domain name="go.jp"></domain>
 		</domain>
 	</server>
 
 	<server host="whois.jprs.jp">
-		<domain count="47" nic="http://jprs.jp/" country="Japan" name="jp">
-			<domain count="23" name="co.jp"></domain>
-			<domain count="8" name="or.jp"></domain>
-			<domain count="3" name="ne.jp"></domain>
-			<domain count="2" name="ac.jp"></domain>
+		<domain nic="http://jprs.jp/" country="Japan" name="jp">
+			<domain name="co.jp"></domain>
+			<domain name="or.jp"></domain>
+			<domain name="ne.jp"></domain>
+			<domain name="ac.jp"></domain>
 			<domain name="go.jp"></domain>
 		</domain>
 	</server>
@@ -509,7 +509,7 @@ you have used</availstring>
 	<server host="whois.nic.nu">
 		<info>.NU Domain Ltd</info>
 		<availstring>no match for</availstring>
-		<domain count="44" nic="http://www.nunames.nu/" country="Niue" name="nu"></domain>
+		<domain nic="http://www.nunames.nu/" country="Niue" name="nu"></domain>
 	</server>
 
 	<server host="whois.hkdnr.net.hk">
@@ -517,29 +517,29 @@ you have used</availstring>
 	</server>
 
 	<server host="whois.registrypro.pro">
-		<domain count="40" name="pro"></domain>
+		<domain name="pro"></domain>
 	</server>
 
 	<server host="whois.arnes.si">
 		<availstring>no entries found</availstring>
-		<domain count="40" nic="http://www.arnes.si/si-domene/" country="Slovenia" name="si"></domain>
+		<domain nic="http://www.arnes.si/si-domene/" country="Slovenia" name="si"></domain>
 	</server>
 
 	<server host="whois.registro.br">
 		<info>registro.br</info>
-		<domain count="39" nic="http://registro.br/" country="Brazil" name="br">
-			<domain count="355" name="com.br"></domain>
-			<domain count="81" name="adv.br"></domain>
-			<domain count="5" name="org.br"></domain>
-			<domain count="4" name="inf.br"></domain>
-			<domain count="2" name="arq.br"></domain>
-			<domain count="1" name="eng.br"></domain>
-			<domain count="1" name="fm.br"></domain>
-			<domain count="1" name="fot.br"></domain>
-			<domain count="1" name="gov.br"></domain>
-			<domain count="1" name="pro.br"></domain>
-			<domain count="1" name="slg.br"></domain>
-			<domain count="1" name="tv.br"></domain>
+		<domain nic="http://registro.br/" country="Brazil" name="br">
+			<domain name="com.br"></domain>
+			<domain name="adv.br"></domain>
+			<domain name="org.br"></domain>
+			<domain name="inf.br"></domain>
+			<domain name="arq.br"></domain>
+			<domain name="eng.br"></domain>
+			<domain name="fm.br"></domain>
+			<domain name="fot.br"></domain>
+			<domain name="gov.br"></domain>
+			<domain name="pro.br"></domain>
+			<domain name="slg.br"></domain>
+			<domain name="tv.br"></domain>
 			<domain name="adm.br"></domain>
 			<domain name="am.br"></domain>
 			<domain name="art.br"></domain>
@@ -573,7 +573,7 @@ you have used</availstring>
 	</server>
 
 	<server host="whois.nic.lv">
-		<domain count="30" nic="http://www.nic.lv/DNS/" country="Latvia" name="lv">
+		<domain nic="http://www.nic.lv/DNS/" country="Latvia" name="lv">
 			<domain name="eu.lv"></domain>
 		</domain>
 	</server>
@@ -581,14 +581,14 @@ you have used</availstring>
 	<server host="whois.aunic.net">
 		<info>The .AU Registry</info>
 		<availstring>no entries found</availstring>
-		<domain count="29" nic="http://www.aunic.net" country="Australia" name="au">
-			<domain count="90" name="com.au"></domain>
-			<domain count="7" name="org.au"></domain>
-			<domain count="7" name="org.au"></domain>
-			<domain count="5" name="edu.au"></domain>
-			<domain count="5" name="net.au"></domain>
-			<domain count="5" name="edu.au"></domain>
-			<domain count="5" name="net.au"></domain>
+		<domain nic="http://www.aunic.net" country="Australia" name="au">
+			<domain name="com.au"></domain>
+			<domain name="org.au"></domain>
+			<domain name="org.au"></domain>
+			<domain name="edu.au"></domain>
+			<domain name="net.au"></domain>
+			<domain name="edu.au"></domain>
+			<domain name="net.au"></domain>
 			<domain name="asn.au"></domain>
 			<domain name="id.au"></domain>
 			<domain name="asn.au"></domain>
@@ -597,18 +597,18 @@ you have used</availstring>
 	</server>
 
 	<server host="whois.domreg.lt">
-		<domain count="26" nic="http://www.domreg.lt" country="Lithuania" name="lt"></domain>
+		<domain nic="http://www.domreg.lt" country="Lithuania" name="lt"></domain>
 	</server>
 
 	<server host="whois.nic.st">
 		<info>Domain Council of Sao Tome and Principe</info>
 		<availstring>no entries found</availstring>
-		<domain count="24" nic="http://www.nic.st" country="Sao Tome and Principe" name="st"></domain>
+		<domain nic="http://www.nic.st" country="Sao Tome and Principe" name="st"></domain>
 	</server>
 
 	<server host="whois.net.ua">
 		<availstring>% no entries found</availstring>
-		<domain count="24" nic="http://nic.net.ua/" country="Ukraine" name="ua"></domain>
+		<domain nic="http://nic.net.ua/" country="Ukraine" name="ua"></domain>
 	</server>
 
 	<server host="whois.nic.gov">
@@ -616,11 +616,11 @@ you have used</availstring>
 		<availstring>ready
 
 please</availstring>
-		<domain count="22" name="gov"></domain>
+		<domain name="gov"></domain>
 	</server>
 
 	<server host="whois.dotgov.gov">
-		<domain count="22" name="gov"></domain>
+		<domain name="gov"></domain>
 	</server>
 
 	<server host="whois.twnic.net">
@@ -630,25 +630,25 @@ please</availstring>
 
 	<server host="whois.domainregistry.ie">
 		<availstring>% there was no match in the ie domain</availstring>
-		<domain count="15" nic="http://www.domainregistry.ie" country="Ireland" name="ie"></domain>
+		<domain nic="http://www.domainregistry.ie" country="Ireland" name="ie"></domain>
 	</server>
 
 	<server host="whois.norid.no">
 		<info>UNINETT FAS (NORID)</info>
 		<availstring>no matches</availstring>
-		<domain count="15" nic="http://www.norid.no" country="Norway" name="no"></domain>
+		<domain nic="http://www.norid.no" country="Norway" name="no"></domain>
 	</server>
 
 	<server host="whois.nic.as">
 		<info>ASNIC</info>
 		<availstring>domain not found</availstring>
-		<domain count="14" nic="http://www.nic.as" country="American Samoa" name="as"></domain>
+		<domain nic="http://www.nic.as" country="American Samoa" name="as"></domain>
 	</server>
 
 	<server host="whois.isoc.org.il">
 		<availstring>no data was found</availstring>
-		<domain count="8" nic="http://www.isoc.org.il/domains" country="Israel" name="il">
-			<domain count="13" name="co.il"></domain>
+		<domain nic="http://www.isoc.org.il/domains" country="Israel" name="il">
+			<domain name="co.il"></domain>
 			<domain name="org.il"></domain>
 			<domain name="net.il"></domain>
 			<domain name="ac.il"></domain>
@@ -660,12 +660,12 @@ please</availstring>
 
 	<server host="whois.nic.mil">
 		<info>DoD Network Information Center</info>
-		<domain count="12" name="mil"></domain>
+		<domain name="mil"></domain>
 	</server>
 
 	<server host="mhpwhois1.verisign-grs.net">
 		<availstring>no match</availstring>
-		<domain count="11" nic="http://www.belizenic.bz" country="Belize" name="bz"></domain>
+		<domain nic="http://www.belizenic.bz" country="Belize" name="bz"></domain>
 	</server>
 
 	<server host="whois.domainz.net.nz">
@@ -676,14 +676,14 @@ please</availstring>
 	<server host="whois.nic.cl">
 		<info>U. de Chile (NIC Chile)</info>
 		<availstring>no existe</availstring>
-		<domain count="10" nic="http://www.nic.cl/" country="Chile" name="cl"></domain>
+		<domain nic="http://www.nic.cl/" country="Chile" name="cl"></domain>
 	</server>
 
 	<server host="whois.nic.or.kr">
 		<info>Korea Network Information Center</info>
 		<availstring>is not registered</availstring>
-		<domain count="9" nic="http://www.nic.or.kr/" country="Korea, Republic of" name="kr">
-			<domain count="8" name="co.kr"></domain>
+		<domain nic="http://www.nic.or.kr/" country="Korea, Republic of" name="kr">
+			<domain name="co.kr"></domain>
 			<domain name="ac.kr"></domain>
 			<domain name="go.kr"></domain>
 			<domain name="ne.kr"></domain>
@@ -695,7 +695,7 @@ please</availstring>
 
 	<server host="whois.isnic.is">
 		<availstring>no entries found</availstring>
-		<domain count="8" nic="http://www.isnic.is/" country="Iceland" name="is"></domain>
+		<domain nic="http://www.isnic.is/" country="Iceland" name="is"></domain>
 	</server>
 
 	<server host="whois.apnic.net">
@@ -706,7 +706,7 @@ please</availstring>
 	<server host="whois.netnames.net">
 		<info>NetNames (.AF, .BT, .PW, .TM)</info>
 		<availstring>no match</availstring>
-		<domain count="6" nic="http://www.nic.af/" country="Afghanistan" name="af"></domain>
+		<domain nic="http://www.nic.af/" country="Afghanistan" name="af"></domain>
 	</server>
 
 	<server host="whois.thnic.net">
@@ -715,25 +715,25 @@ please</availstring>
 	</server>
 
 	<server host="whois.aero">
-		<domain count="5" name="aero"></domain>
+		<domain name="aero"></domain>
 	</server>
 
 	<server host="whois.information.aero">
 		<availstring>not registered</availstring>
-		<domain count="5" name="aero"></domain>
+		<domain name="aero"></domain>
 	</server>
 
 	<server host="whois.nic.sh">
 		<info>NIC.SH Domain Registry</info>
 		<availstring>no match</availstring>
-		<domain count="5" nic="http://www.nic.sh/" country="Saint Helena" name="sh"></domain>
+		<domain nic="http://www.nic.sh/" country="Saint Helena" name="sh"></domain>
 	</server>
 
 	<server host="whois.nic.net.sg">
 		<info>Singapore Network Information Centre</info>
 		<availstring>nomatch</availstring>
-		<domain count="4" nic="http://www.nic.net.sg/" country="Singapore" name="sg">
-			<domain count="4" name="com.sg"></domain>
+		<domain nic="http://www.nic.net.sg/" country="Singapore" name="sg">
+			<domain name="com.sg"></domain>
 			<domain name="org.sg"></domain>
 			<domain name="net.sg"></domain>
 			<domain name="gov.sg"></domain>
@@ -747,7 +747,7 @@ please</availstring>
 
 	<server host="whois.nic.tm">
 		<availstring>no match</availstring>
-		<domain count="2" nic="http://www.nic.tm/" country="Turkmenistan" name="tm"></domain>
+		<domain nic="http://www.nic.tm/" country="Turkmenistan" name="tm"></domain>
 	</server>
 
 	<server host="whois.nic.bj">
@@ -804,8 +804,8 @@ please</availstring>
 
 	<server host="whois.hkirc.net">
 		<domain nic="http://www.hkirc.hk" country="Hong Kong" name="hk">
-			<domain count="40" name="com.hk"></domain>
-			<domain count="1" name="org.hk"></domain>
+			<domain name="com.hk"></domain>
+			<domain name="org.hk"></domain>
 			<domain name="net.hk"></domain>
 			<domain name="edu.hk"></domain>
 		</domain>
@@ -813,8 +813,8 @@ please</availstring>
 
 	<server host="whois.hkirc.net.hk">
 		<domain nic="http://www.hkirc.hk" country="Hong Kong" name="hk">
-			<domain count="40" name="com.hk"></domain>
-			<domain count="1" name="org.hk"></domain>
+			<domain name="com.hk"></domain>
+			<domain name="org.hk"></domain>
 			<domain name="net.hk"></domain>
 			<domain name="edu.hk"></domain>
 		</domain>
@@ -822,8 +822,8 @@ please</availstring>
 
 	<server host="whois.hkirc.hk">
 		<domain nic="http://www.hkirc.hk" country="Hong Kong" name="hk">
-			<domain count="40" name="com.hk"></domain>
-			<domain count="1" name="org.hk"></domain>
+			<domain name="com.hk"></domain>
+			<domain name="org.hk"></domain>
 			<domain name="net.hk"></domain>
 			<domain name="edu.hk"></domain>
 		</domain>
@@ -905,8 +905,8 @@ please</availstring>
 
 	<server host="whois.srs.net.nz">
 		<domain nic="http://www.dnc.org.nz/" country="New Zealand" name="nz">
-			<domain count="11" name="co.nz"></domain>
-			<domain count="1" name="net.nz"></domain>
+			<domain name="co.nz"></domain>
+			<domain name="net.nz"></domain>
 			<domain name="maori.nz"></domain>
 			<domain name="org.nz"></domain>
 			<domain name="govt.nz"></domain>
@@ -943,12 +943,12 @@ please</availstring>
 
 	<server host="whois.nic.tr">
 		<domain nic="http://www.nic.tr" country="Turkey" name="tr">
-			<domain count="66" name="com.tr"></domain>
-			<domain count="8" name="gov.tr"></domain>
-			<domain count="7" name="bbs.tr"></domain>
-			<domain count="6" name="k12.tr"></domain>
-			<domain count="4" name="edu.tr"></domain>
-			<domain count="1" name="net.tr"></domain>
+			<domain name="com.tr"></domain>
+			<domain name="gov.tr"></domain>
+			<domain name="bbs.tr"></domain>
+			<domain name="k12.tr"></domain>
+			<domain name="edu.tr"></domain>
+			<domain name="net.tr"></domain>
 			<domain name="mil.tr"></domain>
 			<domain name="org.tr"></domain>
 		</domain>
@@ -956,8 +956,8 @@ please</availstring>
 
 	<server host="whois.twnic.net.tw">
 		<domain nic="http://rs.twnic.net.tw" country="Taiwan" name="tw">
-			<domain count="21" name="com.tw"></domain>
-			<domain count="2" name="org.tw"></domain>
+			<domain name="com.tw"></domain>
+			<domain name="org.tw"></domain>
 			<domain name="net.tw"></domain>
 		</domain>
 	</server>
