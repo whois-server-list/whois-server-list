@@ -4,6 +4,8 @@
 	<notes>
 		This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK
+
+		Version: 0.0.1
 	</notes>
 	<server host="whois.denic.de">
 		<domain nic="http://www.denic.de/" country="Germany" name="de"></domain>
