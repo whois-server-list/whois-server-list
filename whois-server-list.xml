@@ -3612,6 +3612,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.cx">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-04-24T00:00:00+02:00</created>
         <changed>2013-04-17T00:00:00+02:00</changed>
