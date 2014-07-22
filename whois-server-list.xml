@@ -1097,6 +1097,7 @@
         <source>XML</source>
         <whoisServer host="whois.dns.be">
             <source>XML</source>
+            <availablePattern>\QStatus: AVAILABLE\E</availablePattern>
         </whoisServer>
         <created>1988-08-05T00:00:00+02:00</created>
         <changed>2014-01-16T00:00:00+01:00</changed>
