@@ -5025,6 +5025,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.gs">
             <source>IANA</source>
@@ -13752,6 +13753,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.ms">
             <source>IANA</source>
@@ -21562,6 +21564,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.meridiantld.net">
             <source>IANA</source>
@@ -21606,6 +21609,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.tf">
             <source>XML</source>
@@ -23458,6 +23462,7 @@
         </whoisServer>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-02-20T00:00:00+01:00</created>
         <changed>2014-04-10T00:00:00+02:00</changed>
