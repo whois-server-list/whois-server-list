@@ -16087,6 +16087,7 @@
         <source>XML</source>
         <whoisServer host="whois.norid.no">
             <source>XML</source>
+            <availablePattern>\Q% No match\E</availablePattern>
         </whoisServer>
         <created>1987-03-17T00:00:00+01:00</created>
         <changed>2009-11-13T00:00:00+01:00</changed>
