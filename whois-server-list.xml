@@ -3640,6 +3640,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.cz">
             <source>XML</source>
+            <availablePattern>\Qno entries found\E</availablePattern>
         </whoisServer>
         <created>1993-01-13T00:00:00+01:00</created>
         <changed>2013-11-25T00:00:00+01:00</changed>
