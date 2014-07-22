@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="0.0.2">
-    <date>2014-07-22T12:14:27.346+02:00</date>
+<domainList version="1.0.1">
+    <date>2014-07-22T21:32:25.970+02:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="abogado">
@@ -1546,6 +1546,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.br">
             <source>XML</source>
+            <availablePattern>\Qno match for\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.registro.br">
             <source>XML</source>
@@ -1783,7 +1784,6 @@
         <source>IANA</source>
         <created>1991-09-03T00:00:00+02:00</created>
         <changed>2006-12-18T00:00:00+01:00</changed>
-        <registrationService>http://www.register.bs</registrationService>
         <state>ACTIVE</state>
         <countryCode>BS</countryCode>
         <domain name="com.bs">
@@ -2170,6 +2170,7 @@
         <source>XML</source>
         <created>1997-08-20T00:00:00+02:00</created>
         <changed>2013-12-10T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.cd/</registrationService>
         <state>ACTIVE</state>
         <countryCode>CD</countryCode>
         <domain name="gov.cd">
@@ -12888,7 +12889,6 @@
         <source>IANA</source>
         <created>1993-08-25T00:00:00+02:00</created>
         <changed>2014-06-17T00:00:00+02:00</changed>
-        <registrationService>http://www.aub.edu.lb/lbdr</registrationService>
         <state>ACTIVE</state>
         <countryCode>LB</countryCode>
         <domain name="com.lb">
@@ -21188,6 +21188,9 @@
     </domain>
     <domain name="sn">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sn">
+            <source>IANA</source>
+        </whoisServer>
         <created>1993-03-19T00:00:00+01:00</created>
         <changed>2012-06-30T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -23649,6 +23652,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2014-06-19T00:00:00+02:00</changed>
+        <registrationService>http://zodiacregistry.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="watch">
@@ -24329,7 +24333,7 @@
     <domain name="გე">
         <source>IANA</source>
         <created>2011-02-11T00:00:00+01:00</created>
-        <changed>2014-07-17T00:00:00+02:00</changed>
+        <changed>2014-07-22T00:00:00+02:00</changed>
         <state>NEW</state>
     </domain>
     <domain name="みんな">
@@ -24598,6 +24602,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2014-04-11T00:00:00+02:00</changed>
+        <registrationService>http://zodiacregistry.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="香港">
