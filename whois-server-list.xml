@@ -3685,9 +3685,11 @@
         <source>XML</source>
         <whoisServer host="whois.denic.de">
             <source>XML</source>
+	    <availablePattern>\QStatus: free\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.de">
             <source>XML</source>
+	    <availablePattern>\QStatus: free\E</availablePattern>
         </whoisServer>
         <created>1986-11-05T00:00:00+01:00</created>
         <changed>2012-04-19T00:00:00+02:00</changed>
