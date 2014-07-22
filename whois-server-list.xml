@@ -775,9 +775,11 @@
         <source>XML</source>
         <whoisServer host="whois.audns.net.au">
             <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.aunic.net">
             <source>XML</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
         </whoisServer>
         <created>1986-03-05T00:00:00+01:00</created>
         <changed>2013-09-24T00:00:00+02:00</changed>
