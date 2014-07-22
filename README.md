@@ -4,9 +4,12 @@ This list is a manual and generated compilation of whois servers.
 
 Sources are:
 
-* [Matt Power (MIT)](http://stuff.mit.edu/afs/sipb/project/gopher-links/whois-servers.list)
+* The existing whois-server-list
+* [IANA](http://www.iana.org/domains/root/db)
+* [Public Suffix List](https://publicsuffix.org/list/effective_tld_names.dat)
 
-You can find the list online: http://whois-server-list.github.io/whois-server-list/0.0.1/whois-server-list.xml
+You can find the list online: http://whois-server-list.github.io/whois-server-list/1.0.0/whois-server-list.xml
+
 
 # License and author
 

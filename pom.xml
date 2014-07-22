@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.malkusch.whois-server-list</groupId>
+	<artifactId>whois-server-list</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>Whois server list</name>
+	<description>Whois Server List</description>
+
+	<parent>
+		<groupId>de.malkusch.parent</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>1.7</version>
+	</parent>
+
+	<url>https://github.com/whois-server-list/${project.artifactId}</url>
+
+	<scm>
+		<connection>scm:git:git://github.com/whois-server-list/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:whois-server-list/${project.artifactId}.git</developerConnection>
+		<url>https://github.com/whois-server-list/${project.artifactId}</url>
+	</scm>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/whois-server-list/whois-server-list/issues</url>
+	</issueManagement>
+
+	<distributionManagement>
+		<site>
+			<id>github</id>
+			<name>Github</name>
+			<url>https://github.com/whois-server-list/whois-server-list</url>
+		</site>
+	</distributionManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>de.malkusch.whois-server-list</groupId>
+				<artifactId>whois-server-list-maven-plugin</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<configuration>
+					<schema>whois-server-list.xsd</schema>
+					<file>whois-server-list.xml</file>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>schema</goal>
+							<goal>xml</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
