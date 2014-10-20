@@ -5,7 +5,7 @@
 		This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK
 
-		Version: 0.0.1
+		Version: 0.0.2
 	</notes>
 	<server host="whois.denic.de">
 		<domain nic="http://www.denic.de/" country="Germany" name="de"></domain>
@@ -379,7 +379,7 @@ you have used</availstring>
 	</server>
 
 	<server host="whois.cira.ca">
-		<availstring>avail</availstring>
+		<availstring>available</availstring>
 		<domain nic="http://www.cira.ca/" country="Canada" name="ca">
 			<domain name="on.ca"></domain>
 			<domain name="qc.ca"></domain>
