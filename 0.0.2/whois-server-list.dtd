@@ -1,0 +1,36 @@
+<!ELEMENT serverlist (notes, server*)>
+	<!ATTLIST serverlist
+		size	CDATA	#REQUIRED
+	>
+	<!-- The size of the Serverlist. -->
+
+
+<!ELEMENT notes (#PCDATA)>
+	<!-- Some notes about this list. -->
+
+
+<!ELEMENT server (info?, availstring?, domain*)>
+	<!-- The server Element contains an optional description of the Whois Server. -->
+	<!ATTLIST server
+		host	CDATA	#REQUIRED
+	>
+	<!-- The host attribute. -->
+
+
+<!ELEMENT info (#PCDATA)>
+	<!-- An informational string about the Whois Server. -->
+
+
+<!ELEMENT domain (domain*)>
+	<!-- The domain contains its name and its optional subdomains. -->
+	<!ATTLIST domain
+		name	CDATA	#REQUIRED
+		count	CDATA	#IMPLIED
+		nic		CDATA	#IMPLIED
+		country	CDATA	#IMPLIED
+	>
+	<!-- count tells how often this domain is queried at www.domaininformation.de. -->
+
+
+<!ELEMENT availstring (#PCDATA)>
+	<!-- If the server says this String the domain is available. -->

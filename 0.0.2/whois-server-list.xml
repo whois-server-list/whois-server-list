@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE serverlist SYSTEM "whois-server-list.dtd">
+<serverlist size="335">
+	<notes>
+		This list is hosted at https://github.com/whois-server-list/whois-server-list
+		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK
+
+		Version: 0.0.2
+	</notes>
+	<server host="whois.denic.de">
+		<domain nic="http://www.denic.de/" country="Germany" name="de"></domain>
+	</server>
+
+	<server host="whois.nic.de">
+		<info>DEutsches Network Information Center</info>
+		<availstring>status:      free</availstring>
+		<domain nic="http://www.denic.de/" country="Germany" name="de"></domain>
+	</server>
+
+	<server host="whois.nic.uk">
+		<info>Nominet UK (.UK Domain Registrar)</info>
+		<availstring>no match</availstring>
+		<domain nic="http://www.nic.uk/" country="United Kingdom" name="uk">
+			<domain name="co.uk"></domain>
+			<domain name="org.uk"></domain>
+			<domain name="me.uk"></domain>
+			<domain name="ac.uk"></domain>
+			<domain name="ltd.uk"></domain>
+			<domain name="plc.uk"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.verisign-grs.com">
+		<domain name="com">
+			<domain name="eu.com"></domain>
+			<domain name="uk.com"></domain>
+			<domain name="us.com"></domain>
+			<domain name="gb.com"></domain>
+			<domain name="hu.com"></domain>
+			<domain name="br.com"></domain>
+			<domain name="cn.com"></domain>
+			<domain name="no.com"></domain>
+			<domain name="qc.com"></domain>
+			<domain name="sa.com"></domain>
+			<domain name="se.com"></domain>
+			<domain name="uy.com"></domain>
+			<domain name="za.com"></domain>
+		</domain>
+		<domain name="net">
+			<domain name="uk.net"></domain>
+			<domain name="se.net"></domain>
+			<domain name="gb.net"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.crsnic.net">
+		<info>Network Solutions, Inc. for Shared Registration System</info>
+		<availstring>no match for</availstring>
+		<domain name="com">
+			<domain name="eu.com"></domain>
+			<domain name="uk.com"></domain>
+			<domain name="us.com"></domain>
+			<domain name="gb.com"></domain>
+			<domain name="hu.com"></domain>
+			<domain name="br.com"></domain>
+			<domain name="cn.com"></domain>
+			<domain name="no.com"></domain>
+			<domain name="qc.com"></domain>
+			<domain name="sa.com"></domain>
+			<domain name="se.com"></domain>
+			<domain name="uy.com"></domain>
+			<domain name="za.com"></domain>
+		</domain>
+		<domain name="net">
+			<domain name="uk.net"></domain>
+			<domain name="se.net"></domain>
+			<domain name="gb.net"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.biz">
+		<availstring>not found</availstring>
+		<domain name="biz"></domain>
+	</server>
+
+	<server host="whois.nic.biz">
+		<availstring>not found</availstring>
+		<domain name="biz"></domain>
+	</server>
+
+	<server host="whois.afilias.net">
+		<availstring>not found</availstring>
+		<domain name="info"></domain>
+	</server>
+
+	<server host="whois.publicinterestregistry.net">
+		<availstring>not found</availstring>
+		<domain name="org"></domain>
+	</server>
+
+	<server host="whois.pir.org">
+		<domain name="org"></domain>
+	</server>
+
+	<server host="whois.nic.at">
+		<availstring>nothing found</availstring>
+		<domain nic="http://www.nic.at/" country="Austria" name="at">
+			<domain name="co.at"></domain>
+			<domain name="ac.at"></domain>
+			<domain name="gv.at"></domain>
+			<domain name="or.at"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.www.tv">
+		<availstring>.tv
+you have used</availstring>
+		<domain nic="http://www.tv" country="Tuvalu" name="tv"></domain>
+	</server>
+
+	<server host="whois.nic.ch">
+		<info>SWITCH Swiss Academic and Research Network</info>
+		<availstring>not have an entry</availstring>
+		<domain nic="http://www.nic.ch/" country="Switzerland" name="ch"></domain>
+	</server>
+
+	<server host="whois.domain-registry.nl">
+		<availstring>is free</availstring>
+		<domain nic="http://www.domain-registry.nl/" country="Netherlands" name="nl"></domain>
+	</server>
+
+	<server host="whois.nic.us">
+		<availstring>not found:</availstring>
+		<domain nic="http://www.nic.us" country="United States" name="us"></domain>
+	</server>
+
+	<server host="whois.nic.ws">
+		<availstring>no match for</availstring>
+		<domain nic="http://www.samoanic.ws" country="Samoa" name="ws"></domain>
+	</server>
+
+	<server host="whois.nic.it">
+		<info>Italian Network Information Center</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.nic.it/" country="Italy" name="it"></domain>
+	</server>
+
+	<server host="whois.ripn.net">
+		<info>Russian Institute for Public Networks</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.cctld.ru/en" country="Russian Federation" name="ru">
+			<domain name="com.ru"></domain>
+			<domain name="net.ru"></domain>
+			<domain name="org.ru"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.dns.be">
+		<availstring>no such domain</availstring>
+		<domain nic="http://www.dns.be" country="Belgium" name="be">
+			<domain name="ac.be"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.dns.pl">
+		<availstring>no information about</availstring>
+		<domain nic="http://www.dns.pl/english/" country="Poland" name="pl">
+			<domain name="net.pl"></domain>
+			<domain name="com.pl"></domain>
+			<domain name="travel.pl"></domain>
+			<domain name="org.pl"></domain>
+			<domain name="biz.pl"></domain>
+			<domain name="info.pl"></domain>
+			<domain name="agro.pl"></domain>
+			<domain name="edu.pl"></domain>
+			<domain name="mail.pl"></domain>
+			<domain name="targi.pl"></domain>
+			<domain name="aid.pl"></domain>
+			<domain name="atm.pl"></domain>
+			<domain name="auto.pl"></domain>
+			<domain name="gmina.pl"></domain>
+			<domain name="gsm.pl"></domain>
+			<domain name="miasta.pl"></domain>
+			<domain name="media.pl"></domain>
+			<domain name="mil.pl"></domain>
+			<domain name="nom.pl"></domain>
+			<domain name="pc.pl"></domain>
+			<domain name="priv.pl"></domain>
+			<domain name="realestate.pl"></domain>
+			<domain name="rel.pl"></domain>
+			<domain name="shop.pl"></domain>
+			<domain name="sklep.pl"></domain>
+			<domain name="sos.pl"></domain>
+			<domain name="tm.pl"></domain>
+			<domain name="tourism.pl"></domain>
+			<domain name="turystyka.pl"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.br">
+		<availstring>no match for</availstring>
+		<domain nic="http://registro.br/" country="Brazil" name="br">
+			<domain name="com.br"></domain>
+			<domain name="adv.br"></domain>
+			<domain name="org.br"></domain>
+			<domain name="inf.br"></domain>
+			<domain name="arq.br"></domain>
+			<domain name="eng.br"></domain>
+			<domain name="fm.br"></domain>
+			<domain name="fot.br"></domain>
+			<domain name="gov.br"></domain>
+			<domain name="pro.br"></domain>
+			<domain name="slg.br"></domain>
+			<domain name="tv.br"></domain>
+			<domain name="adm.br"></domain>
+			<domain name="am.br"></domain>
+			<domain name="art.br"></domain>
+			<domain name="bio.br"></domain>
+			<domain name="cng.br"></domain>
+			<domain name="cnt.br"></domain>
+			<domain name="ecn.br"></domain>
+			<domain name="esp.br"></domain>
+			<domain name="etc.br"></domain>
+			<domain name="eti.br"></domain>
+			<domain name="fst.br"></domain>
+			<domain name="g12.br"></domain>
+			<domain name="ind.br"></domain>
+			<domain name="jor.br"></domain>
+			<domain name="lel.br"></domain>
+			<domain name="med.br"></domain>
+			<domain name="mil.br"></domain>
+			<domain name="net.br"></domain>
+			<domain name="nom.br"></domain>
+			<domain name="ntr.br"></domain>
+			<domain name="odo.br"></domain>
+			<domain name="ppg.br"></domain>
+			<domain name="psc.br"></domain>
+			<domain name="psi.br"></domain>
+			<domain name="rec.br"></domain>
+			<domain name="tmp.br"></domain>
+			<domain name="tur.br"></domain>
+			<domain name="vet.br"></domain>
+			<domain name="zlg.br"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.name">
+		<availstring>no match</availstring>
+		<domain name="name"></domain>
+	</server>
+
+	<server host="whois.nic.cc">
+		<info>NIC.CC Registration Services</info>
+		<availstring>no match</availstring>
+		<domain nic="http://www.nic.cc/" country="Cocos (Keeling) Islands" name="cc"></domain>
+	</server>
+
+	<server host="monarch.tonic.to">
+		<availstring>no match for</availstring>
+		<domain nic="http://www.tonic.to/" country="Tonga" name="to"></domain>
+	</server>
+
+	<server host="whois.dot.tk">
+		<availstring>not known</availstring>
+		<domain nic="http://www.dot.tk" country="Tokelau" name="tk"></domain>
+	</server>
+
+	<server host="whois.nic.ag">
+		<availstring>not found</availstring>
+		<domain nic="http://www.nic.ag" country="Antigua and Barbuda" name="ag"></domain>
+	</server>
+
+	<server host="whois.nic-se.se">
+		<info>Network Information Centre Sweden</info>
+		<availstring>no data found</availstring>
+		<domain nic="http://www.iis.se" country="Sweden" name="se"></domain>
+	</server>
+
+	<server host="whois.nic.se">
+		<domain nic="http://www.iis.se" country="Sweden" name="se"></domain>
+	</server>
+
+	<server host="whois.iis.se">
+		<domain nic="http://www.iis.se" country="Sweden" name="se"></domain>
+	</server>
+
+	<server host="whois.nic.fr">
+		<info>Association Francaise pour le Nommage Internet en Cooperation</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.nic.fr/" country="France" name="fr">
+			<domain name="tm.fr"></domain>
+			<domain name="com.fr"></domain>
+			<domain name="asso.fr"></domain>
+			<domain name="presse.fr"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.dk-hostmaster.dk">
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.dk-hostmaster.dk/" country="Denmark" name="dk"></domain>
+	</server>
+
+	<server host="whois.rotld.ro">
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.rotld.ro/" country="Romania" name="ro">
+			<domain name="com.ro"></domain>
+			<domain name="org.ro"></domain>
+			<domain name="store.ro"></domain>
+			<domain name="tm.ro"></domain>
+			<domain name="firm.ro"></domain>
+			<domain name="www.ro"></domain>
+			<domain name="arts.ro"></domain>
+			<domain name="rec.ro"></domain>
+			<domain name="info.ro"></domain>
+			<domain name="nom.ro"></domain>
+			<domain name="nt.ro"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.cz">
+		<availstring>no data found</availstring>
+		<domain nic="http://www.nic.cz/" country="Czech Republic" name="cz"></domain>
+	</server>
+
+	<server host="whois.ausregistry.net.au">
+		<availstring>no DATA found</availstring>
+	</server>
+
+	<server host="whois.nic.ac">
+		<info>nic.ac</info>
+		<availstring>no match for</availstring>
+		<domain nic="http://www.nic.ac/" country="Ascension Island" name="ac">
+			<domain name="or.ac"></domain>
+			<domain name="co.ac"></domain>
+			<domain name="gv.ac"></domain>
+			<domain name="ac.ac"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.adamsnames.tc">
+		<info>AdamsNames (.GS, .MS, .TC, .TF, .VG)</info>
+		<availstring>is not registered</availstring>
+		<domain nic="http://www.adamsnames.tc/" country="Montserrat" name="ms"></domain>
+		<domain nic="http://www.nic.tf/" country="French Southern Territories" name="tf"></domain>
+		<domain nic="http://www.adamsnames.tc/" country="Turks and Caicos Islands" name="tc"></domain>
+		<domain nic="http://www.nic.gs/" country="South Georgia and the South Sandwich Islands" name="gs"></domain>
+		<domain nic="http://www.adamsnames.tc/" country="Virgin Islands, British" name="vg"></domain>
+	</server>
+
+	<server host="whois.nic.li">
+		<info>SWITCH Swiss Academic and Research Network</info>
+		<availstring>not have an entry</availstring>
+		<domain nic="http://www.nic.li" country="Liechtenstein" name="li"></domain>
+	</server>
+
+	<server host="whois.amnic.net">
+		<domain nic="http://www.amnic.net" country="Armenia" name="am"></domain>
+	</server>
+
+	<server host="whois.nic.am">
+		<info>AM Network Information Centre</info>
+		<availstring>no match</availstring>
+		<domain nic="http://www.amnic.net" country="Armenia" name="am"></domain>
+	</server>
+
+	<server host="whois.ripe.net">
+		<info>Reseaux IP Europeens</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.gr" country="Greece" name="gr"></domain>
+		<domain nic="http://www.dns.pt/" country="Portugal" name="pt"></domain>
+		<domain nic="http://www.sk-nic.sk" country="Slovak Republic" name="sk"></domain>
+		<domain nic="http://www.tld.by" country="Belarus" name="by"></domain>
+		<domain nic="http://www.nic.lv/DNS/" country="Latvia" name="lv">
+			<domain name="eu.lv"></domain>
+		</domain>
+		<domain nic="http://www.domreg.lt" country="Lithuania" name="lt"></domain>
+		<domain nic="http://www.nic.ad" country="Andorra" name="ad"></domain>
+		<domain nic="http://www.nic.fo/" country="Faroe Islands" name="fo"></domain>
+	</server>
+
+	<server host="whois.cira.ca">
+		<availstring>available</availstring>
+		<domain nic="http://www.cira.ca/" country="Canada" name="ca">
+			<domain name="on.ca"></domain>
+			<domain name="qc.ca"></domain>
+			<domain name="ns.ca"></domain>
+			<domain name="ab.ca"></domain>
+			<domain name="bc.ca"></domain>
+			<domain name="mb.ca"></domain>
+			<domain name="nb.ca"></domain>
+			<domain name="nf.ca"></domain>
+			<domain name="nt.ca"></domain>
+			<domain name="pe.ca"></domain>
+			<domain name="sk.ca"></domain>
+			<domain name="yk.ca"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.mx">
+		<info>Network Information Center - Mexico</info>
+		<availstring>referencias de organization no encontradas</availstring>
+		<domain nic="http://www.nic.mx/" country="Mexico" name="mx">
+			<domain name="com.mx"></domain>
+			<domain name="gob.mx"></domain>
+			<domain name="org.mx"></domain>
+			<domain name="edu.mx"></domain>
+			<domain name="gov.mx"></domain>
+			<domain name="net.mx"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.cnnic.net.cn">
+		<info>Computer Network Center, Chinese Academy of Sciences</info>
+		<availstring>no matching record</availstring>
+		<domain nic="http://www.cnnic.net.cn/" country="China" name="cn">
+			<domain name="com.cn"></domain>
+			<domain name="gd.cn"></domain>
+			<domain name="org.cn"></domain>
+			<domain name="edu.cn"></domain>
+			<domain name="ac.cn"></domain>
+			<domain name="gov.cn"></domain>
+			<domain name="net.cn"></domain>
+			<domain name="bj.cn"></domain>
+			<domain name="sh.cn"></domain>
+			<domain name="tj.cn"></domain>
+			<domain name="cq.cn"></domain>
+			<domain name="he.cn"></domain>
+			<domain name="nm.cn"></domain>
+			<domain name="ln.cn"></domain>
+			<domain name="jl.cn"></domain>
+			<domain name="hl.cn"></domain>
+			<domain name="js.cn"></domain>
+			<domain name="zj.cn"></domain>
+			<domain name="ah.cn"></domain>
+			<domain name="hb.cn"></domain>
+			<domain name="hn.cn"></domain>
+			<domain name="gx.cn"></domain>
+			<domain name="hi.cn"></domain>
+			<domain name="sc.cn"></domain>
+			<domain name="gz.cn"></domain>
+			<domain name="yn.cn"></domain>
+			<domain name="xz.cn"></domain>
+			<domain name="sn.cn"></domain>
+			<domain name="gs.cn"></domain>
+			<domain name="qh.cn"></domain>
+			<domain name="nx.cn"></domain>
+			<domain name="xj.cn"></domain>
+			<domain name="tw.cn"></domain>
+			<domain name="hk.cn"></domain>
+			<domain name="mo.cn"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.metu.edu.tr">
+		<info>Middle East Technical University</info>
+		<availstring>no match found</availstring>
+	</server>
+
+	<server host="whois.educause.edu">
+		<domain name="edu"></domain>
+	</server>
+
+	<server host="whois.internic.net">
+		<info>Network Solutions, Inc.</info>
+		<availstring>no match for</availstring>
+		<domain name="edu"></domain>
+		<domain name="pro"></domain>
+		<domain name="mil"></domain>
+	</server>
+
+	<server host="whois.dns.lu">
+		<availstring>% no such domain</availstring>
+		<domain nic="http://www.dns.lu" country="Luxembourg" name="lu"></domain>
+	</server>
+
+	<server host="whois.nic.tf">
+		<domain nic="http://www.nic.tf/" country="French Southern Territories" name="tf"></domain>
+	</server>
+
+	<server host="whois.centralnic.com">
+		<availstring>no match for</availstring>
+	</server>
+
+	<server host="whois.nic.cx">
+		<availstring>no match for</availstring>
+		<domain nic="http://www.nic.cx" country="Christmas Island" name="cx"></domain>
+	</server>
+
+	<server host="whois.nic.ad.jp">
+		<info>Japan Network Information Center</info>
+		<availstring>no match!!</availstring>
+		<domain nic="http://jprs.jp/" country="Japan" name="jp">
+			<domain name="co.jp"></domain>
+			<domain name="or.jp"></domain>
+			<domain name="ne.jp"></domain>
+			<domain name="ac.jp"></domain>
+			<domain name="go.jp"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.jprs.jp">
+		<domain nic="http://jprs.jp/" country="Japan" name="jp">
+			<domain name="co.jp"></domain>
+			<domain name="or.jp"></domain>
+			<domain name="ne.jp"></domain>
+			<domain name="ac.jp"></domain>
+			<domain name="go.jp"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.nu">
+		<info>.NU Domain Ltd</info>
+		<availstring>no match for</availstring>
+		<domain nic="http://www.nunames.nu/" country="Niue" name="nu"></domain>
+	</server>
+
+	<server host="whois.hkdnr.net.hk">
+		<availstring>no match for</availstring>
+	</server>
+
+	<server host="whois.registrypro.pro">
+		<domain name="pro"></domain>
+	</server>
+
+	<server host="whois.arnes.si">
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.arnes.si/si-domene/" country="Slovenia" name="si"></domain>
+	</server>
+
+	<server host="whois.registro.br">
+		<info>registro.br</info>
+		<domain nic="http://registro.br/" country="Brazil" name="br">
+			<domain name="com.br"></domain>
+			<domain name="adv.br"></domain>
+			<domain name="org.br"></domain>
+			<domain name="inf.br"></domain>
+			<domain name="arq.br"></domain>
+			<domain name="eng.br"></domain>
+			<domain name="fm.br"></domain>
+			<domain name="fot.br"></domain>
+			<domain name="gov.br"></domain>
+			<domain name="pro.br"></domain>
+			<domain name="slg.br"></domain>
+			<domain name="tv.br"></domain>
+			<domain name="adm.br"></domain>
+			<domain name="am.br"></domain>
+			<domain name="art.br"></domain>
+			<domain name="bio.br"></domain>
+			<domain name="cng.br"></domain>
+			<domain name="cnt.br"></domain>
+			<domain name="ecn.br"></domain>
+			<domain name="esp.br"></domain>
+			<domain name="etc.br"></domain>
+			<domain name="eti.br"></domain>
+			<domain name="fst.br"></domain>
+			<domain name="g12.br"></domain>
+			<domain name="ind.br"></domain>
+			<domain name="jor.br"></domain>
+			<domain name="lel.br"></domain>
+			<domain name="med.br"></domain>
+			<domain name="mil.br"></domain>
+			<domain name="net.br"></domain>
+			<domain name="nom.br"></domain>
+			<domain name="ntr.br"></domain>
+			<domain name="odo.br"></domain>
+			<domain name="ppg.br"></domain>
+			<domain name="psc.br"></domain>
+			<domain name="psi.br"></domain>
+			<domain name="rec.br"></domain>
+			<domain name="tmp.br"></domain>
+			<domain name="tur.br"></domain>
+			<domain name="vet.br"></domain>
+			<domain name="zlg.br"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.lv">
+		<domain nic="http://www.nic.lv/DNS/" country="Latvia" name="lv">
+			<domain name="eu.lv"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.aunic.net">
+		<info>The .AU Registry</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.aunic.net" country="Australia" name="au">
+			<domain name="com.au"></domain>
+			<domain name="org.au"></domain>
+			<domain name="org.au"></domain>
+			<domain name="edu.au"></domain>
+			<domain name="net.au"></domain>
+			<domain name="edu.au"></domain>
+			<domain name="net.au"></domain>
+			<domain name="asn.au"></domain>
+			<domain name="id.au"></domain>
+			<domain name="asn.au"></domain>
+			<domain name="id.au"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.domreg.lt">
+		<domain nic="http://www.domreg.lt" country="Lithuania" name="lt"></domain>
+	</server>
+
+	<server host="whois.nic.st">
+		<info>Domain Council of Sao Tome and Principe</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.nic.st" country="Sao Tome and Principe" name="st"></domain>
+	</server>
+
+	<server host="whois.net.ua">
+		<availstring>% no entries found</availstring>
+		<domain nic="http://nic.net.ua/" country="Ukraine" name="ua"></domain>
+	</server>
+
+	<server host="whois.nic.gov">
+		<info>Center for Email Technology</info>
+		<availstring>ready
+
+please</availstring>
+		<domain name="gov"></domain>
+	</server>
+
+	<server host="whois.dotgov.gov">
+		<domain name="gov"></domain>
+	</server>
+
+	<server host="whois.twnic.net">
+		<info>Taiwan Network Information Center</info>
+		<availstring>no records found</availstring>
+	</server>
+
+	<server host="whois.domainregistry.ie">
+		<availstring>% there was no match in the ie domain</availstring>
+		<domain nic="http://www.domainregistry.ie" country="Ireland" name="ie"></domain>
+	</server>
+
+	<server host="whois.norid.no">
+		<info>UNINETT FAS (NORID)</info>
+		<availstring>no matches</availstring>
+		<domain nic="http://www.norid.no" country="Norway" name="no"></domain>
+	</server>
+
+	<server host="whois.nic.as">
+		<info>ASNIC</info>
+		<availstring>domain not found</availstring>
+		<domain nic="http://www.nic.as" country="American Samoa" name="as"></domain>
+	</server>
+
+	<server host="whois.isoc.org.il">
+		<availstring>no data was found</availstring>
+		<domain nic="http://www.isoc.org.il/domains" country="Israel" name="il">
+			<domain name="co.il"></domain>
+			<domain name="org.il"></domain>
+			<domain name="net.il"></domain>
+			<domain name="ac.il"></domain>
+			<domain name="k12.il"></domain>
+			<domain name="gov.il"></domain>
+			<domain name="muni.il"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.mil">
+		<info>DoD Network Information Center</info>
+		<domain name="mil"></domain>
+	</server>
+
+	<server host="mhpwhois1.verisign-grs.net">
+		<availstring>no match</availstring>
+		<domain nic="http://www.belizenic.bz" country="Belize" name="bz"></domain>
+	</server>
+
+	<server host="whois.domainz.net.nz">
+		<info>Domainz -- The New Zealand Internet Registry Ltd</info>
+		<availstring>available</availstring>
+	</server>
+
+	<server host="whois.nic.cl">
+		<info>U. de Chile (NIC Chile)</info>
+		<availstring>no existe</availstring>
+		<domain nic="http://www.nic.cl/" country="Chile" name="cl"></domain>
+	</server>
+
+	<server host="whois.nic.or.kr">
+		<info>Korea Network Information Center</info>
+		<availstring>is not registered</availstring>
+		<domain nic="http://www.nic.or.kr/" country="Korea, Republic of" name="kr">
+			<domain name="co.kr"></domain>
+			<domain name="ac.kr"></domain>
+			<domain name="go.kr"></domain>
+			<domain name="ne.kr"></domain>
+			<domain name="nm.kr"></domain>
+			<domain name="or.kr"></domain>
+			<domain name="re.kr"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.isnic.is">
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.isnic.is/" country="Iceland" name="is"></domain>
+	</server>
+
+	<server host="whois.apnic.net">
+		<info>Asia Pacific Network Information Center</info>
+		<availstring>no data found</availstring>
+	</server>
+
+	<server host="whois.netnames.net">
+		<info>NetNames (.AF, .BT, .PW, .TM)</info>
+		<availstring>no match</availstring>
+		<domain nic="http://www.nic.af/" country="Afghanistan" name="af"></domain>
+	</server>
+
+	<server host="whois.thnic.net">
+		<info>Thailand Network Information Center</info>
+		<availstring>no entries</availstring>
+	</server>
+
+	<server host="whois.aero">
+		<domain name="aero"></domain>
+	</server>
+
+	<server host="whois.information.aero">
+		<availstring>not registered</availstring>
+		<domain name="aero"></domain>
+	</server>
+
+	<server host="whois.nic.sh">
+		<info>NIC.SH Domain Registry</info>
+		<availstring>no match</availstring>
+		<domain nic="http://www.nic.sh/" country="Saint Helena" name="sh"></domain>
+	</server>
+
+	<server host="whois.nic.net.sg">
+		<info>Singapore Network Information Centre</info>
+		<availstring>nomatch</availstring>
+		<domain nic="http://www.nic.net.sg/" country="Singapore" name="sg">
+			<domain name="com.sg"></domain>
+			<domain name="org.sg"></domain>
+			<domain name="net.sg"></domain>
+			<domain name="gov.sg"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.ja.net">
+		<info>JANET</info>
+		<availstring>sorry - no</availstring>
+	</server>
+
+	<server host="whois.nic.tm">
+		<availstring>no match</availstring>
+		<domain nic="http://www.nic.tm/" country="Turkmenistan" name="tm"></domain>
+	</server>
+
+	<server host="whois.nic.bj">
+		<domain nic="http://www.nic.bj" country="Benin" name="bj"></domain>
+	</server>
+
+	<server host="whois.cat">
+		<domain name="cat"></domain>
+	</server>
+
+	<server host="whois.cd">
+		<availstring>no match</availstring>
+		<domain country="Congo, The Democratic Republic of the" name="cd"></domain>
+	</server>
+
+	<server host="whois.nic.ci">
+		<domain nic="http://www.nic.ci" country="Cote d\'Ivoire" name="ci"></domain>
+	</server>
+
+	<server host="whois.uk.co">
+		<availstring>no match</availstring>
+	</server>
+
+	<server host="whois.nic.coop">
+		<domain name="coop"></domain>
+	</server>
+
+	<server host="whois.lac.net">
+		<info>Latin America &amp; Caribbean Whois Server</info>
+		<availstring>no match found</availstring>
+	</server>
+
+	<server host="whois.eenet.ee">
+		<domain nic="http://www.eenet.ee/services/subdomains.html" country="Estonia" name="ee"></domain>
+	</server>
+
+	<server host="whois.eu">
+		<domain nic="http://www.eurid.eu" country="European Union" name="eu"></domain>
+	</server>
+
+	<server host="whois.ficora.fi">
+		<domain nic="http://www.ficora.fi" country="Finland" name="fi"></domain>
+	</server>
+
+	<server host="whois.nplus.gf">
+		<availstring>not found in our database</availstring>
+		<domain nic="http://www.nplus.gf/" country="French Guiana" name="gf"></domain>
+	</server>
+
+	<server host="whois.channelisles.net">
+		<domain nic="http://www.channelisles.net/" country="Guernsey" name="gg"></domain>
+		<domain nic="http://www.channelisles.net/" country="Jersey" name="je"></domain>
+	</server>
+
+	<server host="whois.hkirc.net">
+		<domain nic="http://www.hkirc.hk" country="Hong Kong" name="hk">
+			<domain name="com.hk"></domain>
+			<domain name="org.hk"></domain>
+			<domain name="net.hk"></domain>
+			<domain name="edu.hk"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.hkirc.net.hk">
+		<domain nic="http://www.hkirc.hk" country="Hong Kong" name="hk">
+			<domain name="com.hk"></domain>
+			<domain name="org.hk"></domain>
+			<domain name="net.hk"></domain>
+			<domain name="edu.hk"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.hkirc.hk">
+		<domain nic="http://www.hkirc.hk" country="Hong Kong" name="hk">
+			<domain name="com.hk"></domain>
+			<domain name="org.hk"></domain>
+			<domain name="net.hk"></domain>
+			<domain name="edu.hk"></domain>
+		</domain>
+	</server>
+
+	<server host="whois2.afilias-grs.net">
+		<domain nic="http://www.nic.hn" country="Honduras" name="hn"></domain>
+		<domain nic="http://www.nic.sc" country="Seychelles" name="sc"></domain>
+		<domain country="Saint Vincent and the Grenadines" name="vc"></domain>
+	</server>
+
+	<server host="whois.nic.hu">
+		<info>.hu Whois Server</info>
+		<domain nic="http://www.nic.hu" country="Hungary" name="hu"></domain>
+	</server>
+
+	<server host="whois.iisc.ernet.in">
+		<info>Indian Institute of Science</info>
+		<availstring>no entries found</availstring>
+	</server>
+
+	<server host="whois.inregistry.net">
+		<domain nic="http://www.registry.in" country="India" name="in">
+			<domain name="ac.in"></domain>
+			<domain name="co.in"></domain>
+			<domain name="ernet.in"></domain>
+			<domain name="gov.in"></domain>
+			<domain name="net.in"></domain>
+			<domain name="res.in"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.iana.org">
+		<domain name="int"></domain>
+	</server>
+
+	<server host="whois.nic.io">
+		<domain nic="http://www.nic.io/" country="British Indian Ocean Territory" name="io"></domain>
+	</server>
+
+	<server host="whois.kenic.or.ke">
+		<domain nic="http://www.kenic.or.ke" country="Kenya" name="ke"></domain>
+	</server>
+
+	<server host="whois.domain.kz">
+		<info>Kazahstan Domain Name Registry</info>
+		<availstring>no entries found</availstring>
+		<domain nic="http://www.nic.kz" country="Kazakhstan" name="kz"></domain>
+	</server>
+
+	<server host="whois.nic.kz">
+		<domain nic="http://www.nic.kz" country="Kazakhstan" name="kz"></domain>
+	</server>
+
+	<server host="whois.nic.mg">
+		<domain nic="http://www.nic.mg" country="Madagascar" name="mg"></domain>
+	</server>
+
+	<server host="whois.nic.mm">
+		<info>MM-NIC</info>
+		<availstring>no domains matched</availstring>
+	</server>
+
+	<server host="whois.nic.mn">
+		<domain nic="http://www.nic.mn" country="Mongolia" name="mn"></domain>
+	</server>
+
+	<server host="whois.museum">
+		<domain name="museum"></domain>
+	</server>
+
+	<server host="whois.mynic.net.my">
+		<domain nic="http://www.mynic.net.my" country="Malaysia" name="my"></domain>
+	</server>
+
+	<server host="whois.na-nic.com.na">
+		<domain nic="http://www.na-nic.com.na/" country="Namibia" name="na"></domain>
+	</server>
+
+	<server host="whois.srs.net.nz">
+		<domain nic="http://www.dnc.org.nz/" country="New Zealand" name="nz">
+			<domain name="co.nz"></domain>
+			<domain name="net.nz"></domain>
+			<domain name="maori.nz"></domain>
+			<domain name="org.nz"></domain>
+			<domain name="govt.nz"></domain>
+			<domain name="iwi.nz"></domain>
+			<domain name="cri.nz"></domain>
+			<domain name="school.nz"></domain>
+			<domain name="ac.nz"></domain>
+			<domain name="mil.nz"></domain>
+			<domain name="gen.nz"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.nic.pm">
+		<domain nic="http://www.nic.pm/" country="Saint Pierre and Miquelon" name="pm"></domain>
+	</server>
+
+	<server host="whois.uprr.pr">
+		<domain nic="http://www.nic.pr" country="Puerto Rico" name="pr"></domain>
+	</server>
+
+	<server host="whois.nic.re">
+		<domain nic="http://www.nic.re/" country="Reunion Island" name="re"></domain>
+	</server>
+
+	<server host="whois.nic.tj">
+		<info>TJ-NIC</info>
+		<availstring>no match</availstring>
+		<domain nic="http://www.nic.tj/" country="Tajikistan" name="tj"></domain>
+	</server>
+
+	<server host="whois.nic.tl">
+		<domain nic="http://www.nic.tl" country="Timor-Leste" name="tl"></domain>
+	</server>
+
+	<server host="whois.nic.tr">
+		<domain nic="http://www.nic.tr" country="Turkey" name="tr">
+			<domain name="com.tr"></domain>
+			<domain name="gov.tr"></domain>
+			<domain name="bbs.tr"></domain>
+			<domain name="k12.tr"></domain>
+			<domain name="edu.tr"></domain>
+			<domain name="net.tr"></domain>
+			<domain name="mil.tr"></domain>
+			<domain name="org.tr"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.twnic.net.tw">
+		<domain nic="http://rs.twnic.net.tw" country="Taiwan" name="tw">
+			<domain name="com.tw"></domain>
+			<domain name="org.tw"></domain>
+			<domain name="net.tw"></domain>
+		</domain>
+	</server>
+
+	<server host="whois.co.ug">
+		<domain nic="http://www.registry.co.ug" country="Uganda" name="ug"></domain>
+	</server>
+
+	<server host="whois.cctld.uz">
+		<domain nic="http://www.cctld.uz/" country="Uzbekistan" name="uz"></domain>
+	</server>
+
+	<server host="whois.nic.ve">
+		<domain nic="http://www.nic.ve/" country="Venezuela" name="ve"></domain>
+	</server>
+
+	<server host="whois.nic.wf">
+		<domain nic="http://www.nic.wf/" country="Wallis and Futuna Islands" name="wf"></domain>
+	</server>
+
+	<server host="whois.nic.yt">
+		<domain nic="http://www.nic.yt/" country="Mayotte" name="yt"></domain>
+	</server>
+
+	<server host="whois.co.za">
+		<info>Foundation for Research Development</info>
+		<availstring>no information available</availstring>
+	</server>
+
+	<server host="whois.alabanza.com">
+		<info>Alabanza, Inc</info>
+	</server>
+
+	<server host="whois.compuserve.com">
+		<info>CompuServe Interactive Services, Inc</info>
+	</server>
+
+	<server host="whois.discount-domain.com">
+		<info>interQ Inc.</info>
+	</server>
+
+	<server host="dns411.com">
+		<info>Name.Space</info>
+	</server>
+
+	<server host="whois.domaindiscover.com">
+		<info>TierraNet, Inc.</info>
+	</server>
+
+	<server host="whois.domainpeople.com">
+		<info>NetNation Communications Inc.</info>
+	</server>
+
+	<server host="whois.easyspace.com">
+		<info>EasySpace Ltd.</info>
+	</server>
+
+	<server host="whois.enom.com">
+		<info>eNom, Inc.</info>
+	</server>
+
+	<server host="whois.geektools.com">
+		<info>CenterGate Research Group, LLC</info>
+	</server>
+
+	<server host="whois.ibm.com">
+		<info>IBM</info>
+	</server>
+
+	<server host="whois.internetnamesww.com">
+		<info>Melbourne IT</info>
+	</server>
+
+	<server host="whois.names4ever.com">
+		<info>A+Net Registrar</info>
+	</server>
+
+	<server host="whois.namesecure.com">
+		<info>Maaznet Directory Service Inc.</info>
+	</server>
+
+	<server host="whois.networksolutions.com">
+		<info>Network Solutions, Inc.</info>
+	</server>
+
+	<server host="whois.pacbell.com">
+		<info>Pacific Bell</info>
+	</server>
+
+	<server host="whois.register.com">
+		<info>Forman Interactive Corp</info>
+	</server>
+
+	<server host="whois.registrars.com">
+		<info>Internet Domain Registrars</info>
+	</server>
+
+	<server host="whois.sunquest.com">
+		<info>Sunquest Information Systems</info>
+	</server>
+
+	<server host="whois.berkeley.edu">
+		<info>University of California at Berkeley</info>
+	</server>
+
+	<server host="www.binghamton.edu">
+		<info>State University of New York at Binghamton</info>
+	</server>
+
+	<server host="finger.caltech.edu">
+		<info>California Institute of Technology</info>
+	</server>
+
+	<server host="csufresno.edu">
+		<info>California State University - Fresno</info>
+	</server>
+
+	<server host="csuhayward.edu">
+		<info>California State University - Hayward</info>
+	</server>
+
+	<server host="csus.edu">
+		<info>California State University - Sacramento</info>
+	</server>
+
+	<server host="whois.cwru.edu">
+		<info>Case Western Reserve University</info>
+	</server>
+
+	<server host="cc.fsu.edu">
+		<info>Florida State University</info>
+	</server>
+
+	<server host="directory.gatech.edu">
+		<info>Georgia Institute of Technology</info>
+	</server>
+
+	<server host="gettysburg.edu">
+		<info>Gettysburg College</info>
+	</server>
+
+	<server host="gmu.edu">
+		<info>George Mason University</info>
+	</server>
+
+	<server host="whois.dfci.harvard.edu">
+		<info>Dana-Farber Cancer Institute</info>
+	</server>
+
+	<server host="hmc.edu">
+		<info>Harvey Mudd College</info>
+	</server>
+
+	<server host="indiana.edu">
+		<info>Indiana University</info>
+	</server>
+
+	<server host="nii.isi.edu">
+		<info>US Domain Registry</info>
+	</server>
+
+	<server host="whois.isi.edu">
+		<info>.INT Whois Service</info>
+	</server>
+
+	<server host="whois.messiah.edu">
+		<info>Messiah College</info>
+	</server>
+
+	<server host="whois.rsmas.miami.edu">
+		<info>University of Miami, Rosentiel School of Marine and Atmospheric Sciences</info>
+	</server>
+
+	<server host="mit.edu">
+		<info>Massachusetts Institute of Technology</info>
+	</server>
+
+	<server host="directory.msstate.edu">
+		<info>Mississippi State University</info>
+	</server>
+
+	<server host="vax2.winona.msus.edu">
+		<info>Minnesota State University - Winona</info>
+	</server>
+
+	<server host="info.nau.edu">
+		<info>Northern Arizona University</info>
+	</server>
+
+	<server host="whois.ncsu.edu">
+		<info>North Carolina State University</info>
+	</server>
+
+	<server host="nd.edu">
+		<info>University of Notre Dame</info>
+	</server>
+
+	<server host="earth.njit.edu">
+		<info>New Jersey Institute of Technology</info>
+	</server>
+
+	<server host="vm1.nodak.edu">
+		<info>North Dakota State University</info>
+	</server>
+
+	<server host="austin.onu.edu">
+		<info>Ohio Northern University</info>
+	</server>
+
+	<server host="ph.orst.edu">
+		<info>Oregon State University</info>
+	</server>
+
+	<server host="osu.edu">
+		<info>Ohio State University</info>
+	</server>
+
+	<server host="whois.oxy.edu">
+		<info>Occidental College</info>
+	</server>
+
+	<server host="info.psu.edu">
+		<info>Pennsylvania State University</info>
+	</server>
+
+	<server host="whois.cc.rochester.edu">
+		<info>University of Rochester</info>
+	</server>
+
+	<server host="whitepages.rutgers.edu">
+		<info>Rutgers University</info>
+	</server>
+
+	<server host="whois.sdsu.edu">
+		<info>San Diego State University</info>
+	</server>
+
+	<server host="stanford.edu">
+		<info>Stanford University</info>
+	</server>
+
+	<server host="camis.stanford.edu">
+		<info>Stanford University</info>
+	</server>
+
+	<server host="stjohns.edu">
+		<info>St. John's University</info>
+	</server>
+
+	<server host="sunysb.edu">
+		<info>State University of New York, Stony Brook</info>
+	</server>
+
+	<server host="whois.bcm.tmc.edu">
+		<info>Baylor College of Medicine</info>
+	</server>
+
+	<server host="whois.ubalt.edu">
+		<info>University of Baltimore</info>
+	</server>
+
+	<server host="directory.ucdavis.edu">
+		<info>University of California at Davis</info>
+	</server>
+
+	<server host="uchicago.edu">
+		<info>University of Chicago</info>
+	</server>
+
+	<server host="ucsd.edu">
+		<info>University of California at San Diego</info>
+	</server>
+
+	<server host="weber.ucsd.edu">
+		<info>University of California at San Diego, Division of Social Sciences</info>
+	</server>
+
+	<server host="cgl.ucsf.edu">
+		<info>University of California at San Francisco, School of Pharmacy</info>
+	</server>
+
+	<server host="whois.uh.edu">
+		<info>University of Houston</info>
+	</server>
+
+	<server host="whois.umass.edu">
+		<info>University of Massachusetts at Amherst</info>
+	</server>
+
+	<server host="lookup.umd.edu">
+		<info>University of Maryland</info>
+	</server>
+
+	<server host="umn.edu">
+		<info>University of Minnesota</info>
+	</server>
+
+	<server host="ns.unl.edu">
+		<info>University of Nebraska at Lincoln</info>
+	</server>
+
+	<server host="whois.upenn.edu">
+		<info>University of Pennsylvania</info>
+	</server>
+
+	<server host="x500.utexas.edu">
+		<info>University of Texas at Austin</info>
+	</server>
+
+	<server host="netlib2.cs.utk.edu">
+		<info>na-net (linear algebra on computers)</info>
+	</server>
+
+	<server host="whois.virginia.edu">
+		<info>University of Virginia</info>
+	</server>
+
+	<server host="whois.wfu.edu">
+		<info>Wake Forest University</info>
+	</server>
+
+	<server host="wisc.edu">
+		<info>University of Wisconsin</info>
+	</server>
+
+	<server host="wpi.wpi.edu">
+		<info>Worcester Polytechnic Institute</info>
+	</server>
+
+	<server host="ibc.wustl.edu">
+		<info>Washington University</info>
+	</server>
+
+	<server host="vm1.hqadmin.doe.gov">
+		<info>U.S. Department of Energy Headquarters</info>
+	</server>
+
+	<server host="wp.doe.gov">
+		<info>U.S. Department of Energy</info>
+	</server>
+
+	<server host="llnl.gov">
+		<info>Lawrence Livermore National Laboratory</info>
+	</server>
+
+	<server host="x500.arc.nasa.gov">
+		<info>NASA Ames Research Center</info>
+	</server>
+
+	<server host="x500.gsfc.nasa.gov">
+		<info>NASA Goddard Space Flight Center</info>
+	</server>
+
+	<server host="whois.hq.nasa.gov">
+		<info>NASA Headquarters</info>
+	</server>
+
+	<server host="x500.ivv.nasa.gov">
+		<info>NASA Software Independent Verification &amp; Validation Facility</info>
+	</server>
+
+	<server host="whois.jpl.nasa.gov">
+		<info>NASA Jet Propulsion Laboratory</info>
+	</server>
+
+	<server host="x500.jsc.nasa.gov">
+		<info>NASA Johnson Space Center</info>
+	</server>
+
+	<server host="larc.nasa.gov">
+		<info>NASA Langley Research Center</info>
+	</server>
+
+	<server host="whois.larc.nasa.gov">
+		<info>NASA Langley Research Center</info>
+	</server>
+
+	<server host="x500.msfc.nasa.gov">
+		<info>NASA Marshall Space Flight Center</info>
+	</server>
+
+	<server host="x500.ssc.nasa.gov">
+		<info>NASA Stennis Space Center</info>
+	</server>
+
+	<server host="x500.wstf.nasa.gov">
+		<info>NASA White Sands Test Facility</info>
+	</server>
+
+	<server host="x500.nasa.gov">
+		<info>National Aeronautics and Space Administration</info>
+	</server>
+
+	<server host="wp.nersc.gov">
+		<info>National Energy Research Supercomputer Center</info>
+	</server>
+
+	<server host="seda.sandia.gov">
+		<info>Sandia National Laboratories</info>
+	</server>
+
+	<server host="whois.nrl.navy.mil">
+		<info>Naval Research Laboratory</info>
+	</server>
+
+	<server host="whois.6bone.net">
+		<info>6bone Registry</info>
+	</server>
+
+	<server host="whois.abuse.net">
+		<info>Network Abuse Clearinghouse</info>
+	</server>
+
+	<server host="whois.aco.net">
+		<info>Austrian Academic Computer Network</info>
+	</server>
+
+	<server host="whois.arin.net">
+		<info>American Registry for Internet Numbers</info>
+	</server>
+
+	<server host="whois.awregistry.net">
+		<info>All West Communications</info>
+	</server>
+
+	<server host="whois.cary.net">
+		<info>CARYNET &amp; HK eDNS Whois server</info>
+	</server>
+
+	<server host="whois.corenic.net">
+		<info>CORE Internet Council of Registrars</info>
+	</server>
+
+	<server host="whois.cw.net">
+		<info>Cable &amp; Wireless USA</info>
+	</server>
+
+	<server host="wp.es.net">
+		<info>Energy Sciences Network</info>
+	</server>
+
+	<server host="whois.hinet.net">
+		<info>Chunghwa Telecom</info>
+	</server>
+
+	<server host="ds.internic.net">
+		<info>Network Solutions, Inc. (non-MILNET/non-POC)</info>
+	</server>
+
+	<server host="whois.krnic.net">
+		<info>Korea Network Information Center</info>
+	</server>
+
+	<server host="companies.mci.net">
+		<info>RFC 2345 TLD-WHOIS demonstration server</info>
+	</server>
+
+	<server host="whois.nameit.net">
+		<info>nameIT</info>
+	</server>
+
+	<server host="whois.nomination.net">
+		<info>NomiNation (.GB.COM, .GB.NET, .UK.COM, .UK.NET)</info>
+	</server>
+
+	<server host="whois.nsiregistry.net">
+		<info>Network Solutions, Inc.</info>
+	</server>
+
+	<server host="whois.oleane.net">
+		<info>OLEANE SA</info>
+	</server>
+
+	<server host="whois.opensrs.net">
+		<info>Open Shared Registration System</info>
+	</server>
+
+	<server host="pcdc.net">
+		<info>Pacific Communications Development Corp.</info>
+	</server>
+
+	<server host="whois.ra.net">
+		<info>The Routing Arbiter Project</info>
+	</server>
+
+	<server host="whois.dhs.org">
+		<info>Domain Host Services</info>
+	</server>
+
+	<server host="whois.morris.org">
+		<info>Morris Automated Information Network</info>
+	</server>
+
+	<server host="wp.tuwien.ac.at">
+		<info>Technische Universitat Wien</info>
+	</server>
+
+	<server host="whois.risc.uni-linz.ac.at">
+		<info>Research Institute for Symbolic Computation, University of Linz</info>
+	</server>
+
+	<server host="whois.wu-wien.ac.at">
+		<info>Wirtschaftsuniversitaet Wien</info>
+	</server>
+
+	<server host="archie.au">
+		<info>Australian Academic and Research Network</info>
+	</server>
+
+	<server host="whois.connect.com.au">
+		<info>Connect.com.au Pty Ltd</info>
+	</server>
+
+	<server host="whois.adelaide.edu.au">
+		<info>University of Adelaide</info>
+	</server>
+
+	<server host="whois.monash.edu.au">
+		<info>Monash University</info>
+	</server>
+
+	<server host="uwa.edu.au">
+		<info>University of Western Australia</info>
+	</server>
+
+	<server host="sserve.cc.adfa.oz.au">
+		<info>University College, Australian Defense Force Academy</info>
+	</server>
+
+	<server host="whois.kuleuven.ac.be">
+		<info>Katholieke Universiteit Leuven</info>
+	</server>
+
+	<server host="whois.belnet.be">
+		<info>Belgian National Research Network</info>
+	</server>
+
+	<server host="whois.camosun.bc.ca">
+		<info>Camosun College, Victoria, B.C.</info>
+	</server>
+
+	<server host="whois.canet.ca">
+		<info>Bell Canada Internet Transit Service</info>
+	</server>
+
+	<server host="whois.cdnnet.ca">
+		<info>CDNnet</info>
+	</server>
+
+	<server host="whois.queensu.ca">
+		<info>Queen's University, Kingston, Canada</info>
+	</server>
+
+	<server host="ac.nsac.ns.ca">
+		<info>Nova Scotia Agricultural College</info>
+	</server>
+
+	<server host="whois.unb.ca">
+		<info>University of New Brunswick</info>
+	</server>
+
+	<server host="panda1.uottawa.ca">
+		<info>University of Ottawa</info>
+	</server>
+
+	<server host="dvinci.usask.ca">
+		<info>University of Saskatchewan, Engineering</info>
+	</server>
+
+	<server host="whois.usask.ca">
+		<info>University of Saskatchewan</info>
+	</server>
+
+	<server host="phys.uvic.ca">
+		<info>University of Victoria, Physics &amp; Astronomy</info>
+	</server>
+
+	<server host="whois.uwo.ca">
+		<info>University of Western Ontario</info>
+	</server>
+
+	<server host="whois.nic.ck">
+		<info>Cook Islands Network Information Centre</info>
+	</server>
+
+	<server host="whois.ci.ucr.ac.cr">
+		<info>University of Costa Rica Computer Center</info>
+	</server>
+
+	<server host="whois.cuni.cz">
+		<info>Charles University, Prague</info>
+	</server>
+
+	<server host="whois.mff.cuni.cz">
+		<info>Charles University, Faculty of Mathematics and Physics</info>
+	</server>
+
+	<server host="www.fce.vutbr.cz">
+		<info>Faculty of Civil Engineering, Technical University of Brno</info>
+	</server>
+
+	<server host="gopher.fme.vutbr.cz">
+		<info>Faculty of Mechanical Engineering, Technical University of Brno</info>
+	</server>
+
+	<server host="whois.fee.vutbr.cz">
+		<info>Faculty of Elec. Eng. and Computer Sci., Technical Univ. of Brno</info>
+	</server>
+
+	<server host="whois.vutbr.cz">
+		<info>Technical University of Brno</info>
+	</server>
+
+	<server host="whois.fh-koeln.de">
+		<info>Fachhochschule Koeln</info>
+	</server>
+
+	<server host="whois.fzi.de">
+		<info>Forschungszentrum Informatik</info>
+	</server>
+
+	<server host="hermes.informatik.htw-zittau.de">
+		<info>HTW Zittau/Goerlitz Elektrotechnik/Informatik</info>
+	</server>
+
+	<server host="whois.th-darmstadt.de">
+		<info>Darmstadt University of Technology</info>
+	</server>
+
+	<server host="whois.tu-chemnitz.de">
+		<info>Technische Universitaet Chemnitz</info>
+	</server>
+
+	<server host="whois.uni-regensburg.de">
+		<info>Universitaet Regensburg</info>
+	</server>
+
+	<server host="whois.uni-c.dk">
+		<info>Danish Computing Centre for Research and Education</info>
+	</server>
+
+	<server host="whois.ut.ee">
+		<info>University of Tartu</info>
+	</server>
+
+	<server host="whois.eunet.es">
+		<info>EUnet, Goya, Spain</info>
+	</server>
+
+	<server host="whois.dit.upm.es">
+		<info>Tech. Univ. Madrid, Telecommunications Highschool</info>
+	</server>
+
+	<server host="cs.hut.fi">
+		<info>Helsinki University of Technology</info>
+	</server>
+
+	<server host="oulu.fi">
+		<info>Oulu University</info>
+	</server>
+
+	<server host="vtt.fi">
+		<info>Technical Research Centre of Finland</info>
+	</server>
+
+	<server host="whois.nordnet.fr">
+		<info>NordNet</info>
+	</server>
+
+	<server host="whois.univ-lille1.fr">
+		<info>University of Sciences and Technologies of Lille - France</info>
+	</server>
+
+	<server host="whois.hknic.net.hk">
+		<info>HKNIC</info>
+	</server>
+
+	<server host="whois.registry.hm">
+		<info>HM Domain Registry</info>
+	</server>
+
+	<server host="whois.ncst.ernet.in">
+		<info>National Centre for Software Technology</info>
+	</server>
+
+	<server host="isgate.is">
+		<info>Association of Research Networks in Iceland</info>
+	</server>
+
+	<server host="isgate3.isnet.is">
+		<info>Internet a Islandi</info>
+	</server>
+
+	<server host="pgebrehiwot.iat.cnr.it">
+		<info>Nigerian TLD Registration Service</info>
+	</server>
+
+	<server host="dsa.nis.garr.it">
+		<info>GARR-NIS c/o CNR-CNUCE</info>
+	</server>
+
+	<server host="whois.aist-nara.ac.jp">
+		<info>Nara Institute of Science and Technology</info>
+	</server>
+
+	<server host="whois-server.l.chiba-u.ac.jp">
+		<info>Chiba University</info>
+	</server>
+
+	<server host="whois.hiroshima-u.ac.jp">
+		<info>Hiroshima University</info>
+	</server>
+
+	<server host="gopher.educ.cc.keio.ac.jp">
+		<info>Science and Technology Computing Center, Keio University</info>
+	</server>
+
+	<server host="whois.cc.keio.ac.jp">
+		<info>Keio University</info>
+	</server>
+
+	<server host="whois.cc.uec.ac.jp">
+		<info>University of Electro-Communications</info>
+	</server>
+
+	<server host="whois.yamanashi.ac.jp">
+		<info>Yamanashi University</info>
+	</server>
+
+	<server host="www.orions.ad.jp">
+		<info>Osaka Regional Information and Open Network Systems</info>
+	</server>
+
+	<server host="whois.domain.kg">
+		<info>Kyrgyzstan TLD</info>
+	</server>
+
+	<server host="sorak.kaist.ac.kr">
+		<info>Korea Advanced Institute of Science &amp; Technology</info>
+	</server>
+
+	<server host="whois.nic.lk">
+		<info>Sri Lanka Domain Registry</info>
+	</server>
+
+	<server host="www.restena.lu">
+		<info>RESTENA</info>
+	</server>
+
+	<server host="www.nic.mx">
+		<info>NIC-Mexico</info>
+	</server>
+
+	<server host="condor.dgsca.unam.mx">
+		<info>Univ. Nacional Autonoma de Mexico, D.G. de Servicios de Computo Academico</info>
+	</server>
+
+	<server host="domain-registry.nl">
+		<info>Stichting Internet Domeinregistratie Nederland</info>
+	</server>
+
+	<server host="whois.canterbury.ac.nz">
+		<info>University of Canterbury</info>
+	</server>
+
+	<server host="directory.vuw.ac.nz">
+		<info>Victoria University, Wellington</info>
+	</server>
+
+	<server host="waikato.ac.nz">
+		<info>Waikato University</info>
+	</server>
+
+	<server host="whois.patho.gen.nz">
+		<info>PATHOGEN</info>
+	</server>
+
+	<server host="whois.rcp.net.pe">
+		<info>Red Cientifica Peruana</info>
+	</server>
+
+	<server host="whois.icm.edu.pl">
+		<info>Interdyscyplinarne Centrum Modelowania Matematycznego i Komputero</info>
+	</server>
+
+	<server host="whois.elka.pw.edu.pl">
+		<info>Faculty of Electronic Engineering, Warsaw University of Technology</info>
+	</server>
+
+	<server host="whois.ia.pw.edu.pl">
+		<info>Institute of Automatic Control, Warsaw University of Technology</info>
+	</server>
+
+	<server host="whois.dns.pt">
+		<info>Fundacao para a Computacao Cientifica Nacional</info>
+	</server>
+
+	<server host="dsa.fccn.pt">
+		<info>Fundacao para a Computacao Cientifica Nacional</info>
+	</server>
+
+	<server host="chalmers.se">
+		<info>Chalmers University of Technology</info>
+	</server>
+
+	<server host="kth.se">
+		<info>Royal Institute of Technology</info>
+	</server>
+
+	<server host="sics.se">
+		<info>Swedish Institute of Computer Science</info>
+	</server>
+
+	<server host="whois.uakom.sk">
+		<info>SANET (WAN of Slovak academic institutions)</info>
+	</server>
+
+	<server host="whois.tonic.to">
+		<info>Tonic Domain Name Registry</info>
+	</server>
+
+	<server host="whois.seed.net.tw">
+		<info>Seednet</info>
+	</server>
+
+	<server host="whois.iii.org.tw">
+		<info>Institution for Information Industry</info>
+	</server>
+
+	<server host="src.doc.ic.ac.uk">
+		<info>Imperial College</info>
+	</server>
+
+	<server host="whois.lut.ac.uk">
+		<info>Loughborough University</info>
+	</server>
+
+	<server host="dsa.shu.ac.uk">
+		<info>Sheffield Hallam University</info>
+	</server>
+
+	<server host="whois.state.ct.us">
+		<info>Department of Administrative Services, State of Connecticut</info>
+	</server>
+
+	<server host="info.cnri.reston.va.us">
+		<info>Corporation for National Research Initiatives, Knowbot interface</info>
+	</server>
+
+	<server host="whois.frd.ac.za">
+		<info>National Research Foundation</info>
+	</server>
+
+	<server host="whois.frd.ac.za">
+		<info>National Research Foundation</info>
+	</server>
+</serverlist>
