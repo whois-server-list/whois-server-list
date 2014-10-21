@@ -732,6 +732,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.as">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-06-12T00:00:00+02:00</created>
         <changed>2013-05-24T00:00:00+02:00</changed>
@@ -2891,6 +2892,10 @@
     </domain>
     <domain name="com">
         <source>XML</source>
+        <whoisServer host="whois.crsnic.net">
+            <source>XML</source>
+            <availablePattern>\Qno match for\E</availablePattern>
+        </whoisServer>
         <whoisServer host="whois.verisign-grs.com">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
@@ -3831,6 +3836,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.cx">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-04-24T00:00:00+02:00</created>
         <changed>2013-04-17T00:00:00+02:00</changed>
@@ -3931,9 +3937,11 @@
         <source>XML</source>
         <whoisServer host="whois.denic.de">
             <source>XML</source>
+            <availablePattern>\QStatus: free\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.de">
             <source>XML</source>
+            <availablePattern>\QStatus: free\E</availablePattern>
         </whoisServer>
         <created>1986-11-05T00:00:00+01:00</created>
         <changed>2012-04-19T00:00:00+02:00</changed>
@@ -5484,6 +5492,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.gs">
             <source>IANA</source>
@@ -14399,6 +14408,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.ms">
             <source>IANA</source>
@@ -16371,6 +16381,10 @@
     </domain>
     <domain name="name">
         <source>XML</source>
+        <whoisServer host="whois.nic.name">
+            <source>XML</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2001-08-17T00:00:00+02:00</created>
         <changed>2014-01-24T00:00:00+01:00</changed>
         <state>ACTIVE</state>
@@ -16417,6 +16431,10 @@
     </domain>
     <domain name="net">
         <source>XML</source>
+        <whoisServer host="whois.crsnic.net">
+            <source>XML</source>
+            <availablePattern>\Qno match for\E</availablePattern>
+        </whoisServer>
         <whoisServer host="whois.verisign-grs.com">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
@@ -19264,9 +19282,11 @@
         <source>XML</source>
         <whoisServer host="whois.pir.org">
             <source>XML</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.publicinterestregistry.net">
             <source>XML</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2010-07-23T00:00:00+02:00</changed>
@@ -22496,6 +22516,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.meridiantld.net">
             <source>IANA</source>
@@ -22542,6 +22563,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.tf">
             <source>XML</source>
@@ -24468,6 +24490,7 @@
         </whoisServer>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-02-20T00:00:00+01:00</created>
         <changed>2014-04-10T00:00:00+02:00</changed>
