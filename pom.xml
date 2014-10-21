@@ -38,7 +38,7 @@
 			<plugin>
 				<groupId>de.malkusch.whois-server-list</groupId>
 				<artifactId>whois-server-list-maven-plugin</artifactId>
-				<version>0.0.1</version>
+				<version>0.0.2-SNAPSHOT</version>
 				<configuration>
 					<schema>whois-server-list.xsd</schema>
 					<file>whois-server-list.xml</file>
