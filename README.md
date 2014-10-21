@@ -8,7 +8,7 @@ Sources are:
 * [IANA](http://www.iana.org/domains/root/db)
 * [Public Suffix List](https://publicsuffix.org/list/effective_tld_names.dat)
 
-You can find the list online: http://whois-server-list.github.io/whois-server-list/1.0.0/whois-server-list.xml
+You can find the list online: http://whois-server-list.github.io/whois-server-list/1.0.1/whois-server-list.xml
 
 
 # License and author
