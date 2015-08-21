@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>de.malkusch.parent</groupId>
 		<artifactId>oss-parent</artifactId>
-		<version>1.7</version>
+		<version>1.10</version>
 	</parent>
 
 	<url>https://github.com/whois-server-list/${project.artifactId}</url>
