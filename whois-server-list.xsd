@@ -68,6 +68,10 @@
       <xs:enumeration value="XML"/>
       <xs:enumeration value="IANA"/>
       <xs:enumeration value="PSL"/>
+      <xs:enumeration value="MD_WHOIS"/>
+      <xs:enumeration value="WHOIS_RB"/>
+      <xs:enumeration value="PHP_WHOIS"/>
+      <xs:enumeration value="PHOIS"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
