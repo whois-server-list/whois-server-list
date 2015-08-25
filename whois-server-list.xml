@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.0.0">
-    <date>2015-08-23T17:42:32.744+02:00</date>
+<domainList version="2.0.1">
+    <date>2015-08-25T20:25:48.772+02:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="abb">
@@ -42,6 +42,7 @@
         <changed>2014-03-28T00:00:00+01:00</changed>
         <registrationService>http://www.nic.ac/</registrationService>
         <state>ACTIVE</state>
+        <countryCode>SH</countryCode>
         <domain name="ac.ac">
             <source>XML</source>
             <whoisServer host="whois.nic.ac">
@@ -127,6 +128,11 @@
         <changed>2015-06-29T00:00:00+02:00</changed>
         <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="aco">
+        <source>IANA</source>
+        <created>2015-07-16T00:00:00+02:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="active">
         <source>IANA</source>
@@ -541,6 +547,10 @@
     </domain>
     <domain name="afl">
         <source>IANA</source>
+        <whoisServer host="whois.nic.afl">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-03-30T00:00:00+02:00</changed>
         <registrationService>http://www.afl.com.au/</registrationService>
@@ -1358,6 +1368,10 @@
     </domain>
     <domain name="barclaycard">
         <source>IANA</source>
+        <whoisServer host="whois.nic.barclaycard">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-01-08T00:00:00+01:00</created>
         <changed>2015-01-25T00:00:00+01:00</changed>
         <registrationService>http://www.home.barclaycard/</registrationService>
@@ -1787,7 +1801,6 @@
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="bio">
@@ -2021,6 +2034,10 @@
     </domain>
     <domain name="bond">
         <source>PSL</source>
+        <whoisServer host="whois.nic.bond">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2014-10-30T00:00:00+01:00</created>
         <changed>2015-03-27T00:00:00+01:00</changed>
         <registrationService>http://bond.edu.au/</registrationService>
@@ -2052,6 +2069,7 @@
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="bq">
@@ -2801,7 +2819,6 @@
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="camp">
@@ -2879,6 +2896,7 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="career">
@@ -2899,7 +2917,6 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="cars">
@@ -3020,6 +3037,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.cd">
             <source>MD_WHOIS</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-08-20T00:00:00+02:00</created>
         <changed>2013-12-10T00:00:00+01:00</changed>
@@ -3047,6 +3065,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ceo">
@@ -3123,6 +3142,7 @@
         </whoisServer>
         <created>1987-05-20T00:00:00+02:00</created>
         <changed>2014-11-19T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.ch/</registrationService>
         <state>ACTIVE</state>
         <countryCode>CH</countryCode>
         <domain name="blogspot.ch">
@@ -3159,6 +3179,7 @@
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="cheap">
@@ -3339,7 +3360,6 @@
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="click">
@@ -3371,7 +3391,6 @@
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="cloud">
@@ -3473,12 +3492,12 @@
         </domain>
         <domain name="edu.cn">
             <source>XML</source>
-            <whoisServer host="whois.edu.cn">
-                <source>MD_WHOIS</source>
-            </whoisServer>
             <whoisServer host="whois.cnnic.net.cn">
                 <source>PHOIS</source>
                 <availablePattern>\Qno matching record\E</availablePattern>
+            </whoisServer>
+            <whoisServer host="whois.edu.cn">
+                <source>MD_WHOIS</source>
             </whoisServer>
         </domain>
         <domain name="fj.cn">
@@ -3801,7 +3820,6 @@
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="coffee">
@@ -3812,6 +3830,7 @@
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="college">
@@ -4211,11 +4230,11 @@
         </domain>
         <domain name="gr.com">
             <source>PSL</source>
-            <whoisServer host="whois.centralnic.net">
-                <source>MD_WHOIS</source>
-            </whoisServer>
             <whoisServer host="whois.centralnic.com">
                 <source>WHOIS_RB</source>
+            </whoisServer>
+            <whoisServer host="whois.centralnic.net">
+                <source>MD_WHOIS</source>
             </whoisServer>
         </domain>
         <domain name="herokuapp.com">
@@ -4671,6 +4690,10 @@
     </domain>
     <domain name="commbank">
         <source>IANA</source>
+        <whoisServer host="whois.nic.commbank">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-26T00:00:00+01:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>https://www.commbank.com.au/</registrationService>
@@ -4717,6 +4740,7 @@
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="construction">
@@ -4816,6 +4840,10 @@
     </domain>
     <domain name="courses">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-02-26T00:00:00+01:00</changed>
         <registrationService>https://www.open.edu.au/</registrationService>
@@ -4872,7 +4900,6 @@
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="cricket">
@@ -4947,7 +4974,6 @@
         <source>IANA</source>
         <created>1996-10-21T00:00:00+02:00</created>
         <changed>2014-06-23T00:00:00+02:00</changed>
-        <registrationService>http://www.dns.cv/</registrationService>
         <state>ACTIVE</state>
         <countryCode>CV</countryCode>
         <domain name="blogspot.cv">
@@ -5232,7 +5258,6 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="dentist">
@@ -5286,6 +5311,7 @@
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="diet">
@@ -5339,7 +5365,6 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="dj">
@@ -5461,6 +5486,10 @@
     </domain>
     <domain name="doha">
         <source>IANA</source>
+        <whoisServer host="whois.nic.doha">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-02-27T00:00:00+01:00</created>
         <changed>2015-03-25T00:00:00+01:00</changed>
         <registrationService>http://www.ictqatar.qa/ar</registrationService>
@@ -5539,6 +5568,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.dz">
             <source>IANA</source>
+            <availablePattern>\QNO OBJECT FOUND!\E</availablePattern>
         </whoisServer>
         <created>1994-01-03T00:00:00+01:00</created>
         <changed>2013-08-08T00:00:00+02:00</changed>
@@ -5785,13 +5815,13 @@
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="emerck">
         <source>PSL</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-11T00:00:00+02:00</created>
         <changed>2014-10-31T00:00:00+01:00</changed>
@@ -5806,7 +5836,6 @@
         </whoisServer>
         <created>2014-10-16T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="engineer">
@@ -5828,7 +5857,6 @@
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="enterprises">
@@ -5844,6 +5872,10 @@
     </domain>
     <domain name="epson">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-03-03T00:00:00+01:00</changed>
         <registrationService>http://www.epson.com</registrationService>
@@ -5946,6 +5978,7 @@
         <changed>2015-06-05T00:00:00+02:00</changed>
         <registrationService>http://www.eurid.eu</registrationService>
         <state>ACTIVE</state>
+        <countryCode>EU</countryCode>
     </domain>
     <domain name="eurovision">
         <source>PSL</source>
@@ -5977,7 +6010,6 @@
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="everbank">
@@ -5999,6 +6031,7 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="expert">
@@ -6020,6 +6053,7 @@
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="express">
@@ -6176,7 +6210,6 @@
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="financial">
@@ -6187,7 +6220,6 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="firmdale">
@@ -6240,7 +6272,6 @@
         </whoisServer>
         <created>2014-04-11T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="fj">
@@ -6282,6 +6313,7 @@
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="flowers">
@@ -6573,7 +6605,6 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="furniture">
@@ -6894,6 +6925,10 @@
     </domain>
     <domain name="giving">
         <source>IANA</source>
+        <whoisServer host="whois.nic.giving">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-06-11T00:00:00+02:00</created>
         <changed>2015-08-12T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -7028,7 +7063,6 @@
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="goldpoint">
@@ -7141,7 +7175,6 @@
         <source>IANA</source>
         <whoisServer host="whois.dominio.gq">
             <source>IANA</source>
-            <availablePattern>\Qnot known\E</availablePattern>
         </whoisServer>
         <created>1997-07-10T00:00:00+02:00</created>
         <changed>2014-10-03T00:00:00+02:00</changed>
@@ -7187,6 +7220,7 @@
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="gratis">
@@ -7249,6 +7283,7 @@
         <source>IANA</source>
         <created>1992-08-14T00:00:00+02:00</created>
         <changed>2015-03-24T00:00:00+01:00</changed>
+        <registrationService>http://www.gt</registrationService>
         <state>ACTIVE</state>
         <countryCode>GT</countryCode>
         <domain name="com.gt">
@@ -7300,6 +7335,7 @@
         </whoisServer>
         <created>2014-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="guitars">
@@ -7393,7 +7429,6 @@
         </whoisServer>
         <created>2014-07-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="help">
@@ -7619,7 +7654,6 @@
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="holiday">
@@ -7630,6 +7664,7 @@
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="homedepot">
@@ -7718,6 +7753,7 @@
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="how">
@@ -7958,7 +7994,7 @@
             <availablePattern>\Qno match\E</availablePattern>
         </whoisServer>
         <created>2015-07-09T00:00:00+02:00</created>
-        <changed>2015-08-04T00:00:00+02:00</changed>
+        <changed>2015-08-25T00:00:00+02:00</changed>
         <state>ACTIVE</state>
     </domain>
     <domain name="icu">
@@ -8051,6 +8087,10 @@
     </domain>
     <domain name="iinet">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2014-08-18T00:00:00+02:00</created>
         <changed>2015-07-09T00:00:00+02:00</changed>
         <registrationService>http://www.iinet.net.au/</registrationService>
@@ -8167,6 +8207,7 @@
         </whoisServer>
         <created>2014-08-22T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="immobilien">
@@ -8379,6 +8420,7 @@
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="int">
@@ -8414,6 +8456,7 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="io">
@@ -8560,7 +8603,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-29T00:00:00+02:00</created>
         <changed>2015-07-11T00:00:00+02:00</changed>
@@ -15246,6 +15288,7 @@
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="kiwi">
@@ -15267,6 +15310,7 @@
         <source>IANA</source>
         <created>1998-06-08T00:00:00+02:00</created>
         <changed>2013-01-10T00:00:00+01:00</changed>
+        <registrationService>http://www.domaine.km/</registrationService>
         <state>ACTIVE</state>
         <countryCode>KM</countryCode>
         <domain name="ass.km">
@@ -15353,6 +15397,10 @@
     </domain>
     <domain name="komatsu">
         <source>IANA</source>
+        <whoisServer host="whois.nic.komatsu">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
         <changed>2015-03-26T00:00:00+01:00</changed>
         <registrationService>http://www.komatsu.com/</registrationService>
@@ -15521,6 +15569,10 @@
     </domain>
     <domain name="krd">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-07-10T00:00:00+02:00</created>
         <changed>2014-08-07T00:00:00+02:00</changed>
         <registrationService>http://www.dit.krg.org/</registrationService>
@@ -15680,14 +15732,12 @@
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="lasalle">
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-06-04T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -15837,6 +15887,10 @@
     </domain>
     <domain name="lexus">
         <source>IANA</source>
+        <whoisServer host="whois.nic.lexus">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-07-16T00:00:00+02:00</created>
         <changed>2015-07-27T00:00:00+02:00</changed>
         <registrationService>http://lexus.jp/</registrationService>
@@ -15894,6 +15948,7 @@
         </whoisServer>
         <created>2014-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="lighting">
@@ -15915,7 +15970,6 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="limo">
@@ -15926,6 +15980,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="link">
@@ -15956,6 +16011,10 @@
     </domain>
     <domain name="lixil">
         <source>IANA</source>
+        <whoisServer host="whois.nic.lixil">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-07-16T00:00:00+02:00</created>
         <changed>2015-07-30T00:00:00+02:00</changed>
         <registrationService>http://global.lixil.co.jp/</registrationService>
@@ -16175,7 +16234,6 @@
         <source>IANA</source>
         <created>2015-03-19T00:00:00+01:00</created>
         <changed>2015-05-16T00:00:00+02:00</changed>
-        <registrationService>http://lupin.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="luxe">
@@ -16347,6 +16405,7 @@
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="man">
@@ -16401,7 +16460,6 @@
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="markets">
@@ -16532,6 +16590,10 @@
     </domain>
     <domain name="melbourne">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-07-03T00:00:00+02:00</created>
         <changed>2014-08-06T00:00:00+02:00</changed>
         <registrationService>http://nic.melbourne/</registrationService>
@@ -16997,7 +17059,6 @@
         <source>IANA</source>
         <created>1996-04-24T00:00:00+02:00</created>
         <changed>2015-01-28T00:00:00+01:00</changed>
-        <registrationService>http://www.nic.mr</registrationService>
         <state>ACTIVE</state>
         <countryCode>MR</countryCode>
         <domain name="blogspot.mr">
@@ -18916,9 +18977,18 @@
     </domain>
     <domain name="my">
         <source>XML</source>
+        <whoisServer host="whois.domainregistry.my">
+            <source>WHOIS_RB</source>
+        </whoisServer>
+        <whoisServer host="whois.mynic.my">
+            <source>IANA</source>
+        </whoisServer>
+        <whoisServer host="whois.mynic.net.my">
+            <source>PHOIS</source>
+            <availablePattern>\Qdoes not exist in database\E</availablePattern>
+        </whoisServer>
         <created>1987-06-08T00:00:00+02:00</created>
         <changed>2015-08-19T00:00:00+02:00</changed>
-        <registrationService>http://www.mynic.my</registrationService>
         <state>ACTIVE</state>
         <countryCode>MY</countryCode>
         <domain name="com.my">
@@ -19111,6 +19181,10 @@
     </domain>
     <domain name="nec">
         <source>IANA</source>
+        <whoisServer host="whois.nic.nec">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-04-02T00:00:00+02:00</created>
         <changed>2015-05-11T00:00:00+02:00</changed>
         <registrationService>http://www.nec.com/</registrationService>
@@ -21892,10 +21966,6 @@
     </domain>
     <domain name="nu">
         <source>XML</source>
-        <whoisServer host="whois.iis.nu">
-            <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
-        </whoisServer>
         <whoisServer host="whois.nic.nu">
             <source>XML</source>
             <availablePattern>\Qnot found\E</availablePattern>
@@ -22636,7 +22706,6 @@
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="photos">
@@ -22647,10 +22716,15 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="physio">
         <source>IANA</source>
+        <whoisServer host="whois.nic.physio">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-06-05T00:00:00+02:00</created>
         <changed>2015-03-12T00:00:00+01:00</changed>
         <registrationService>http://www.registry.physio</registrationService>
@@ -22688,6 +22762,7 @@
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="pink">
@@ -23444,7 +23519,6 @@
         </whoisServer>
         <created>2014-06-05T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="play">
@@ -23466,7 +23540,6 @@
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="plus">
@@ -23693,7 +23766,6 @@
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="prof">
@@ -23715,6 +23787,7 @@
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="property">
@@ -23730,6 +23803,9 @@
     </domain>
     <domain name="ps">
         <source>IANA</source>
+        <whoisServer host="whois.pnina.ps">
+            <source>MD_WHOIS</source>
+        </whoisServer>
         <created>2000-03-22T00:00:00+01:00</created>
         <changed>2013-02-15T00:00:00+01:00</changed>
         <registrationService>http://www.nic.ps</registrationService>
@@ -24090,6 +24166,7 @@
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="repair">
@@ -24111,7 +24188,6 @@
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="republican">
@@ -24177,7 +24253,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2014-01-20T00:00:00+01:00</changed>
@@ -24844,7 +24919,6 @@
         </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="rw">
@@ -25018,6 +25092,10 @@
     </domain>
     <domain name="saxo">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-01-15T00:00:00+01:00</created>
         <changed>2015-02-10T00:00:00+01:00</changed>
         <registrationService>http://www.saxobank.com/</registrationService>
@@ -25066,6 +25144,7 @@
         </whoisServer>
         <created>1997-05-09T00:00:00+02:00</created>
         <changed>2010-11-11T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.sc</registrationService>
         <state>ACTIVE</state>
         <countryCode>SC</countryCode>
         <domain name="com.sc">
@@ -25108,6 +25187,10 @@
     </domain>
     <domain name="schmidt">
         <source>IANA</source>
+        <whoisServer host="whois.nic.schmidt">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-06-19T00:00:00+02:00</created>
         <changed>2014-09-03T00:00:00+02:00</changed>
         <registrationService>http://nic.schmidt/</registrationService>
@@ -25170,6 +25253,10 @@
     </domain>
     <domain name="scor">
         <source>IANA</source>
+        <whoisServer host="whois.nic.scor">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-23T00:00:00+02:00</changed>
         <registrationService>http://scor.com/</registrationService>
@@ -25393,7 +25480,6 @@
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="sew">
@@ -25534,7 +25620,6 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="show">
@@ -25545,7 +25630,6 @@
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="shriram">
@@ -25583,6 +25667,7 @@
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="site">
@@ -25682,9 +25767,11 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.sm">
             <source>IANA</source>
+            <availablePattern>\QNo entries found\E</availablePattern>
         </whoisServer>
         <created>1995-08-16T00:00:00+02:00</created>
         <changed>2011-10-18T00:00:00+02:00</changed>
+        <registrationService>http://www.nic.sm</registrationService>
         <state>ACTIVE</state>
         <countryCode>SM</countryCode>
     </domain>
@@ -25971,6 +26058,10 @@
     </domain>
     <domain name="study">
         <source>IANA</source>
+        <whoisServer host="whois.nic.study">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-02-26T00:00:00+01:00</changed>
         <registrationService>https://www.open.edu.au/</registrationService>
@@ -25998,6 +26089,7 @@
         <created>1990-09-19T00:00:00+02:00</created>
         <changed>2013-10-08T00:00:00+02:00</changed>
         <state>ACTIVE</state>
+        <countryCode>RU</countryCode>
         <domain name="sochi.su">
             <source>PHOIS</source>
             <whoisServer host="whois.nic.ru">
@@ -26008,6 +26100,10 @@
     </domain>
     <domain name="sucks">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sucks">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-07-15T00:00:00+02:00</changed>
         <registrationService>http://www.voxpopregistry.com</registrationService>
@@ -26032,6 +26128,7 @@
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="support">
@@ -26042,6 +26139,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="surf">
@@ -26257,7 +26355,6 @@
         </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="tc">
@@ -26297,6 +26394,7 @@
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="tech">
@@ -26318,7 +26416,6 @@
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="tel">
@@ -26362,7 +26459,6 @@
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="tf">
@@ -26392,6 +26488,7 @@
         </whoisServer>
         <created>1996-09-05T00:00:00+02:00</created>
         <changed>2014-10-15T00:00:00+02:00</changed>
+        <registrationService>http://www.netmaster.tg/manager/</registrationService>
         <state>ACTIVE</state>
         <countryCode>TG</countryCode>
     </domain>
@@ -26460,7 +26557,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2015-05-22T00:00:00+02:00</changed>
@@ -26760,6 +26856,7 @@
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="tokyo">
@@ -26781,6 +26878,7 @@
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="top">
@@ -26857,6 +26955,7 @@
         <created>1997-05-09T00:00:00+02:00</created>
         <changed>2015-03-04T00:00:00+01:00</changed>
         <state>INACTIVE</state>
+        <countryCode>TL</countryCode>
     </domain>
     <domain name="tr">
         <source>XML</source>
@@ -26973,6 +27072,10 @@
     </domain>
     <domain name="trust">
         <source>IANA</source>
+        <whoisServer host="whois.nic.trust">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-11-26T00:00:00+01:00</created>
         <changed>2014-12-08T00:00:00+01:00</changed>
         <registrationService>https://nccgroupdomainservices.com</registrationService>
@@ -27540,6 +27643,7 @@
         <changed>2015-08-11T00:00:00+02:00</changed>
         <registrationService>http://www.nic.uk/</registrationService>
         <state>ACTIVE</state>
+        <countryCode>GB</countryCode>
         <domain name="ac.uk">
             <source>XML</source>
             <whoisServer host="whois.ja.net">
@@ -27640,7 +27744,6 @@
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="uno">
@@ -28367,7 +28470,7 @@
             <availablePattern>\Qno match for\E</availablePattern>
         </whoisServer>
         <created>1990-09-10T00:00:00+02:00</created>
-        <changed>2015-08-19T00:00:00+02:00</changed>
+        <changed>2015-08-24T00:00:00+02:00</changed>
         <registrationService>http://www.nic.org.uy/</registrationService>
         <state>ACTIVE</state>
         <countryCode>UY</countryCode>
@@ -28429,6 +28532,7 @@
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="vc">
@@ -28701,7 +28805,6 @@
         </whoisServer>
         <created>2015-07-23T00:00:00+02:00</created>
         <changed>2015-08-05T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="vision">
@@ -28717,6 +28820,10 @@
     </domain>
     <domain name="vista">
         <source>IANA</source>
+        <whoisServer host="whois.nic.vista">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-06-04T00:00:00+02:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>http://www.vistaprint.com/</registrationService>
@@ -28833,7 +28940,6 @@
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="vu">
@@ -28873,6 +28979,10 @@
     </domain>
     <domain name="walter">
         <source>IANA</source>
+        <whoisServer host="whois.nic.walter">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2015-06-09T00:00:00+02:00</changed>
         <registrationService>http://www.walter-tools.com</registrationService>
@@ -28897,7 +29007,6 @@
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
-        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="webcam">
@@ -29132,6 +29241,7 @@
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="xbox">
@@ -29404,8 +29514,13 @@
     </domain>
     <domain name="zm">
         <source>IANA</source>
+        <whoisServer host="whois.nic.zm">
+            <source>IANA</source>
+            <availablePattern>\QDomain Status: No Object Found\E</availablePattern>
+        </whoisServer>
         <created>1994-03-25T00:00:00+01:00</created>
         <changed>2014-04-04T00:00:00+02:00</changed>
+        <registrationService>https://registry.zicta.zm</registrationService>
         <state>ACTIVE</state>
         <countryCode>ZM</countryCode>
     </domain>
@@ -29782,6 +29897,10 @@
     </domain>
     <domain name="شبكة">
         <source>IANA</source>
+        <whoisServer host="whois.nic.xn--ngbc5azd">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2013-10-21T00:00:00+02:00</created>
         <changed>2013-11-06T00:00:00+01:00</changed>
         <registrationService>http://www.dotshabaka.com</registrationService>
@@ -29806,6 +29925,9 @@
     </domain>
     <domain name="فلسطين">
         <source>IANA</source>
+        <whoisServer host="whois.pnina.ps">
+            <source>IANA</source>
+        </whoisServer>
         <created>2010-08-20T00:00:00+02:00</created>
         <changed>2010-08-31T00:00:00+02:00</changed>
         <registrationService>http://www.pnina.ps</registrationService>
@@ -29841,9 +29963,14 @@
     </domain>
     <domain name="مليسيا">
         <source>IANA</source>
+        <whoisServer host="whois.domainregistry.my">
+            <source>WHOIS_RB</source>
+        </whoisServer>
+        <whoisServer host="whois.mynic.my">
+            <source>IANA</source>
+        </whoisServer>
         <created>2011-10-22T00:00:00+02:00</created>
         <changed>2015-08-19T00:00:00+02:00</changed>
-        <registrationService>http://www.mynic.my</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="موقع">
@@ -30116,7 +30243,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-23T00:00:00+02:00</changed>
@@ -30137,6 +30263,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ngtld.cn">
             <source>IANA</source>
+            <availablePattern>\QNo match\E</availablePattern>
         </whoisServer>
         <created>2014-07-17T00:00:00+02:00</created>
         <changed>2014-08-14T00:00:00+02:00</changed>
@@ -30272,6 +30399,7 @@
         </whoisServer>
         <created>2014-07-17T00:00:00+02:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
+        <registrationService>http://www.donuts.domains/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="工行">
@@ -30337,6 +30465,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2013-12-17T00:00:00+01:00</changed>
+        <registrationService>http://www.conac.cn</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="政府">
@@ -30362,7 +30491,13 @@
     </domain>
     <domain name="新闻">
         <source>IANA</source>
+        <whoisServer host="whois.nic.xn--efvy88h">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2015-08-06T00:00:00+02:00</created>
+        <changed>2015-08-24T00:00:00+02:00</changed>
+        <registrationService>http://www.gd.xinhua.org</registrationService>
         <state>NEW</state>
     </domain>
     <domain name="时尚">
