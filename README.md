@@ -14,6 +14,8 @@ Sources are:
 
 You can find the latest list online at http://whois-server-list.github.io/whois-server-list/2/whois-server-list.xml
 
+We do also provide an online <a href="https://alpha.domaininformation.de/">Domain API</a> which uses this list.
+
 # License and author
 
 Markus Malkusch <markus@malkusch.de> is the author of this project. This project is free and under the WTFPL.
