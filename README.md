@@ -14,7 +14,7 @@ Sources are:
 
 You can find the latest list online at http://whois-server-list.github.io/whois-server-list/2/whois-server-list.xml
 
-We do also provide an online <a href="https://alpha.domaininformation.de/">Domain API</a> which uses this list.
+We do also provide an online <a href="https://market.mashape.com/malkusch/whois">Whois API</a> which uses this list.
 
 # License and author
 
