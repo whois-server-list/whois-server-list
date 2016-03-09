@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.0.4">
-    <date>2016-03-09T08:07:12.728+01:00</date>
+<domainList version="2.0.5">
+    <date>2016-03-09T08:45:12.728+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -10228,10 +10228,6 @@
         </domain>
         <domain name="ac.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="achi.nagano.jp">
             <source>PSL</source>
@@ -10871,10 +10867,6 @@
         </domain>
         <domain name="go.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="gobo.wakayama.jp">
             <source>PSL</source>
@@ -13200,10 +13192,6 @@
         </domain>
         <domain name="ne.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="nemuro.hokkaido.jp">
             <source>PSL</source>
@@ -13645,10 +13633,6 @@
         </domain>
         <domain name="or.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="ora.gunma.jp">
             <source>PSL</source>
