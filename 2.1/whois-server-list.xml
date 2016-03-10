@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.1">
-    <date>2016-03-10T12:39:55.302+01:00</date>
+<domainList version="2.1.2">
+    <date>2016-03-10T14:39:55.302+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -1203,6 +1203,7 @@
             <whoisServer host="whois.aunic.net">
                 <source>PHOIS</source>
                 <availablePattern>\QNo Data Found\E</availablePattern>
+		<errorPattern>You have exceeded</errorPattern>
             </whoisServer>
         </domain>
         <domain name="conf.au">
@@ -9369,7 +9370,7 @@
         <source>IANA</source>
         <whoisServer host="whois.cmc.iq">
             <source>IANA</source>
-            <availablePattern>\Qnot registered\E</availablePattern>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-05-09T00:00:00+02:00</created>
         <changed>2015-02-05T00:00:00+01:00</changed>
@@ -24963,6 +24964,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
+		<errorPattern>\Qprevious request is being processed for\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="mragowo.pl">
@@ -30238,7 +30240,7 @@
             <source>XML</source>
             <whoisServer host="whois.ja.net">
                 <source>MD_WHOIS</source>
-                <availablePattern>\QSorry - no\E</availablePattern>
+                <availablePattern>\Qno such domain\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="bl.uk">
@@ -30261,6 +30263,7 @@
             <source>PSL</source>
             <whoisServer host="whois.ja.net">
                 <source>MD_WHOIS</source>
+		<availablePattern>\QNo such domain\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="icnet.uk">
@@ -32678,7 +32681,7 @@
         <source>IANA</source>
         <whoisServer host="whois.cmc.iq">
             <source>IANA</source>
-            <availablePattern>\Qnot registered\E</availablePattern>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>2014-09-29T00:00:00+02:00</created>
         <changed>2015-11-03T00:00:00+01:00</changed>
