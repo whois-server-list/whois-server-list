@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.0">
-    <date>2016-03-10T10:56:55.302+01:00</date>
+<domainList version="2.1.1">
+    <date>2016-03-10T12:39:55.302+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -23762,6 +23762,7 @@
         <whoisServer host="whois.publicinterestregistry.net">
             <source>XML</source>
             <availablePattern>\QNOT FOUND\E</availablePattern>
+	    <errorPattern>\QLIMIT EXCEEDED\E</errorPattern>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-09-30T00:00:00+02:00</changed>
