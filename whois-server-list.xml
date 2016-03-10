@@ -9370,7 +9370,7 @@
         <source>IANA</source>
         <whoisServer host="whois.cmc.iq">
             <source>IANA</source>
-            <availablePattern>\Qnot registered\E</availablePattern>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-05-09T00:00:00+02:00</created>
         <changed>2015-02-05T00:00:00+01:00</changed>
@@ -32681,7 +32681,7 @@
         <source>IANA</source>
         <whoisServer host="whois.cmc.iq">
             <source>IANA</source>
-            <availablePattern>\Qnot registered\E</availablePattern>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>2014-09-29T00:00:00+02:00</created>
         <changed>2015-11-03T00:00:00+01:00</changed>
