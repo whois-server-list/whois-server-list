@@ -1203,6 +1203,7 @@
             <whoisServer host="whois.aunic.net">
                 <source>PHOIS</source>
                 <availablePattern>\QNo Data Found\E</availablePattern>
+		<errorPattern>You have exceeded</errorPattern>
             </whoisServer>
         </domain>
         <domain name="conf.au">
