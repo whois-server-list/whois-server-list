@@ -30239,7 +30239,7 @@
             <source>XML</source>
             <whoisServer host="whois.ja.net">
                 <source>MD_WHOIS</source>
-                <availablePattern>\QSorry - no\E</availablePattern>
+                <availablePattern>\Qno such domain\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="bl.uk">
@@ -30262,6 +30262,7 @@
             <source>PSL</source>
             <whoisServer host="whois.ja.net">
                 <source>MD_WHOIS</source>
+		<availablePattern>\QNo such domain\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="icnet.uk">
