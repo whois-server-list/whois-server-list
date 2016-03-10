@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.1">
-    <date>2016-03-10T12:39:55.302+01:00</date>
+<domainList version="2.1.2">
+    <date>2016-03-10T14:39:55.302+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -24963,6 +24963,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
+		<errorPattern>\Qprevious request is being processed for\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="mragowo.pl">
