@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.2">
-    <date>2016-03-10T14:39:55.302+01:00</date>
+<domainList version="2.1.3">
+    <date>2016-03-11T01:25:42.230+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -72,6 +72,7 @@
         </whoisServer>
         <created>1997-12-19T00:00:00+01:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.ac/</registrationService>
         <state>ACTIVE</state>
         <countryCode>SH</countryCode>
         <domain name="ac.ac">
@@ -125,6 +126,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -151,6 +153,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -182,6 +185,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-20T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -193,7 +197,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1996-01-09T00:00:00+01:00</created>
         <changed>2015-09-13T00:00:00+02:00</changed>
@@ -212,6 +216,7 @@
         </whoisServer>
         <created>2015-11-20T00:00:00+01:00</created>
         <changed>2016-01-26T00:00:00+01:00</changed>
+        <registrationService>https://www.adac.de/tldadac/nic/default.aspx</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ads">
@@ -575,7 +580,6 @@
         </whoisServer>
         <created>1997-10-16T00:00:00+02:00</created>
         <changed>2013-09-30T00:00:00+02:00</changed>
-        <registrationService>http://www.nic.af</registrationService>
         <state>ACTIVE</state>
         <countryCode>AF</countryCode>
         <domain name="com.af">
@@ -599,6 +603,10 @@
     </domain>
     <domain name="afl">
         <source>IANA</source>
+        <whoisServer host="whois.nic.afl">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-10-24T00:00:00+02:00</changed>
         <registrationService>http://nic.afl</registrationService>
@@ -644,6 +652,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -656,6 +665,7 @@
         </whoisServer>
         <created>1995-02-16T00:00:00+01:00</created>
         <changed>2012-05-02T00:00:00+02:00</changed>
+        <registrationService>http://whois.ai</registrationService>
         <state>ACTIVE</state>
         <countryCode>AI</countryCode>
         <domain name="com.ai">
@@ -688,6 +698,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -793,6 +804,7 @@
         <source>XML</source>
         <whoisServer host="whois.amnic.net">
             <source>XML</source>
+            <availablePattern>\Qno match\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.am">
             <source>XML</source>
@@ -913,6 +925,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-02-05T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -933,6 +946,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-02T00:00:00+02:00</created>
         <changed>2015-11-04T00:00:00+01:00</changed>
@@ -1003,6 +1017,9 @@
     </domain>
     <domain name="archi">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2014-03-20T00:00:00+01:00</created>
         <changed>2016-01-30T00:00:00+01:00</changed>
         <registrationService>https://www.startingdot.com/</registrationService>
@@ -1094,6 +1111,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -1161,6 +1179,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -1203,7 +1222,7 @@
             <whoisServer host="whois.aunic.net">
                 <source>PHOIS</source>
                 <availablePattern>\QNo Data Found\E</availablePattern>
-		<errorPattern>You have exceeded</errorPattern>
+                <errorPattern>You have exceeded</errorPattern>
             </whoisServer>
         </domain>
         <domain name="conf.au">
@@ -1311,6 +1330,7 @@
         </whoisServer>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -1321,6 +1341,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-11-12T00:00:00+01:00</created>
         <changed>2015-11-25T00:00:00+01:00</changed>
@@ -1369,7 +1390,6 @@
         </whoisServer>
         <whoisServer host="whois.afilias.net">
             <source>WHOIS_RB</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-05-01T00:00:00+02:00</created>
         <changed>2015-03-13T00:00:00+01:00</changed>
@@ -1380,7 +1400,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2016-02-26T00:00:00+01:00</created>
         <changed>2016-03-09T00:00:00+01:00</changed>
@@ -1538,6 +1557,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-10-01T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -1552,6 +1572,7 @@
         </whoisServer>
         <created>2014-11-26T00:00:00+01:00</created>
         <changed>2016-02-22T00:00:00+01:00</changed>
+        <registrationService>https://www.ftld.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="bar">
@@ -1578,6 +1599,10 @@
     </domain>
     <domain name="barclaycard">
         <source>IANA</source>
+        <whoisServer host="whois.nic.barclaycard">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-01-08T00:00:00+01:00</created>
         <changed>2015-01-25T00:00:00+01:00</changed>
         <registrationService>http://www.home.barclaycard/</registrationService>
@@ -1585,6 +1610,10 @@
     </domain>
     <domain name="barclays">
         <source>IANA</source>
+        <whoisServer host="whois.nic.barclays">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-01-08T00:00:00+01:00</created>
         <changed>2015-01-25T00:00:00+01:00</changed>
         <registrationService>https://www.home.barclays/</registrationService>
@@ -1597,6 +1626,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -1745,6 +1775,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-08-13T00:00:00+02:00</created>
         <changed>2015-11-03T00:00:00+01:00</changed>
@@ -2020,6 +2051,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -2044,6 +2076,9 @@
     </domain>
     <domain name="bio">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2014-05-15T00:00:00+02:00</created>
         <changed>2016-01-30T00:00:00+01:00</changed>
         <registrationService>https://www.startingdot.com/</registrationService>
@@ -2225,12 +2260,14 @@
         </whoisServer>
         <created>2015-06-11T00:00:00+02:00</created>
         <changed>2015-06-27T00:00:00+02:00</changed>
+        <registrationService>https://bnl.it/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="bnpparibas">
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2014-07-31T00:00:00+02:00</created>
         <changed>2014-08-14T00:00:00+02:00</changed>
@@ -2279,6 +2316,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-02-13T00:00:00+01:00</created>
         <changed>2015-03-13T00:00:00+01:00</changed>
@@ -2289,6 +2327,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-11-06T00:00:00+01:00</created>
         <changed>2015-11-25T00:00:00+01:00</changed>
@@ -2309,6 +2348,10 @@
     </domain>
     <domain name="bond">
         <source>PSL</source>
+        <whoisServer host="whois.nic.bond">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2014-10-30T00:00:00+01:00</created>
         <changed>2015-10-24T00:00:00+02:00</changed>
         <registrationService>http://nic.bond</registrationService>
@@ -2337,6 +2380,10 @@
     </domain>
     <domain name="boots">
         <source>IANA</source>
+        <whoisServer host="whois.nic.boots">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-06-18T00:00:00+02:00</created>
         <changed>2015-08-05T00:00:00+02:00</changed>
         <registrationService>http://www.boots.com</registrationService>
@@ -2373,6 +2420,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -2790,6 +2838,10 @@
     </domain>
     <domain name="bridgestone">
         <source>IANA</source>
+        <whoisServer host="whois.nic.bridgestone">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-04-16T00:00:00+02:00</created>
         <changed>2015-10-10T00:00:00+02:00</changed>
         <registrationService>http://www.bridgestone.com/</registrationService>
@@ -2908,6 +2960,10 @@
     </domain>
     <domain name="build">
         <source>IANA</source>
+        <whoisServer host="whois.nic.build">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2014-02-09T00:00:00+01:00</changed>
         <registrationService>http://about.build/</registrationService>
@@ -2917,6 +2973,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -2926,6 +2983,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-08-18T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -2968,6 +3026,7 @@
         </whoisServer>
         <created>1993-03-19T00:00:00+01:00</created>
         <changed>2015-12-03T00:00:00+01:00</changed>
+        <registrationService>https://registry.nic.net.bw</registrationService>
         <state>ACTIVE</state>
         <countryCode>BW</countryCode>
         <domain name="co.bw">
@@ -2985,7 +3044,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1994-05-10T00:00:00+02:00</created>
         <changed>2016-03-01T00:00:00+01:00</changed>
@@ -3020,6 +3079,7 @@
         </whoisServer>
         <created>1991-09-03T00:00:00+02:00</created>
         <changed>2010-10-18T00:00:00+02:00</changed>
+        <registrationService>http://www.belizenic.bz</registrationService>
         <state>ACTIVE</state>
         <countryCode>BZ</countryCode>
         <domain name="com.bz">
@@ -3065,6 +3125,7 @@
         </whoisServer>
         <created>1987-05-14T00:00:00+02:00</created>
         <changed>2016-02-27T00:00:00+01:00</changed>
+        <registrationService>http://www.cira.ca/</registrationService>
         <state>ACTIVE</state>
         <countryCode>CA</countryCode>
         <domain name="ab.ca">
@@ -3126,6 +3187,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3135,6 +3197,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3165,6 +3228,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3174,6 +3238,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3181,6 +3246,10 @@
     </domain>
     <domain name="cancerresearch">
         <source>IANA</source>
+        <whoisServer host="whois.nic.cancerresearch">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-06-19T00:00:00+02:00</created>
         <changed>2014-07-03T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -3242,6 +3311,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3251,6 +3321,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3270,6 +3341,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3314,6 +3386,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3323,6 +3396,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3343,6 +3417,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3350,6 +3425,10 @@
     </domain>
     <domain name="cba">
         <source>IANA</source>
+        <whoisServer host="whois.nic.cba">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-26T00:00:00+01:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>https://www.commbank.com.au/</registrationService>
@@ -3424,6 +3503,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3444,6 +3524,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2014-08-13T00:00:00+02:00</created>
         <changed>2016-02-10T00:00:00+01:00</changed>
@@ -3500,7 +3581,7 @@
         <whoisServer host="whois.nic.ch">
             <source>XML</source>
             <availablePattern>\Qnot have an entry\E</availablePattern>
-	    <errorPattern>\QYou have exceeded this limit\E</errorPattern>
+            <errorPattern>\QYou have exceeded this limit\E</errorPattern>
         </whoisServer>
         <created>1987-05-20T00:00:00+02:00</created>
         <changed>2015-12-15T00:00:00+01:00</changed>
@@ -3544,6 +3625,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3598,6 +3680,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3660,6 +3743,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-30T00:00:00+02:00</created>
         <changed>2015-10-09T00:00:00+02:00</changed>
@@ -3698,6 +3782,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-07-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3752,6 +3837,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-01T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3761,6 +3847,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3781,6 +3868,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-11T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3790,16 +3878,17 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-12-10T00:00:00+01:00</created>
         <changed>2015-12-28T00:00:00+01:00</changed>
+        <registrationService>http://elcompanies.com/Pages/Homepage.aspx</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="clothing">
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -3807,6 +3896,10 @@
     </domain>
     <domain name="cloud">
         <source>IANA</source>
+        <whoisServer host="whois.nic.cloud">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-06-18T00:00:00+02:00</created>
         <changed>2015-09-12T00:00:00+02:00</changed>
         <registrationService>https://www.get.cloud/home.aspx</registrationService>
@@ -4163,7 +4256,8 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>1991-12-24T00:00:00+01:00</created>
-        <changed>2015-10-13T00:00:00+02:00</changed>
+        <changed>2016-03-10T00:00:00+01:00</changed>
+        <registrationService>http://www.cointernet.com.co</registrationService>
         <state>ACTIVE</state>
         <countryCode>CO</countryCode>
         <domain name="arts.co">
@@ -4232,6 +4326,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -4241,6 +4336,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5167,6 +5263,10 @@
     </domain>
     <domain name="commbank">
         <source>IANA</source>
+        <whoisServer host="whois.nic.commbank">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-26T00:00:00+01:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>https://www.commbank.com.au/</registrationService>
@@ -5176,6 +5276,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-23T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5185,6 +5286,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5192,6 +5294,10 @@
     </domain>
     <domain name="compare">
         <source>IANA</source>
+        <whoisServer host="whois.nic.compare">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-12-23T00:00:00+01:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
         <registrationService>http://www.iselect.com.au/</registrationService>
@@ -5201,6 +5307,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5220,6 +5327,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5229,6 +5337,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5260,6 +5369,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5282,6 +5392,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5329,6 +5440,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5336,6 +5448,10 @@
     </domain>
     <domain name="courses">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-10-23T00:00:00+02:00</changed>
         <registrationService>https://www.open.edu.au/</registrationService>
@@ -5378,6 +5494,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5387,6 +5504,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5430,6 +5548,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5474,6 +5593,10 @@
     </domain>
     <domain name="cuisinella">
         <source>IANA</source>
+        <whoisServer host="whois.nic.cuisinella">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-06-19T00:00:00+02:00</created>
         <changed>2015-10-14T00:00:00+02:00</changed>
         <registrationService>http://nic.cuisinella/</registrationService>
@@ -5622,6 +5745,7 @@
         </whoisServer>
         <created>2015-01-15T00:00:00+01:00</created>
         <changed>2015-01-25T00:00:00+01:00</changed>
+        <registrationService>http://www.dabur.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="dad">
@@ -5639,6 +5763,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -5660,6 +5785,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-23T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5752,12 +5878,14 @@
         <source>IANA</source>
         <created>2015-11-25T00:00:00+01:00</created>
         <changed>2015-12-24T00:00:00+01:00</changed>
+        <registrationService>http://www.dealer.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="deals">
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-07-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5767,6 +5895,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -5777,6 +5906,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-10-16T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5808,6 +5938,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -5818,6 +5949,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5827,6 +5959,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -5872,6 +6005,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5892,6 +6026,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5901,6 +6036,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5910,6 +6046,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5919,6 +6056,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -5934,6 +6072,7 @@
         <source>IANA</source>
         <created>1996-05-22T00:00:00+02:00</created>
         <changed>2010-03-08T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.dj</registrationService>
         <state>ACTIVE</state>
         <countryCode>DJ</countryCode>
     </domain>
@@ -6042,6 +6181,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-16T00:00:00+02:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
@@ -6049,15 +6189,19 @@
     </domain>
     <domain name="doha">
         <source>IANA</source>
+        <whoisServer host="whois.nic.doha">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-02-27T00:00:00+01:00</created>
         <changed>2015-03-25T00:00:00+01:00</changed>
-        <registrationService>http://www.ictqatar.qa/ar</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="domains">
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6140,6 +6284,9 @@
     </domain>
     <domain name="dvag">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
         <registrationService>http://www.dvag-registry.de</registrationService>
@@ -6307,6 +6454,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6409,6 +6557,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6432,6 +6581,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-10-16T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6452,6 +6602,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6461,6 +6612,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6471,6 +6623,10 @@
     </domain>
     <domain name="epson">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2016-02-14T00:00:00+01:00</changed>
         <registrationService>http://www.epson.com</registrationService>
@@ -6480,6 +6636,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6550,6 +6707,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-30T00:00:00+02:00</changed>
@@ -6631,6 +6789,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6650,6 +6809,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6659,6 +6819,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6668,6 +6829,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6677,6 +6839,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6689,6 +6852,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-06-25T00:00:00+02:00</created>
         <changed>2015-08-10T00:00:00+02:00</changed>
@@ -6699,6 +6863,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6730,6 +6895,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-08-06T00:00:00+02:00</created>
         <changed>2015-08-11T00:00:00+02:00</changed>
@@ -6762,6 +6928,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6852,8 +7019,13 @@
     </domain>
     <domain name="film">
         <source>IANA</source>
+        <whoisServer host="whois.nic.film">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2015-02-27T00:00:00+01:00</created>
         <changed>2015-08-13T00:00:00+02:00</changed>
+        <registrationService>http://go.film/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="final">
@@ -6869,6 +7041,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6878,6 +7051,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6888,6 +7062,10 @@
     </domain>
     <domain name="firestone">
         <source>IANA</source>
+        <whoisServer host="whois.nic.firestone">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-10-29T00:00:00+01:00</created>
         <changed>2015-12-07T00:00:00+01:00</changed>
         <registrationService>http://www.firestone.com/</registrationService>
@@ -6907,6 +7085,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6937,6 +7116,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-11T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6973,6 +7153,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -6985,6 +7166,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7003,6 +7185,9 @@
     </domain>
     <domain name="flsmidth">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2014-09-25T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
         <registrationService>https://www.ksregistry.com/</registrationService>
@@ -7027,6 +7212,7 @@
         </whoisServer>
         <created>1995-04-19T00:00:00+02:00</created>
         <changed>2013-05-16T00:00:00+02:00</changed>
+        <registrationService>http://www.dot.fm/</registrationService>
         <state>ACTIVE</state>
         <countryCode>FM</countryCode>
     </domain>
@@ -7039,7 +7225,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1993-05-14T00:00:00+02:00</created>
         <changed>2013-04-17T00:00:00+02:00</changed>
@@ -7065,6 +7251,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7092,6 +7279,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-09-24T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -7113,6 +7301,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7260,6 +7449,9 @@
     </domain>
     <domain name="fresenius">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2015-12-17T00:00:00+01:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
         <registrationService>http://www.freseniusregistry.com</registrationService>
@@ -7309,6 +7501,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7318,6 +7511,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7338,6 +7532,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
@@ -7369,6 +7564,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7489,6 +7685,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-09T00:00:00+02:00</created>
         <changed>2015-08-28T00:00:00+02:00</changed>
@@ -7635,6 +7832,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-07-31T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7653,6 +7851,10 @@
     </domain>
     <domain name="giving">
         <source>IANA</source>
+        <whoisServer host="whois.nic.giving">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-06-11T00:00:00+02:00</created>
         <changed>2015-08-12T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -7691,6 +7893,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7715,6 +7918,7 @@
         </whoisServer>
         <whoisServer host="whois.nic.global">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2014-05-29T00:00:00+02:00</created>
         <changed>2015-02-08T00:00:00+01:00</changed>
@@ -7751,7 +7955,12 @@
     </domain>
     <domain name="gmbh">
         <source>IANA</source>
+        <whoisServer host="whois.donuts.co">
+            <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
+        </whoisServer>
         <created>2016-03-03T00:00:00+01:00</created>
+        <changed>2016-03-10T00:00:00+01:00</changed>
         <state>NEW</state>
     </domain>
     <domain name="gmo">
@@ -7805,6 +8014,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7948,7 +8158,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1989-02-19T00:00:00+01:00</created>
         <changed>2014-07-11T00:00:00+02:00</changed>
@@ -7985,6 +8195,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -7994,6 +8205,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8014,6 +8226,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8023,6 +8236,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-30T00:00:00+02:00</created>
         <changed>2015-09-23T00:00:00+02:00</changed>
@@ -8104,6 +8318,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8124,6 +8339,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8257,6 +8473,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-10-30T00:00:00+01:00</created>
         <changed>2015-01-27T00:00:00+01:00</changed>
@@ -8415,6 +8632,10 @@
     </domain>
     <domain name="hm">
         <source>IANA</source>
+        <whoisServer host="whois.registry.hm">
+            <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
+        </whoisServer>
         <created>1997-07-24T00:00:00+02:00</created>
         <changed>2015-07-24T00:00:00+02:00</changed>
         <registrationService>http://www.registry.hm</registrationService>
@@ -8429,7 +8650,6 @@
         </whoisServer>
         <whoisServer host="whois2.afilias-grs.net">
             <source>XML</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>1993-04-16T00:00:00+02:00</created>
         <changed>2013-06-19T00:00:00+02:00</changed>
@@ -8458,6 +8678,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8467,6 +8688,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8579,6 +8801,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -8811,12 +9034,21 @@
     </domain>
     <domain name="hyundai">
         <source>IANA</source>
+        <whoisServer host="whois.nic.hyundai">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-09-17T00:00:00+02:00</created>
         <changed>2015-09-26T00:00:00+02:00</changed>
+        <registrationService>http://worldwide.hyundai.com/WW/closecountry/index.html?country=DE</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ibm">
         <source>IANA</source>
+        <whoisServer host="whois.nic.ibm">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-09-25T00:00:00+02:00</created>
         <changed>2014-10-01T00:00:00+02:00</changed>
         <registrationService>http://www.ibm.com</registrationService>
@@ -8843,6 +9075,10 @@
     </domain>
     <domain name="icu">
         <source>IANA</source>
+        <whoisServer host="whois.nic.icu">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
         <changed>2015-05-02T00:00:00+02:00</changed>
         <registrationService>http://nic.one/</registrationService>
@@ -8911,6 +9147,7 @@
         </whoisServer>
         <created>1988-01-27T00:00:00+01:00</created>
         <changed>2014-12-15T00:00:00+01:00</changed>
+        <registrationService>https://www.iedr.ie/</registrationService>
         <state>ACTIVE</state>
         <countryCode>IE</countryCode>
         <domain name="blogspot.ie">
@@ -8936,6 +9173,10 @@
     </domain>
     <domain name="iinet">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2014-08-18T00:00:00+02:00</created>
         <changed>2015-07-09T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -8948,10 +9189,11 @@
         <whoisServer host="whois.isoc.org.il">
             <source>XML</source>
             <availablePattern>\Qno data was found\E</availablePattern>
-	    <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+            <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
         </whoisServer>
         <created>1985-10-24T00:00:00+01:00</created>
         <changed>2014-12-17T00:00:00+01:00</changed>
+        <registrationService>http://en.isoc.org.il/domains/</registrationService>
         <state>ACTIVE</state>
         <countryCode>IL</countryCode>
         <domain name="ac.il">
@@ -8959,7 +9201,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="blogspot.co.il">
@@ -8970,7 +9212,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="gov.il">
@@ -8978,7 +9220,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="idf.il">
@@ -8989,7 +9231,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="muni.il">
@@ -8997,7 +9239,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="net.il">
@@ -9005,7 +9247,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="org.il">
@@ -9013,7 +9255,7 @@
             <whoisServer host="whois.isoc.org.il">
                 <source>PHOIS</source>
                 <availablePattern>\QNo data was found\E</availablePattern>
-		<errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
+                <errorPattern>\QA C C E S S    D E N I E D\E</errorPattern>
             </whoisServer>
         </domain>
     </domain>
@@ -9076,6 +9318,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -9271,6 +9514,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -9284,12 +9528,14 @@
         </whoisServer>
         <created>2015-11-06T00:00:00+01:00</created>
         <changed>2016-02-21T00:00:00+01:00</changed>
+        <registrationService>https://www.ftld.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="insure">
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-24T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -9316,6 +9562,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -9328,6 +9575,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -9341,6 +9589,7 @@
         </whoisServer>
         <created>1997-09-16T00:00:00+02:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.io/</registrationService>
         <state>ACTIVE</state>
         <countryCode>IO</countryCode>
         <domain name="com.io">
@@ -9438,6 +9687,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-11-06T00:00:00+01:00</created>
         <changed>2015-12-23T00:00:00+01:00</changed>
@@ -9482,6 +9732,10 @@
     </domain>
     <domain name="iselect">
         <source>IANA</source>
+        <whoisServer host="whois.nic.iselect">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-11-20T00:00:00+01:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
         <registrationService>http://www.iselect.com.au/</registrationService>
@@ -9505,6 +9759,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-29T00:00:00+02:00</created>
         <changed>2015-11-24T00:00:00+01:00</changed>
@@ -10725,6 +10980,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -10744,6 +11000,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2015-05-23T00:00:00+02:00</changed>
@@ -10865,10 +11122,6 @@
         </domain>
         <domain name="ac.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="achi.nagano.jp">
             <source>PSL</source>
@@ -11265,6 +11518,10 @@
         </domain>
         <domain name="co.jp">
             <source>XML</source>
+            <whoisServer host="whois.nic.ad.jp">
+                <source>PHOIS</source>
+                <availablePattern>\QNo match!!\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="daigo.ibaraki.jp">
             <source>PSL</source>
@@ -11508,10 +11765,6 @@
         </domain>
         <domain name="go.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="gobo.wakayama.jp">
             <source>PSL</source>
@@ -13837,10 +14090,6 @@
         </domain>
         <domain name="ne.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="nemuro.hokkaido.jp">
             <source>PSL</source>
@@ -14282,10 +14531,6 @@
         </domain>
         <domain name="or.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="ora.gunma.jp">
             <source>PSL</source>
@@ -16402,6 +16647,10 @@
     </domain>
     <domain name="kia">
         <source>IANA</source>
+        <whoisServer host="whois.nic.kia">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-09-17T00:00:00+02:00</created>
         <changed>2015-09-26T00:00:00+02:00</changed>
         <registrationService>http://www.kia.com/de/</registrationService>
@@ -16432,6 +16681,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -16547,6 +16797,10 @@
     </domain>
     <domain name="komatsu">
         <source>IANA</source>
+        <whoisServer host="whois.nic.komatsu">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
         <changed>2016-02-14T00:00:00+01:00</changed>
         <registrationService>http://www.komatsu.com/</registrationService>
@@ -16593,6 +16847,7 @@
         <source>XML</source>
         <whoisServer host="whois.kr">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.or.kr">
             <source>XML</source>
@@ -16727,6 +16982,10 @@
     </domain>
     <domain name="krd">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-07-10T00:00:00+02:00</created>
         <changed>2015-10-08T00:00:00+02:00</changed>
         <registrationService>http://nic.krd</registrationService>
@@ -16975,6 +17234,10 @@
     </domain>
     <domain name="latrobe">
         <source>IANA</source>
+        <whoisServer host="whois.nic.latrobe">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-11-06T00:00:00+01:00</created>
         <changed>2015-10-24T00:00:00+02:00</changed>
         <registrationService>http://nic.latrobe</registrationService>
@@ -16995,6 +17258,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -17072,6 +17336,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17094,6 +17359,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17165,6 +17431,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17191,6 +17458,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17210,6 +17478,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17219,6 +17488,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17357,6 +17627,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17368,6 +17639,7 @@
     <domain name="locus">
         <source>IANA</source>
         <created>2016-02-26T00:00:00+01:00</created>
+        <changed>2016-03-10T00:00:00+01:00</changed>
         <state>NEW</state>
     </domain>
     <domain name="loft">
@@ -17392,6 +17664,7 @@
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-01-19T00:00:00+01:00</changed>
+        <registrationService>http://domains.london/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="lotte">
@@ -17482,7 +17755,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1992-06-03T00:00:00+02:00</created>
         <changed>2015-04-05T00:00:00+02:00</changed>
@@ -17500,6 +17773,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-08-06T00:00:00+02:00</created>
         <changed>2015-09-23T00:00:00+02:00</changed>
@@ -17557,9 +17831,12 @@
         <whoisServer host="whois.donuts.co">
             <source>PHOIS</source>
         </whoisServer>
+        <whoisServer host="whois.nic.luxury">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2014-02-20T00:00:00+01:00</changed>
-        <registrationService>http://www.dotluxury.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="lv">
@@ -17571,7 +17848,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1993-04-29T00:00:00+02:00</created>
         <changed>2014-04-10T00:00:00+02:00</changed>
@@ -17663,6 +17940,7 @@
         </whoisServer>
         <created>1993-11-26T00:00:00+01:00</created>
         <changed>2016-02-19T00:00:00+01:00</changed>
+        <registrationService>http://www.registre.ma</registrationService>
         <state>ACTIVE</state>
         <countryCode>MA</countryCode>
         <domain name="ac.ma">
@@ -17708,6 +17986,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17738,6 +18017,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17758,6 +18038,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-08-26T00:00:00+02:00</changed>
@@ -17768,6 +18049,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17787,6 +18069,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-12-18T00:00:00+01:00</created>
         <changed>2015-09-28T00:00:00+02:00</changed>
@@ -17806,6 +18089,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17823,7 +18107,7 @@
             <whoisServer host="whois.ripe.net">
                 <source>PHOIS</source>
                 <availablePattern>\Qno entries found\E</availablePattern>
-		<errorPattern>\Qaccess denied\E</errorPattern>
+                <errorPattern>\Qaccess denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tm.mc">
@@ -17831,7 +18115,7 @@
             <whoisServer host="whois.ripe.net">
                 <source>PHOIS</source>
                 <availablePattern>\Qno entries found\E</availablePattern>
-		<errorPattern>\Qaccess denied\E</errorPattern>
+                <errorPattern>\Qaccess denied\E</errorPattern>
             </whoisServer>
         </domain>
     </domain>
@@ -17912,6 +18196,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17929,6 +18214,10 @@
     </domain>
     <domain name="melbourne">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-07-03T00:00:00+02:00</created>
         <changed>2015-11-27T00:00:00+01:00</changed>
         <registrationService>http://nic.melbourne/</registrationService>
@@ -17949,6 +18238,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -17956,6 +18246,10 @@
     </domain>
     <domain name="men">
         <source>IANA</source>
+        <whoisServer host="whois.nic.men">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-05-08T00:00:00+02:00</created>
         <changed>2015-05-20T00:00:00+02:00</changed>
         <registrationService>https://www.famousfourmedia.com/</registrationService>
@@ -17963,6 +18257,10 @@
     </domain>
     <domain name="menu">
         <source>IANA</source>
+        <whoisServer host="whois.nic.menu">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2014-10-03T00:00:00+02:00</changed>
         <registrationService>http://www.dot-menu.com</registrationService>
@@ -18120,6 +18418,7 @@
         </whoisServer>
         <created>1993-09-29T00:00:00+01:00</created>
         <changed>2013-04-09T00:00:00+02:00</changed>
+        <registrationService>http://www.dot.ml</registrationService>
         <state>ACTIVE</state>
         <countryCode>ML</countryCode>
         <domain name="com.ml">
@@ -18214,6 +18513,7 @@
         </whoisServer>
         <created>1995-03-02T00:00:00+01:00</created>
         <changed>2012-11-01T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.mn</registrationService>
         <state>ACTIVE</state>
         <countryCode>MN</countryCode>
         <domain name="edu.mn">
@@ -18281,6 +18581,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -18318,6 +18619,10 @@
     </domain>
     <domain name="monash">
         <source>IANA</source>
+        <whoisServer host="whois.nic.monash">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2014-02-25T00:00:00+01:00</changed>
         <registrationService>http://nic.monash</registrationService>
@@ -18327,6 +18632,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -18359,6 +18665,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -18383,7 +18690,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-05-01T00:00:00+02:00</created>
         <changed>2015-03-13T00:00:00+01:00</changed>
@@ -18405,6 +18711,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -18418,6 +18725,7 @@
         </whoisServer>
         <created>2015-06-18T00:00:00+02:00</created>
         <changed>2015-06-27T00:00:00+02:00</changed>
+        <registrationService>https://www.telefonica.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="mp">
@@ -18508,8 +18816,13 @@
     </domain>
     <domain name="mtn">
         <source>IANA</source>
+        <whoisServer host="whois.nic.mtn">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-05-20T00:00:00+02:00</changed>
+        <registrationService>http://www.mtn.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="mtpc">
@@ -20367,6 +20680,13 @@
                 <availablePattern>\QObject_Not_Found\E</availablePattern>
             </whoisServer>
         </domain>
+        <domain name="gov.mx">
+            <source>PHOIS</source>
+            <whoisServer host="whois.nic.mx">
+                <source>PHOIS</source>
+                <availablePattern>\QObject_Not_Found\E</availablePattern>
+            </whoisServer>
+        </domain>
         <domain name="net.mx">
             <source>XML</source>
             <whoisServer host="whois.nic.mx">
@@ -20572,6 +20892,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-29T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -20827,6 +21148,10 @@
     </domain>
     <domain name="netbank">
         <source>IANA</source>
+        <whoisServer host="whois.nic.netbank">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-26T00:00:00+01:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>https://www.commbank.com.au/</registrationService>
@@ -20839,6 +21164,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-08-18T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -20869,6 +21195,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -20900,6 +21227,7 @@
         </whoisServer>
         <created>1996-03-18T00:00:00+01:00</created>
         <changed>2015-04-02T00:00:00+02:00</changed>
+        <registrationService>https://cocca.org.nz/</registrationService>
         <state>ACTIVE</state>
         <countryCode>NF</countryCode>
         <domain name="arts.nf">
@@ -21083,6 +21411,7 @@
         </whoisServer>
         <created>1987-03-17T00:00:00+01:00</created>
         <changed>2015-04-16T00:00:00+02:00</changed>
+        <registrationService>http://www.norid.no</registrationService>
         <state>ACTIVE</state>
         <countryCode>NO</countryCode>
         <domain name="aa.no">
@@ -23386,6 +23715,7 @@
         </whoisServer>
         <created>2015-11-25T00:00:00+01:00</created>
         <changed>2015-12-05T00:00:00+01:00</changed>
+        <registrationService>http://www.agitsys.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="nowtv">
@@ -23403,6 +23733,7 @@
         <source>IANA</source>
         <created>1998-03-30T00:00:00+02:00</created>
         <changed>2014-11-12T00:00:00+01:00</changed>
+        <registrationService>http://www.cenpac.net.nr</registrationService>
         <state>ACTIVE</state>
         <countryCode>NR</countryCode>
         <domain name="biz.nr">
@@ -23431,6 +23762,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2014-07-10T00:00:00+02:00</created>
         <changed>2014-07-18T00:00:00+02:00</changed>
@@ -23494,7 +23826,8 @@
         <source>XML</source>
         <whoisServer host="whois.srs.net.nz">
             <source>XML</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\Q220 Available\E</availablePattern>
+            <errorPattern>\Q440 Request Denied\E</errorPattern>
         </whoisServer>
         <created>1987-01-19T00:00:00+01:00</created>
         <changed>2015-02-24T00:00:00+01:00</changed>
@@ -23505,6 +23838,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="blogspot.co.nz">
@@ -23515,6 +23849,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="cri.nz">
@@ -23525,6 +23860,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="gen.nz">
@@ -23532,6 +23868,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="govt.nz">
@@ -23545,6 +23882,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="kiwi.nz">
@@ -23552,6 +23890,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="maori.nz">
@@ -23559,6 +23898,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="mil.nz">
@@ -23572,6 +23912,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="org.nz">
@@ -23579,6 +23920,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="parliament.nz">
@@ -23589,6 +23931,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
+		<errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
     </domain>
@@ -23685,8 +24028,13 @@
     </domain>
     <domain name="one">
         <source>IANA</source>
+        <whoisServer host="whois.nic.one">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-12-18T00:00:00+01:00</created>
         <changed>2015-01-22T00:00:00+01:00</changed>
+        <registrationService>https://www.one.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ong">
@@ -23704,6 +24052,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2013-12-28T00:00:00+01:00</changed>
@@ -23760,10 +24109,14 @@
     </domain>
     <domain name="org">
         <source>XML</source>
+        <whoisServer host="whois.pir.org">
+            <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
+        </whoisServer>
         <whoisServer host="whois.publicinterestregistry.net">
             <source>XML</source>
             <availablePattern>\QNOT FOUND\E</availablePattern>
-	    <errorPattern>\QLIMIT EXCEEDED\E</errorPattern>
+            <errorPattern>\QLIMIT EXCEEDED\E</errorPattern>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-09-30T00:00:00+02:00</changed>
@@ -24137,7 +24490,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>WHOIS_RB</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.afilias.net">
             <source>IANA</source>
@@ -24201,7 +24553,7 @@
     <domain name="pa">
         <source>IANA</source>
         <created>1994-05-25T00:00:00+02:00</created>
-        <changed>2014-11-19T00:00:00+01:00</changed>
+        <changed>2016-03-10T00:00:00+01:00</changed>
         <registrationService>http://www.nic.pa/</registrationService>
         <state>ACTIVE</state>
         <countryCode>PA</countryCode>
@@ -24274,6 +24626,7 @@
         </whoisServer>
         <created>2014-03-27T00:00:00+01:00</created>
         <changed>2015-05-13T00:00:00+02:00</changed>
+        <registrationService>http://bienvenue.paris/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="pars">
@@ -24284,12 +24637,14 @@
         </whoisServer>
         <created>2015-11-25T00:00:00+01:00</created>
         <changed>2015-12-07T00:00:00+01:00</changed>
+        <registrationService>http://www.agitsys.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="partners">
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -24299,6 +24654,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-30T00:00:00+02:00</changed>
@@ -24444,10 +24800,15 @@
         <source>IANA</source>
         <created>2014-08-28T00:00:00+02:00</created>
         <changed>2014-09-05T00:00:00+02:00</changed>
+        <registrationService>http://www.dotpharmacy.net</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="philips">
         <source>IANA</source>
+        <whoisServer host="whois.nic.philips">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-02-05T00:00:00+01:00</created>
         <changed>2015-10-08T00:00:00+02:00</changed>
         <registrationService>http://nic.philips</registrationService>
@@ -24468,6 +24829,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -24477,6 +24839,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -24484,6 +24847,10 @@
     </domain>
     <domain name="physio">
         <source>IANA</source>
+        <whoisServer host="whois.nic.physio">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-06-05T00:00:00+02:00</created>
         <changed>2015-03-12T00:00:00+01:00</changed>
         <registrationService>http://www.registry.physio</registrationService>
@@ -24517,6 +24884,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -24568,6 +24936,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-08-22T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -24628,7 +24997,7 @@
         <whoisServer host="whois.dns.pl">
             <source>XML</source>
             <availablePattern>\QNo information available\E</availablePattern>
-	    <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+            <errorPattern>\Qrequest limit exceeded\E</errorPattern>
         </whoisServer>
         <created>1990-07-30T00:00:00+02:00</created>
         <changed>2015-12-03T00:00:00+01:00</changed>
@@ -24643,7 +25012,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="aid.pl">
@@ -24651,7 +25020,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="ap.gov.pl">
@@ -24665,7 +25034,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="augustow.pl">
@@ -24676,7 +25045,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="babia-gora.pl">
@@ -24705,7 +25074,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="boleslawiec.pl">
@@ -24964,7 +25333,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qprevious request is being processed for\E</errorPattern>
+                <errorPattern>\Qprevious request is being processed for\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="mragowo.pl">
@@ -25133,7 +25502,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="rel.pl">
@@ -25141,7 +25510,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="rybnik.pl">
@@ -25173,7 +25542,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="siedlce.pl">
@@ -25184,7 +25553,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="sko.gov.pl">
@@ -25210,7 +25579,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="sosnowiec.pl">
@@ -25257,7 +25626,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tarnobrzeg.pl">
@@ -25271,7 +25640,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tourism.pl">
@@ -25279,7 +25648,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="travel.pl">
@@ -25287,7 +25656,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="turek.pl">
@@ -25298,7 +25667,7 @@
             <whoisServer host="whois.dns.pl">
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
-		<errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tychy.pl">
@@ -25429,6 +25798,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-06-05T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -25447,6 +25817,10 @@
     </domain>
     <domain name="playstation">
         <source>IANA</source>
+        <whoisServer host="whois.nic.playstation">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-09-24T00:00:00+02:00</created>
         <changed>2015-11-07T00:00:00+01:00</changed>
         <registrationService>https://www.playstation.com/de-de/</registrationService>
@@ -25456,6 +25830,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -25465,6 +25840,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -25712,7 +26088,6 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias.net">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-12-18T00:00:00+01:00</created>
         <changed>2016-01-01T00:00:00+01:00</changed>
@@ -25723,6 +26098,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -25801,7 +26177,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1988-06-30T00:00:00+02:00</created>
         <changed>2015-09-24T00:00:00+02:00</changed>
@@ -25982,10 +26358,15 @@
         </whoisServer>
         <created>2014-03-13T00:00:00+01:00</created>
         <changed>2015-09-12T00:00:00+02:00</changed>
+        <registrationService>http://registre.quebec/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="quest">
         <source>IANA</source>
+        <whoisServer host="whois.nic.quest">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-08-06T00:00:00+02:00</created>
         <changed>2016-02-06T00:00:00+01:00</changed>
         <registrationService>http://www.qigroup.com/</registrationService>
@@ -26067,6 +26448,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -26106,6 +26488,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-29T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -26127,6 +26510,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-30T00:00:00+02:00</changed>
@@ -26140,7 +26524,7 @@
         </whoisServer>
         <created>2014-10-23T00:00:00+02:00</created>
         <changed>2015-10-21T00:00:00+02:00</changed>
-        <registrationService>http://www.reit.com</registrationService>
+        <registrationService>https://www.reit.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="reliance">
@@ -26167,6 +26551,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -26176,6 +26561,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -26185,6 +26571,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -26194,6 +26581,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-29T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -26219,6 +26607,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-07-31T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -26239,6 +26628,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -26299,6 +26689,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-10-09T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -26408,6 +26799,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -26957,6 +27349,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27099,6 +27492,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-11-12T00:00:00+01:00</created>
         <changed>2015-12-07T00:00:00+01:00</changed>
@@ -27124,6 +27518,10 @@
     </domain>
     <domain name="sandvik">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sandvik">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2016-02-11T00:00:00+01:00</changed>
         <registrationService>http://nic.sandvik/en/</registrationService>
@@ -27131,6 +27529,10 @@
     </domain>
     <domain name="sandvikcoromant">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sandvikcoromant">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2016-02-11T00:00:00+01:00</changed>
         <registrationService>http://nic.sandvikcoromant</registrationService>
@@ -27185,6 +27587,10 @@
     </domain>
     <domain name="saxo">
         <source>IANA</source>
+        <whoisServer host="whois.aridnrs.net.au">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-01-15T00:00:00+01:00</created>
         <changed>2015-10-09T00:00:00+02:00</changed>
         <registrationService>http://nic.saxo</registrationService>
@@ -27202,6 +27608,7 @@
         </whoisServer>
         <created>1994-04-19T00:00:00+02:00</created>
         <changed>2013-08-30T00:00:00+02:00</changed>
+        <registrationService>http://www.nic.net.sb/</registrationService>
         <state>ACTIVE</state>
         <countryCode>SB</countryCode>
         <domain name="com.sb">
@@ -27299,6 +27706,10 @@
     </domain>
     <domain name="schmidt">
         <source>IANA</source>
+        <whoisServer host="whois.nic.schmidt">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-06-19T00:00:00+02:00</created>
         <changed>2015-10-14T00:00:00+02:00</changed>
         <registrationService>http://nic.schmidt/</registrationService>
@@ -27318,6 +27729,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27327,6 +27739,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-11T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27359,6 +27772,10 @@
     </domain>
     <domain name="scor">
         <source>IANA</source>
+        <whoisServer host="whois.nic.scor">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-23T00:00:00+02:00</changed>
         <registrationService>http://scor.com/</registrationService>
@@ -27580,6 +27997,10 @@
     </domain>
     <domain name="seek">
         <source>IANA</source>
+        <whoisServer host="whois.nic.seek">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-04-16T00:00:00+02:00</created>
         <changed>2015-10-24T00:00:00+02:00</changed>
         <registrationService>http://www.nic.seek/</registrationService>
@@ -27587,6 +28008,10 @@
     </domain>
     <domain name="select">
         <source>IANA</source>
+        <whoisServer host="whois.nic.select">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-12-23T00:00:00+01:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
         <registrationService>http://www.iselect.com.au/</registrationService>
@@ -27603,6 +28028,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27613,6 +28039,10 @@
     </domain>
     <domain name="seven">
         <source>IANA</source>
+        <whoisServer host="whois.nic.seven">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-09-23T00:00:00+02:00</created>
         <changed>2015-09-26T00:00:00+02:00</changed>
         <registrationService>http://nic.seven/</registrationService>
@@ -27622,6 +28052,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-11-06T00:00:00+01:00</created>
         <changed>2014-12-15T00:00:00+01:00</changed>
@@ -27632,6 +28063,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
         <changed>2015-04-18T00:00:00+02:00</changed>
@@ -27718,8 +28150,13 @@
     </domain>
     <domain name="sh">
         <source>XML</source>
+        <whoisServer host="whois.nic.sh">
+            <source>IANA</source>
+            <availablePattern>\Qis available for purchase\E</availablePattern>
+        </whoisServer>
         <created>1997-09-23T00:00:00+02:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.sh/</registrationService>
         <state>ACTIVE</state>
         <countryCode>SH</countryCode>
         <domain name="com.sh">
@@ -27774,6 +28211,7 @@
         </whoisServer>
         <created>2015-11-25T00:00:00+01:00</created>
         <changed>2015-12-05T00:00:00+01:00</changed>
+        <registrationService>http://www.agitsys.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="shiksha">
@@ -27791,6 +28229,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27803,6 +28242,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27851,6 +28291,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -27880,7 +28321,7 @@
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
-	    <errorPattern>\Qaccess denied\E</errorPattern>
+            <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <whoisServer host="whois.sk-nic.sk">
             <source>IANA</source>
@@ -28054,6 +28495,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28063,6 +28505,7 @@
         <source>IANA</source>
         <whoisServer host="whois.unitedtld.com">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -28084,6 +28527,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -28103,6 +28547,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28112,6 +28557,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28126,6 +28572,10 @@
     </domain>
     <domain name="sony">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sony">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
         <changed>2015-10-10T00:00:00+02:00</changed>
         <registrationService>http://www.sony.com</registrationService>
@@ -28155,6 +28605,9 @@
     </domain>
     <domain name="spiegel">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2014-06-19T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
         <registrationService>http://www.spiegelregistry.de</registrationService>
@@ -28190,6 +28643,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-09T00:00:00+02:00</created>
         <changed>2015-09-28T00:00:00+02:00</changed>
@@ -28279,8 +28733,13 @@
     </domain>
     <domain name="starhub">
         <source>IANA</source>
+        <whoisServer host="whois.nic.starhub">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-05-08T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
+        <registrationService>http://www.starhub.com/nic</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="statebank">
@@ -28343,6 +28802,7 @@
         </whoisServer>
         <created>2015-12-10T00:00:00+01:00</created>
         <changed>2015-12-18T00:00:00+01:00</changed>
+        <registrationService>http://www.extraspace.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="store">
@@ -28369,6 +28829,10 @@
     </domain>
     <domain name="study">
         <source>IANA</source>
+        <whoisServer host="whois.nic.study">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-10-06T00:00:00+02:00</changed>
         <registrationService>https://www.open.edu.au/</registrationService>
@@ -28378,6 +28842,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28500,6 +28965,10 @@
     </domain>
     <domain name="sucks">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sucks">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2015-07-15T00:00:00+02:00</changed>
         <registrationService>http://www.voxpopregistry.com</registrationService>
@@ -28512,6 +28981,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28521,6 +28991,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28530,6 +29001,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28550,6 +29022,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28633,7 +29106,6 @@
         </whoisServer>
         <created>1996-02-20T00:00:00+01:00</created>
         <changed>2015-05-22T00:00:00+02:00</changed>
-        <registrationService>http://tld.sy</registrationService>
         <state>ACTIVE</state>
         <countryCode>SY</countryCode>
         <domain name="com.sy">
@@ -28657,6 +29129,10 @@
     </domain>
     <domain name="sydney">
         <source>IANA</source>
+        <whoisServer host="whois.nic.sydney">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-10-30T00:00:00+01:00</created>
         <changed>2015-11-27T00:00:00+01:00</changed>
         <registrationService>http://www.ariservices.com/dotsydney</registrationService>
@@ -28677,6 +29153,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28701,6 +29178,10 @@
     </domain>
     <domain name="tab">
         <source>IANA</source>
+        <whoisServer host="whois.nic.tab">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-09-04T00:00:00+02:00</created>
         <changed>2015-11-24T00:00:00+01:00</changed>
         <registrationService>http://nic.tab</registrationService>
@@ -28764,6 +29245,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28773,6 +29255,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28782,6 +29265,7 @@
         <source>XML</source>
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.meridiantld.net">
             <source>IANA</source>
@@ -28825,6 +29309,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28845,6 +29330,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-08T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -28880,6 +29366,7 @@
         </whoisServer>
         <created>2015-06-18T00:00:00+02:00</created>
         <changed>2015-06-26T00:00:00+02:00</changed>
+        <registrationService>https://www.telefonica.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="temasek">
@@ -28896,6 +29383,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29009,6 +29497,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-30T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29046,6 +29535,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29073,6 +29563,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29082,6 +29573,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-12-11T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29188,8 +29680,13 @@
     </domain>
     <domain name="tm">
         <source>XML</source>
+        <whoisServer host="whois.nic.tm">
+            <source>IANA</source>
+            <availablePattern>\Qis available\E</availablePattern>
+        </whoisServer>
         <created>1997-05-30T00:00:00+02:00</created>
         <changed>2016-02-22T00:00:00+01:00</changed>
+        <registrationService>http://www.nic.tm/</registrationService>
         <state>ACTIVE</state>
         <countryCode>TM</countryCode>
         <domain name="co.tm">
@@ -29355,6 +29852,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29372,6 +29870,10 @@
     </domain>
     <domain name="toray">
         <source>IANA</source>
+        <whoisServer host="whois.nic.toray">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-04-16T00:00:00+02:00</created>
         <changed>2016-02-14T00:00:00+01:00</changed>
         <registrationService>http://www.toray.com</registrationService>
@@ -29402,6 +29904,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29411,6 +29914,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29431,6 +29935,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29581,6 +30086,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -29602,6 +30108,9 @@
     </domain>
     <domain name="travelers">
         <source>IANA</source>
+        <whoisServer host="whois.afilias-srs.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2015-11-25T00:00:00+01:00</created>
         <changed>2015-12-05T00:00:00+01:00</changed>
         <registrationService>https://www.travelers.com/</registrationService>
@@ -29619,6 +30128,10 @@
     </domain>
     <domain name="trust">
         <source>IANA</source>
+        <whoisServer host="whois.nic.trust">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-11-26T00:00:00+01:00</created>
         <changed>2014-12-08T00:00:00+01:00</changed>
         <registrationService>https://whodoyou.trust/</registrationService>
@@ -29764,6 +30277,7 @@
         <source>XML</source>
         <whoisServer host="whois.twnic.net.tw">
             <source>XML</source>
+            <availablePattern>\QNo Found\E</availablePattern>
         </whoisServer>
         <created>1989-07-31T00:00:00+02:00</created>
         <changed>2015-05-01T00:00:00+02:00</changed>
@@ -29827,10 +30341,6 @@
     </domain>
     <domain name="tz">
         <source>IANA</source>
-        <whoisServer host="whois.tznic.or.tz">
-            <source>IANA</source>
-            <availablePattern>\Qno entries found\E</availablePattern>
-        </whoisServer>
         <created>1995-07-14T00:00:00+02:00</created>
         <changed>2015-03-19T00:00:00+01:00</changed>
         <registrationService>https://tznic.or.tz/</registrationService>
@@ -30190,7 +30700,7 @@
         <source>XML</source>
         <whoisServer host="whois.co.ug">
             <source>XML</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\Qno entries found\E</availablePattern>
         </whoisServer>
         <created>1995-03-08T00:00:00+01:00</created>
         <changed>2012-10-26T00:00:00+02:00</changed>
@@ -30263,7 +30773,7 @@
             <source>PSL</source>
             <whoisServer host="whois.ja.net">
                 <source>MD_WHOIS</source>
-		<availablePattern>\QNo such domain\E</availablePattern>
+                <availablePattern>\QNo such domain\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="icnet.uk">
@@ -31136,6 +31646,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31281,6 +31792,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2014-03-20T00:00:00+01:00</created>
         <changed>2014-03-31T00:00:00+02:00</changed>
@@ -31310,6 +31822,9 @@
     </domain>
     <domain name="vermögensberater">
         <source>IANA</source>
+        <whoisServer host="whois.ksregistry.net">
+            <source>IANA</source>
+        </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-28T00:00:00+01:00</changed>
         <registrationService>http://www.dvag-registry.de</registrationService>
@@ -31339,6 +31854,7 @@
         <source>IANA</source>
         <whoisServer host="whois.rightside.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2015-06-11T00:00:00+02:00</changed>
@@ -31391,6 +31907,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31423,6 +31940,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31432,6 +31950,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-23T00:00:00+02:00</created>
         <changed>2015-09-23T00:00:00+02:00</changed>
@@ -31450,6 +31969,10 @@
     </domain>
     <domain name="virgin">
         <source>IANA</source>
+        <whoisServer host="whois.nic.virgin">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-09-10T00:00:00+02:00</created>
         <changed>2015-10-07T00:00:00+02:00</changed>
         <registrationService>https://www.virgin.com/</registrationService>
@@ -31462,6 +31985,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-02-06T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31469,6 +31993,10 @@
     </domain>
     <domain name="vista">
         <source>IANA</source>
+        <whoisServer host="whois.nic.vista">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-06-04T00:00:00+02:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>http://www.vistaprint.com/</registrationService>
@@ -31476,6 +32004,10 @@
     </domain>
     <domain name="vistaprint">
         <source>IANA</source>
+        <whoisServer host="whois.nic.vistaprint">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2015-06-04T00:00:00+02:00</created>
         <changed>2015-06-22T00:00:00+02:00</changed>
         <registrationService>http://www.vistaprint.com</registrationService>
@@ -31609,6 +32141,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2013-10-31T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31661,6 +32194,10 @@
     </domain>
     <domain name="walter">
         <source>IANA</source>
+        <whoisServer host="whois.nic.walter">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2016-02-10T00:00:00+01:00</changed>
         <registrationService>http://nic.walter</registrationService>
@@ -31690,6 +32227,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31750,10 +32288,6 @@
     </domain>
     <domain name="wed">
         <source>IANA</source>
-        <whoisServer host="whois.nic.wed">
-            <source>IANA</source>
-            <availablePattern>\QNo Object Found\E</availablePattern>
-        </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2015-01-30T00:00:00+01:00</changed>
         <registrationService>http://atgron.com/index.html</registrationService>
@@ -31855,6 +32389,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-23T00:00:00+02:00</created>
         <changed>2015-09-23T00:00:00+02:00</changed>
@@ -31906,6 +32441,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31915,6 +32451,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-09-11T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -31928,6 +32465,7 @@
         <whoisServer host="whois.website.ws">
             <source>IANA</source>
             <availablePattern>\Qno match for\E</availablePattern>
+	    <errorPattern>\QYou exceeded the maximum allowable number of whois lookups\E</errorPattern>
         </whoisServer>
         <created>1995-07-14T00:00:00+02:00</created>
         <changed>2012-01-21T00:00:00+01:00</changed>
@@ -31958,6 +32496,10 @@
     </domain>
     <domain name="wtc">
         <source>IANA</source>
+        <whoisServer host="whois.nic.wtc">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2014-05-02T00:00:00+02:00</changed>
         <registrationService>http://nic.wtc/</registrationService>
@@ -31967,6 +32509,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-04-17T00:00:00+02:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -32020,6 +32563,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.xxx">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2011-04-15T00:00:00+02:00</created>
         <changed>2015-06-16T00:00:00+02:00</changed>
@@ -32150,6 +32694,10 @@
             <whoisServer host="whois.ac.za">
                 <source>MD_WHOIS</source>
             </whoisServer>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="agrica.za">
             <source>PSL</source>
@@ -32158,6 +32706,10 @@
             <source>MD_WHOIS</source>
             <whoisServer host="whois.alt.za">
                 <source>MD_WHOIS</source>
+            </whoisServer>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="blogspot.co.za">
@@ -32169,10 +32721,21 @@
                 <source>MD_WHOIS</source>
             </whoisServer>
         </domain>
+        <domain name="edu.za">
+            <source>PSL</source>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
+        </domain>
         <domain name="gov.za">
             <source>MD_WHOIS</source>
             <whoisServer host="whois.gov.za">
                 <source>MD_WHOIS</source>
+            </whoisServer>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="grondar.za">
@@ -32181,14 +32744,39 @@
         <domain name="law.za">
             <source>PSL</source>
         </domain>
+        <domain name="mil.za">
+            <source>PSL</source>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
+        </domain>
         <domain name="net.za">
             <source>MD_WHOIS</source>
             <whoisServer host="net-whois.registry.net.za">
                 <source>MD_WHOIS</source>
             </whoisServer>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
+        </domain>
+        <domain name="ngo.za">
+            <source>PSL</source>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="nis.za">
             <source>PSL</source>
+        </domain>
+        <domain name="nom.za">
+            <source>PSL</source>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="org.za">
             <source>MD_WHOIS</source>
@@ -32199,10 +32787,28 @@
                 <source>WHOIS_RB</source>
             </whoisServer>
         </domain>
+        <domain name="school.za">
+            <source>PSL</source>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
+        </domain>
+        <domain name="tm.za">
+            <source>PSL</source>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
+            </whoisServer>
+        </domain>
         <domain name="web.za">
             <source>MD_WHOIS</source>
             <whoisServer host="web-whois.registry.net.za">
                 <source>MD_WHOIS</source>
+            </whoisServer>
+            <whoisServer host="whois.co.za">
+                <source>PHOIS</source>
+                <availablePattern>\QNo information available\E</availablePattern>
             </whoisServer>
         </domain>
     </domain>
@@ -32216,7 +32822,6 @@
         </whoisServer>
         <created>2015-09-10T00:00:00+02:00</created>
         <changed>2015-10-27T00:00:00+01:00</changed>
-        <registrationService>http://www.zara.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="zero">
@@ -32256,6 +32861,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
@@ -32350,6 +32956,7 @@
         </whoisServer>
         <created>2014-04-21T00:00:00+02:00</created>
         <changed>2014-10-24T00:00:00+02:00</changed>
+        <registrationService>http://marnet.mk/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="мон">
@@ -32359,6 +32966,7 @@
         </whoisServer>
         <created>2012-06-21T00:00:00+02:00</created>
         <changed>2014-11-04T00:00:00+01:00</changed>
+        <registrationService>http://www.mon.mn/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="москва">
@@ -32667,11 +33275,14 @@
         </whoisServer>
         <created>2011-02-05T00:00:00+01:00</created>
         <changed>2015-05-22T00:00:00+02:00</changed>
-        <registrationService>http://tld.sy</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="شبكة">
         <source>IANA</source>
+        <whoisServer host="whois.nic.xn--ngbc5azd">
+            <source>IANA</source>
+            <availablePattern>\QNo Data Found\E</availablePattern>
+        </whoisServer>
         <created>2013-10-21T00:00:00+02:00</created>
         <changed>2015-12-17T00:00:00+01:00</changed>
         <registrationService>http://www.dotshabaka.com</registrationService>
@@ -32681,7 +33292,7 @@
         <source>IANA</source>
         <whoisServer host="whois.cmc.iq">
             <source>IANA</source>
-            <availablePattern>\QNo Object Found\E</availablePattern>
+            <availablePattern>\Qnot registered\E</availablePattern>
         </whoisServer>
         <created>2014-09-29T00:00:00+02:00</created>
         <changed>2015-11-03T00:00:00+01:00</changed>
@@ -32734,6 +33345,9 @@
     </domain>
     <domain name="مصر">
         <source>IANA</source>
+        <whoisServer host="whois.dotmasr.eg">
+            <source>MD_WHOIS</source>
+        </whoisServer>
         <created>2010-05-05T00:00:00+02:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -32756,6 +33370,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2014-05-15T00:00:00+02:00</created>
         <changed>2014-05-28T00:00:00+02:00</changed>
@@ -33041,7 +33656,6 @@
         </whoisServer>
         <created>2014-03-06T00:00:00+01:00</created>
         <changed>2014-03-12T00:00:00+01:00</changed>
-        <registrationService>http://www.stabletone.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="中信">
@@ -33090,6 +33704,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2013-11-25T00:00:00+01:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
@@ -33110,7 +33725,6 @@
         <source>IANA</source>
         <whoisServer host="whois.ngtld.cn">
             <source>IANA</source>
-            <availablePattern>\Qno match\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.teleinfo.cn">
             <source>IANA</source>
@@ -33124,7 +33738,6 @@
         <source>IANA</source>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-04-02T00:00:00+02:00</changed>
-        <registrationService>http://www.stabletone.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="八卦">
@@ -33156,6 +33769,7 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2013-12-17T00:00:00+01:00</changed>
+        <registrationService>http://www.conac.cn</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="台湾">
@@ -33185,12 +33799,14 @@
         </whoisServer>
         <created>2014-02-27T00:00:00+01:00</created>
         <changed>2014-07-26T00:00:00+02:00</changed>
+        <registrationService>http://zodiacregistry.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="商店">
         <source>PSL</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
@@ -33220,6 +33836,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2015-06-23T00:00:00+02:00</changed>
@@ -33303,6 +33920,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\QNOT FOUND\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.xn--kput3i">
             <source>IANA</source>
@@ -33324,6 +33942,7 @@
         <source>IANA</source>
         <whoisServer host="whois.conac.cn">
             <source>IANA</source>
+            <availablePattern>\QNot find MatchingRecord\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2013-12-17T00:00:00+01:00</changed>
@@ -33416,6 +34035,7 @@
         <source>IANA</source>
         <whoisServer host="whois.donuts.co">
             <source>IANA</source>
+            <availablePattern>\QDomain not found.\E</availablePattern>
         </whoisServer>
         <created>2013-10-21T00:00:00+02:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
@@ -33482,7 +34102,6 @@
         </whoisServer>
         <created>2014-03-13T00:00:00+01:00</created>
         <changed>2015-12-11T00:00:00+01:00</changed>
-        <registrationService>http://www.knet.cn/domain/wagnzhi/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="网店">
@@ -33568,6 +34187,10 @@
     </domain>
     <domain name="飞利浦">
         <source>IANA</source>
+        <whoisServer host="whois.nic.xn--kcrx77d1x4a">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2015-02-13T00:00:00+01:00</created>
         <changed>2015-10-08T00:00:00+02:00</changed>
         <registrationService>http://nic.xn--kcrx77d1x4a</registrationService>
@@ -33602,6 +34225,10 @@
     </domain>
     <domain name="닷넷">
         <source>IANA</source>
+        <whoisServer host="whois.nic.xn--t60b56a">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2015-07-02T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
         <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
