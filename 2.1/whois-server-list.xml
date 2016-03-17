@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.4">
-    <date>2016-03-13T15:25:42.230+01:00</date>
+<domainList version="2.1.5">
+    <date>2016-03-17T09:25:42.230+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -3121,7 +3121,7 @@
         <source>XML</source>
         <whoisServer host="whois.cira.ca">
             <source>XML</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\QDomain status:         available\E</availablePattern>
         </whoisServer>
         <created>1987-05-14T00:00:00+02:00</created>
         <changed>2016-02-27T00:00:00+01:00</changed>
