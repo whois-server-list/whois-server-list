@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.6">
-    <date>2016-03-17T16:25:42.230+01:00</date>
+<domainList version="2.1.7">
+    <date>2016-03-18T00:25:42.230+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -1650,7 +1650,7 @@
         <source>IANA</source>
         <whoisServer host="whois-dub.mm-registry.com">
             <source>IANA</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-13T00:00:00+01:00</created>
         <changed>2014-05-13T00:00:00+02:00</changed>
