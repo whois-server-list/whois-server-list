@@ -11641,10 +11641,6 @@
         </domain>
         <domain name="co.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="daigo.ibaraki.jp">
             <source>PSL</source>
