@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.7">
-    <date>2016-03-18T00:25:42.230+01:00</date>
+<domainList version="2.1.8">
+    <date>2016-03-24T13:02:24.504+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -223,7 +223,7 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
+            <availablePattern>\QDomain not found\E</availablePattern>
         </whoisServer>
         <created>2015-02-05T00:00:00+01:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
@@ -775,6 +775,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-25T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
@@ -786,11 +787,14 @@
     </domain>
     <domain name="ally">
         <source>PSL</source>
+        <created>2015-10-22T00:00:00+02:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="alsace">
         <source>IANA</source>
         <whoisServer host="whois-alsace.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2014-10-06T00:00:00+02:00</changed>
@@ -879,7 +883,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-10-30T00:00:00+01:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
@@ -935,7 +938,6 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.google">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-06-25T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -964,6 +966,7 @@
         <source>IANA</source>
         <whoisServer host="whois-aquarelle.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-11-06T00:00:00+01:00</created>
         <changed>2014-12-02T00:00:00+01:00</changed>
@@ -1008,6 +1011,9 @@
             <source>PSL</source>
         </domain>
     </domain>
+    <domain name="arab">
+        <source>PSL</source>
+    </domain>
     <domain name="aramco">
         <source>IANA</source>
         <created>2015-08-20T00:00:00+02:00</created>
@@ -1019,6 +1025,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-20T00:00:00+01:00</created>
         <changed>2016-01-30T00:00:00+01:00</changed>
@@ -1043,7 +1050,7 @@
             <availablePattern>\Qbut this server does not have\E</availablePattern>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
-        <changed>2015-12-01T00:00:00+01:00</changed>
+        <changed>2016-03-23T00:00:00+01:00</changed>
         <registrationService>http://www.iana.org/arpa-dom/</registrationService>
         <state>ACTIVE</state>
         <domain name="e164.arpa">
@@ -1198,7 +1205,7 @@
         </whoisServer>
         <created>1986-03-05T00:00:00+01:00</created>
         <changed>2016-02-03T00:00:00+01:00</changed>
-        <registrationService>http://www.auda.org.au/industry-information/au-domains/</registrationService>
+        <registrationService>https://www.auda.org.au/industry-information/au-domains/</registrationService>
         <state>ACTIVE</state>
         <countryCode>AU</countryCode>
         <domain name="act.au">
@@ -1387,6 +1394,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.afilias.net">
             <source>WHOIS_RB</source>
@@ -1422,6 +1430,8 @@
     </domain>
     <domain name="aws">
         <source>PSL</source>
+        <created>2016-03-18T00:00:00+01:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="ax">
         <source>IANA</source>
@@ -1495,7 +1505,7 @@
     <domain name="ba">
         <source>IANA</source>
         <created>1996-08-14T00:00:00+02:00</created>
-        <changed>2011-11-18T00:00:00+01:00</changed>
+        <changed>2016-03-14T00:00:00+01:00</changed>
         <registrationService>http://www.nic.ba</registrationService>
         <state>ACTIVE</state>
         <countryCode>BA</countryCode>
@@ -1621,6 +1631,8 @@
     </domain>
     <domain name="barefoot">
         <source>PSL</source>
+        <created>2015-10-24T00:00:00+02:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="bargains">
         <source>IANA</source>
@@ -1631,6 +1643,9 @@
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="baseball">
+        <source>PSL</source>
     </domain>
     <domain name="basketball">
         <source>PSL</source>
@@ -1782,6 +1797,9 @@
         <registrationService>http://www.beatsbydre.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
+    <domain name="beauty">
+        <source>PSL</source>
+    </domain>
     <domain name="beer">
         <source>IANA</source>
         <whoisServer host="whois-dub.mm-registry.com">
@@ -1808,6 +1826,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.berlin">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2016-01-21T00:00:00+01:00</changed>
@@ -2078,6 +2097,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-15T00:00:00+02:00</created>
         <changed>2016-01-30T00:00:00+01:00</changed>
@@ -2098,6 +2118,9 @@
         <changed>2015-05-13T00:00:00+02:00</changed>
         <registrationService>https://www.neustar.biz/services/domain-name-registry</registrationService>
         <state>ACTIVE</state>
+        <domain name="dscloud.biz">
+            <source>PSL</source>
+        </domain>
         <domain name="dyndns.biz">
             <source>PSL</source>
         </domain>
@@ -2235,6 +2258,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-06-05T00:00:00+02:00</created>
         <changed>2016-01-26T00:00:00+01:00</changed>
@@ -2341,6 +2365,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtlds.nic.br">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-05-29T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -2361,7 +2386,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -2403,11 +2427,15 @@
         <source>IANA</source>
         <whoisServer host="whois-bostik.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-11-06T00:00:00+01:00</created>
         <changed>2015-11-25T00:00:00+01:00</changed>
         <registrationService>http://www.bostik.com</registrationService>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="boston">
+        <source>PSL</source>
     </domain>
     <domain name="bot">
         <source>IANA</source>
@@ -2425,6 +2453,9 @@
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="box">
+        <source>PSL</source>
     </domain>
     <domain name="bq">
         <source>IANA</source>
@@ -2876,7 +2907,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-09T00:00:00+02:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://www.brother.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -3040,6 +3071,7 @@
         <source>XML</source>
         <whoisServer host="whois.cctld.by">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.ripe.net">
             <source>XML</source>
@@ -3108,13 +3140,14 @@
         <source>IANA</source>
         <whoisServer host="whois-bzh.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <whoisServer host="whois.nic.bzh">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-29T00:00:00+02:00</created>
         <changed>2016-02-02T00:00:00+01:00</changed>
-        <registrationService>http://www.pik.bzh</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ca">
@@ -3124,7 +3157,7 @@
             <availablePattern>\QDomain status:         available\E</availablePattern>
         </whoisServer>
         <created>1987-05-14T00:00:00+02:00</created>
-        <changed>2016-02-27T00:00:00+01:00</changed>
+        <changed>2016-03-16T00:00:00+01:00</changed>
         <registrationService>http://www.cira.ca/</registrationService>
         <state>ACTIVE</state>
         <countryCode>CA</countryCode>
@@ -3207,7 +3240,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
         <changed>2015-12-21T00:00:00+01:00</changed>
@@ -3408,8 +3440,12 @@
             <source>XML</source>
             <availablePattern>\Qno match\E</availablePattern>
         </whoisServer>
+        <whoisServer host="whois.nic.cat">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
         <created>2005-12-19T00:00:00+01:00</created>
-        <changed>2015-12-01T00:00:00+01:00</changed>
+        <changed>2016-03-16T00:00:00+01:00</changed>
         <registrationService>http://www.domini.cat</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -3422,6 +3458,9 @@
         <created>2014-01-30T00:00:00+01:00</created>
         <changed>2015-06-29T00:00:00+02:00</changed>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="catholic">
+        <source>PSL</source>
     </domain>
     <domain name="cba">
         <source>IANA</source>
@@ -3478,6 +3517,7 @@
         <source>XML</source>
         <whoisServer host="whois.nic.cd">
             <source>MD_WHOIS</source>
+            <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1997-08-20T00:00:00+02:00</created>
         <changed>2013-12-10T00:00:00+01:00</changed>
@@ -3607,10 +3647,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-21T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -3666,10 +3705,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-21T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -3802,7 +3840,6 @@
         <source>IANA</source>
         <created>1995-08-08T00:00:00+02:00</created>
         <changed>2005-10-07T00:00:00+02:00</changed>
-        <registrationService>http://www.oyster.net.ck</registrationService>
         <state>ACTIVE</state>
         <countryCode>CK</countryCode>
     </domain>
@@ -4256,7 +4293,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>1991-12-24T00:00:00+01:00</created>
-        <changed>2016-03-10T00:00:00+01:00</changed>
+        <changed>2016-03-17T00:00:00+01:00</changed>
         <registrationService>http://www.cointernet.com.co</registrationService>
         <state>ACTIVE</state>
         <countryCode>CO</countryCode>
@@ -4390,7 +4427,6 @@
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
-        <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
         <domain name="1kapp.com">
             <source>PSL</source>
@@ -4413,10 +4449,16 @@
         <domain name="ap-northeast-1.compute.amazonaws.com">
             <source>PSL</source>
         </domain>
+        <domain name="ap-northeast-2.compute.amazonaws.com">
+            <source>PSL</source>
+        </domain>
         <domain name="ap-southeast-1.compute.amazonaws.com">
             <source>PSL</source>
         </domain>
         <domain name="ap-southeast-2.compute.amazonaws.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="apps.fbsbx.com">
             <source>PSL</source>
         </domain>
         <domain name="appspot.com">
@@ -4508,6 +4550,9 @@
         <domain name="dreamhosters.com">
             <source>PSL</source>
         </domain>
+        <domain name="dsmynas.com">
+            <source>PSL</source>
+        </domain>
         <domain name="dyn-o-saur.com">
             <source>PSL</source>
         </domain>
@@ -4589,6 +4634,9 @@
             <whoisServer host="whois.centralnic.net">
                 <source>MD_WHOIS</source>
             </whoisServer>
+        </domain>
+        <domain name="familyds.com">
+            <source>PSL</source>
         </domain>
         <domain name="firebaseapp.com">
             <source>PSL</source>
@@ -4748,6 +4796,12 @@
             </whoisServer>
         </domain>
         <domain name="getmyip.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="gist.githubcloud.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="githubcloud.com">
             <source>PSL</source>
         </domain>
         <domain name="githubusercontent.com">
@@ -5006,6 +5060,9 @@
         <domain name="mex.com">
             <source>PSL</source>
         </domain>
+        <domain name="mydrobo.com">
+            <source>PSL</source>
+        </domain>
         <domain name="neat-url.com">
             <source>PSL</source>
         </domain>
@@ -5028,6 +5085,9 @@
         <domain name="outsystemscloud.com">
             <source>PSL</source>
         </domain>
+        <domain name="pagefrontapp.com">
+            <source>PSL</source>
+        </domain>
         <domain name="pagespeedmobilizer.com">
             <source>PSL</source>
         </domain>
@@ -5043,6 +5103,9 @@
             <whoisServer host="whois.centralnic.net">
                 <source>MD_WHOIS</source>
             </whoisServer>
+        </domain>
+        <domain name="rackmaze.com">
+            <source>PSL</source>
         </domain>
         <domain name="rhcloud.com">
             <source>PSL</source>
@@ -5060,6 +5123,9 @@
             </whoisServer>
         </domain>
         <domain name="s3-ap-northeast-1.amazonaws.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="s3-ap-northeast-2.amazonaws.com">
             <source>PSL</source>
         </domain>
         <domain name="s3-ap-southeast-1.amazonaws.com">
@@ -5123,6 +5189,9 @@
             <source>PSL</source>
         </domain>
         <domain name="s3.amazonaws.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="s3.ap-northeast-2.amazonaws.com">
             <source>PSL</source>
         </domain>
         <domain name="s3.eu-central-1.amazonaws.com">
@@ -5236,6 +5305,12 @@
             <source>PSL</source>
         </domain>
         <domain name="writesthisblog.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="xen.prgmr.com">
+            <source>PSL</source>
+        </domain>
+        <domain name="xenapponazure.com">
             <source>PSL</source>
         </domain>
         <domain name="yolasite.com">
@@ -5413,6 +5488,7 @@
         <source>IANA</source>
         <whoisServer host="whois-corsica.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-04-23T00:00:00+02:00</created>
         <changed>2015-05-16T00:00:00+02:00</changed>
@@ -5543,6 +5619,9 @@
         <created>2014-08-28T00:00:00+02:00</created>
         <changed>2016-03-02T00:00:00+01:00</changed>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="cruise">
+        <source>PSL</source>
     </domain>
     <domain name="cruises">
         <source>IANA</source>
@@ -5729,11 +5808,14 @@
             <availablePattern>\Qno entries found\E</availablePattern>
         </whoisServer>
         <created>1993-01-13T00:00:00+01:00</created>
-        <changed>2015-04-24T00:00:00+02:00</changed>
+        <changed>2016-03-22T00:00:00+01:00</changed>
         <registrationService>http://www.nic.cz/</registrationService>
         <state>ACTIVE</state>
         <countryCode>CZ</countryCode>
         <domain name="blogspot.cz">
+            <source>PSL</source>
+        </domain>
+        <domain name="co.cz">
             <source>PSL</source>
         </domain>
     </domain>
@@ -5752,7 +5834,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -5806,7 +5887,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
         <changed>2016-02-06T00:00:00+01:00</changed>
@@ -5970,10 +6050,10 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-06T00:00:00+01:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
-        <registrationService>http://www.dotdesi.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="design">
@@ -5991,10 +6071,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -6068,6 +6147,9 @@
     <domain name="dish">
         <source>PSL</source>
     </domain>
+    <domain name="diy">
+        <source>PSL</source>
+    </domain>
     <domain name="dj">
         <source>IANA</source>
         <created>1996-05-22T00:00:00+02:00</created>
@@ -6087,7 +6169,22 @@
         <registrationService>https://www.dk-hostmaster.dk/</registrationService>
         <state>ACTIVE</state>
         <countryCode>DK</countryCode>
+        <domain name="biz.dk">
+            <source>PSL</source>
+        </domain>
         <domain name="blogspot.dk">
+            <source>PSL</source>
+        </domain>
+        <domain name="co.dk">
+            <source>PSL</source>
+        </domain>
+        <domain name="firm.dk">
+            <source>PSL</source>
+        </domain>
+        <domain name="reg.dk">
+            <source>PSL</source>
+        </domain>
+        <domain name="store.dk">
             <source>PSL</source>
         </domain>
     </domain>
@@ -6167,10 +6264,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -6195,6 +6291,7 @@
         </whoisServer>
         <created>2015-02-27T00:00:00+01:00</created>
         <changed>2015-03-25T00:00:00+01:00</changed>
+        <registrationService>http://www.ictqatar.qa/ar</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="domains">
@@ -6236,10 +6333,9 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.google">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-06-04T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -6286,6 +6382,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
@@ -6342,10 +6439,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -6696,7 +6792,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
@@ -6799,6 +6894,7 @@
         <source>PSL</source>
         <whoisServer host="whois.nic.everbank">
             <source>WHOIS_RB</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-07-31T00:00:00+02:00</created>
         <changed>2014-12-01T00:00:00+01:00</changed>
@@ -6847,6 +6943,8 @@
     </domain>
     <domain name="extraspace">
         <source>PSL</source>
+        <created>2016-02-26T00:00:00+01:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="fage">
         <source>IANA</source>
@@ -6970,7 +7068,6 @@
         </whoisServer>
         <created>2014-03-06T00:00:00+01:00</created>
         <changed>2015-10-14T00:00:00+02:00</changed>
-        <registrationService>http://centralnic.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ferrari">
@@ -6991,7 +7088,6 @@
         </whoisServer>
         <whoisServer host="whois.ficora.fi">
             <source>XML</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>1986-12-17T00:00:00+01:00</created>
         <changed>2016-02-09T00:00:00+01:00</changed>
@@ -7032,6 +7128,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtlds.nic.br">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-05-29T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -7187,6 +7284,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-25T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
@@ -7197,7 +7295,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -7237,7 +7334,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-03-20T00:00:00+01:00</created>
         <changed>2016-02-06T00:00:00+01:00</changed>
@@ -7447,10 +7543,14 @@
             </whoisServer>
         </domain>
     </domain>
+    <domain name="free">
+        <source>PSL</source>
+    </domain>
     <domain name="fresenius">
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-12-17T00:00:00+01:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -7472,6 +7572,7 @@
         <source>IANA</source>
         <whoisServer host="whois-frogans.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-04-03T00:00:00+02:00</created>
         <changed>2014-04-21T00:00:00+02:00</changed>
@@ -7495,6 +7596,9 @@
         <source>PSL</source>
     </domain>
     <domain name="fujixerox">
+        <source>PSL</source>
+    </domain>
+    <domain name="fun">
         <source>PSL</source>
     </domain>
     <domain name="fund">
@@ -7540,10 +7644,6 @@
     </domain>
     <domain name="ga">
         <source>IANA</source>
-        <whoisServer host="whois.dot.ga">
-            <source>MD_WHOIS</source>
-            <availablePattern>\Qnot known\E</availablePattern>
-        </whoisServer>
         <created>1994-12-12T00:00:00+01:00</created>
         <changed>2014-07-11T00:00:00+02:00</changed>
         <state>ACTIVE</state>
@@ -7557,7 +7657,6 @@
         </whoisServer>
         <created>2014-03-13T00:00:00+01:00</created>
         <changed>2015-03-31T00:00:00+02:00</changed>
-        <registrationService>http://www.puntogal.org</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="gallery">
@@ -7572,6 +7671,14 @@
     </domain>
     <domain name="gallo">
         <source>PSL</source>
+        <whoisServer host="whois.nic.gallo">
+            <source>IANA</source>
+            <availablePattern>\Qno match\E</availablePattern>
+        </whoisServer>
+        <created>2015-10-24T00:00:00+02:00</created>
+        <changed>2016-03-22T00:00:00+01:00</changed>
+        <registrationService>http://www.gallo.com</registrationService>
+        <state>ACTIVE</state>
     </domain>
     <domain name="gallup">
         <source>IANA</source>
@@ -7622,7 +7729,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
@@ -7857,6 +7963,7 @@
         </whoisServer>
         <created>2015-06-11T00:00:00+02:00</created>
         <changed>2015-08-12T00:00:00+02:00</changed>
+        <registrationService>http://www.justgiving.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="gl">
@@ -7903,7 +8010,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
         <changed>2016-02-06T00:00:00+01:00</changed>
@@ -7929,6 +8035,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtlds.nic.br">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-02-20T00:00:00+01:00</created>
         <changed>2014-05-05T00:00:00+02:00</changed>
@@ -7946,7 +8053,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
@@ -8062,7 +8168,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-01-08T00:00:00+01:00</created>
         <changed>2016-02-26T00:00:00+01:00</changed>
@@ -8073,7 +8178,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
@@ -8307,7 +8411,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
@@ -8369,14 +8472,27 @@
         <domain name="com.gy">
             <source>PSL</source>
         </domain>
+        <domain name="edu.gy">
+            <source>PSL</source>
+        </domain>
+        <domain name="gov.gy">
+            <source>PSL</source>
+        </domain>
         <domain name="net.gy">
             <source>PSL</source>
         </domain>
+        <domain name="org.gy">
+            <source>PSL</source>
+        </domain>
+    </domain>
+    <domain name="hair">
+        <source>PSL</source>
     </domain>
     <domain name="hamburg">
         <source>IANA</source>
         <whoisServer host="whois.nic.hamburg">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-22T00:00:00+02:00</created>
         <changed>2016-01-21T00:00:00+01:00</changed>
@@ -8387,7 +8503,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-01-08T00:00:00+01:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
@@ -8455,14 +8570,13 @@
             <source>IANA</source>
         </whoisServer>
         <created>2015-12-10T00:00:00+01:00</created>
-        <changed>2016-01-26T00:00:00+01:00</changed>
+        <changed>2016-03-15T00:00:00+01:00</changed>
         <state>ACTIVE</state>
     </domain>
     <domain name="here">
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
@@ -8737,7 +8851,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://www.honda.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -8811,7 +8925,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
         <changed>2016-02-19T00:00:00+01:00</changed>
@@ -9485,10 +9598,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -9598,10 +9710,16 @@
         <domain name="github.io">
             <source>PSL</source>
         </domain>
+        <domain name="ngrok.io">
+            <source>PSL</source>
+        </domain>
         <domain name="nid.io">
             <source>PSL</source>
         </domain>
         <domain name="pantheon.io">
+            <source>PSL</source>
+        </domain>
+        <domain name="pantheonsite.io">
             <source>PSL</source>
         </domain>
         <domain name="sandcats.io">
@@ -10970,6 +11088,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.jetzt">
             <source>PHP_WHOIS</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-06T00:00:00+01:00</created>
         <changed>2014-03-15T00:00:00+01:00</changed>
@@ -11027,7 +11146,7 @@
     <domain name="jo">
         <source>IANA</source>
         <created>1994-11-23T00:00:00+01:00</created>
-        <changed>2016-03-01T00:00:00+01:00</changed>
+        <changed>2016-03-14T00:00:00+01:00</changed>
         <state>ACTIVE</state>
         <countryCode>JO</countryCode>
         <domain name="com.jo">
@@ -11122,6 +11241,10 @@
         </domain>
         <domain name="ac.jp">
             <source>XML</source>
+            <whoisServer host="whois.nic.ad.jp">
+                <source>PHOIS</source>
+                <availablePattern>\QNo match!!\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="achi.nagano.jp">
             <source>PSL</source>
@@ -11518,6 +11641,10 @@
         </domain>
         <domain name="co.jp">
             <source>XML</source>
+            <whoisServer host="whois.nic.ad.jp">
+                <source>PHOIS</source>
+                <availablePattern>\QNo match!!\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="daigo.ibaraki.jp">
             <source>PSL</source>
@@ -11761,6 +11888,10 @@
         </domain>
         <domain name="go.jp">
             <source>XML</source>
+            <whoisServer host="whois.nic.ad.jp">
+                <source>PHOIS</source>
+                <availablePattern>\QNo match!!\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="gobo.wakayama.jp">
             <source>PSL</source>
@@ -14086,6 +14217,10 @@
         </domain>
         <domain name="ne.jp">
             <source>XML</source>
+            <whoisServer host="whois.nic.ad.jp">
+                <source>PHOIS</source>
+                <availablePattern>\QNo match!!\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="nemuro.hokkaido.jp">
             <source>PSL</source>
@@ -14527,6 +14662,10 @@
         </domain>
         <domain name="or.jp">
             <source>XML</source>
+            <whoisServer host="whois.nic.ad.jp">
+                <source>PHOIS</source>
+                <availablePattern>\QNo match!!\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="ora.gunma.jp">
             <source>PSL</source>
@@ -17144,6 +17283,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-11-12T00:00:00+01:00</created>
         <changed>2015-11-25T00:00:00+01:00</changed>
@@ -17164,6 +17304,7 @@
         <source>IANA</source>
         <whoisServer host="whois-lancaster.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-06-18T00:00:00+02:00</created>
         <changed>2015-07-15T00:00:00+02:00</changed>
@@ -17317,6 +17458,9 @@
         <domain name="org.lc">
             <source>PSL</source>
         </domain>
+        <domain name="oy.lc">
+            <source>PSL</source>
+        </domain>
     </domain>
     <domain name="lds">
         <source>PSL</source>
@@ -17342,6 +17486,7 @@
         <source>IANA</source>
         <whoisServer host="whois-leclerc.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-01-29T00:00:00+01:00</created>
         <changed>2015-03-03T00:00:00+01:00</changed>
@@ -17371,7 +17516,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-16T00:00:00+02:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://lexus.jp/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -17520,6 +17665,12 @@
         <changed>2015-09-09T00:00:00+02:00</changed>
         <registrationService>http://uniregistry.link</registrationService>
         <state>ACTIVE</state>
+        <domain name="cyon.link">
+            <source>PSL</source>
+        </domain>
+        <domain name="mypep.link">
+            <source>PSL</source>
+        </domain>
     </domain>
     <domain name="lipsy">
         <source>PSL</source>
@@ -17548,7 +17699,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-16T00:00:00+02:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://global.lixil.co.jp/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -17634,9 +17785,14 @@
     </domain>
     <domain name="locus">
         <source>IANA</source>
+        <whoisServer host="whois.nic.locus">
+            <source>IANA</source>
+            <availablePattern>\Qavailable\E</availablePattern>
+        </whoisServer>
         <created>2016-02-26T00:00:00+01:00</created>
-        <changed>2016-03-10T00:00:00+01:00</changed>
-        <state>NEW</state>
+        <changed>2016-03-15T00:00:00+01:00</changed>
+        <registrationService>http://nic.locus</registrationService>
+        <state>ACTIVE</state>
     </domain>
     <domain name="loft">
         <source>PSL</source>
@@ -17833,6 +17989,7 @@
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2014-02-20T00:00:00+01:00</changed>
+        <registrationService>http://www.dotluxury.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="lv">
@@ -17847,8 +18004,8 @@
             <errorPattern>\Qaccess denied\E</errorPattern>
         </whoisServer>
         <created>1993-04-29T00:00:00+02:00</created>
-        <changed>2014-04-10T00:00:00+02:00</changed>
-        <registrationService>http://www.nic.lv/</registrationService>
+        <changed>2016-03-23T00:00:00+01:00</changed>
+        <registrationService>https://www.nic.lv/</registrationService>
         <state>ACTIVE</state>
         <countryCode>LV</countryCode>
         <domain name="asn.lv">
@@ -18159,13 +18316,25 @@
         <domain name="co.me">
             <source>PSL</source>
         </domain>
+        <domain name="diskstation.me">
+            <source>PSL</source>
+        </domain>
+        <domain name="dscloud.me">
+            <source>PSL</source>
+        </domain>
         <domain name="edu.me">
             <source>PSL</source>
         </domain>
         <domain name="gov.me">
             <source>PSL</source>
         </domain>
+        <domain name="i234.me">
+            <source>PSL</source>
+        </domain>
         <domain name="its.me">
+            <source>PSL</source>
+        </domain>
+        <domain name="myds.me">
             <source>PSL</source>
         </domain>
         <domain name="net.me">
@@ -18175,6 +18344,9 @@
             <source>PSL</source>
         </domain>
         <domain name="priv.me">
+            <source>PSL</source>
+        </domain>
+        <domain name="synology.me">
             <source>PSL</source>
         </domain>
     </domain>
@@ -18223,10 +18395,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -18247,7 +18418,7 @@
             <availablePattern>\Qavailable\E</availablePattern>
         </whoisServer>
         <created>2015-05-08T00:00:00+02:00</created>
-        <changed>2015-05-20T00:00:00+02:00</changed>
+        <changed>2016-03-21T00:00:00+01:00</changed>
         <registrationService>https://www.famousfourmedia.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -18285,7 +18456,7 @@
             <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1995-07-25T00:00:00+02:00</created>
-        <changed>2016-01-26T00:00:00+01:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.nic.mg</registrationService>
         <state>ACTIVE</state>
         <countryCode>MG</countryCode>
@@ -18355,6 +18526,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-06-05T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
@@ -18378,7 +18550,6 @@
         </whoisServer>
         <created>1993-09-23T00:00:00+02:00</created>
         <changed>2016-02-12T00:00:00+01:00</changed>
-        <registrationService>http://marnet.mk/</registrationService>
         <state>ACTIVE</state>
         <countryCode>MK</countryCode>
         <domain name="blogspot.mk">
@@ -18449,7 +18620,6 @@
         <source>IANA</source>
         <created>1997-02-04T00:00:00+01:00</created>
         <changed>2011-11-29T00:00:00+01:00</changed>
-        <registrationService>http://www.nic.mm/</registrationService>
         <state>ACTIVE</state>
         <countryCode>MM</countryCode>
         <domain name="com.mm">
@@ -18492,9 +18662,11 @@
         <source>IANA</source>
         <whoisServer host="whois-mma.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-02-27T00:00:00+01:00</created>
         <changed>2015-03-31T00:00:00+02:00</changed>
+        <registrationService>https://www.mma.fr/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="mn">
@@ -18565,6 +18737,9 @@
         <changed>2012-02-25T00:00:00+01:00</changed>
         <registrationService>http://afilias.info/mobile</registrationService>
         <state>ACTIVE</state>
+        <domain name="dscloud.mobi">
+            <source>PSL</source>
+        </domain>
     </domain>
     <domain name="mobily">
         <source>IANA</source>
@@ -18696,10 +18871,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -18736,7 +18910,6 @@
         <source>IANA</source>
         <created>1997-03-28T00:00:00+01:00</created>
         <changed>2011-10-13T00:00:00+02:00</changed>
-        <registrationService>http://www.nic.mq/</registrationService>
         <state>ACTIVE</state>
         <countryCode>MQ</countryCode>
     </domain>
@@ -20541,6 +20714,7 @@
         <source>IANA</source>
         <whoisServer host="whois-mutuelle.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-09-24T00:00:00+02:00</created>
         <changed>2015-10-23T00:00:00+02:00</changed>
@@ -20649,7 +20823,6 @@
         </whoisServer>
         <created>1989-02-01T00:00:00+01:00</created>
         <changed>2015-07-14T00:00:00+02:00</changed>
-        <registrationService>http://www.registry.mx/</registrationService>
         <state>ACTIVE</state>
         <countryCode>MX</countryCode>
         <domain name="blogspot.mx">
@@ -20928,7 +21101,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-02T00:00:00+02:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://www.nec.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -20944,7 +21117,6 @@
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
-        <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
         <domain name="a.prod.fastly.net">
             <source>PSL</source>
@@ -20982,6 +21154,9 @@
         <domain name="cloudfront.net">
             <source>PSL</source>
         </domain>
+        <domain name="cloudfunctions.net">
+            <source>PSL</source>
+        </domain>
         <domain name="dnsalias.net">
             <source>PSL</source>
         </domain>
@@ -20994,13 +21169,22 @@
         <domain name="dontexist.net">
             <source>PSL</source>
         </domain>
+        <domain name="dsmynas.net">
+            <source>PSL</source>
+        </domain>
         <domain name="dynalias.net">
             <source>PSL</source>
         </domain>
         <domain name="dynathome.net">
             <source>PSL</source>
         </domain>
+        <domain name="dynv6.net">
+            <source>PSL</source>
+        </domain>
         <domain name="endofinternet.net">
+            <source>PSL</source>
+        </domain>
+        <domain name="familyds.net">
             <source>PSL</source>
         </domain>
         <domain name="from-az.net">
@@ -21094,6 +21278,9 @@
         <domain name="r.cdn77.net">
             <source>PSL</source>
         </domain>
+        <domain name="rackmaze.net">
+            <source>PSL</source>
+        </domain>
         <domain name="scrapper-site.net">
             <source>PSL</source>
         </domain>
@@ -21177,10 +21364,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-06-12T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-18T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -21208,7 +21394,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
         <changed>2016-02-06T00:00:00+01:00</changed>
@@ -21267,7 +21452,7 @@
             <availablePattern>\QNo Object Found\E</availablePattern>
         </whoisServer>
         <created>1995-03-15T00:00:00+01:00</created>
-        <changed>2014-10-14T00:00:00+02:00</changed>
+        <changed>2016-03-19T00:00:00+01:00</changed>
         <registrationService>http://www.nira.org.ng/</registrationService>
         <state>ACTIVE</state>
         <countryCode>NG</countryCode>
@@ -21281,6 +21466,9 @@
             <source>PSL</source>
         </domain>
         <domain name="gov.ng">
+            <source>PSL</source>
+        </domain>
+        <domain name="i.ng">
             <source>PSL</source>
         </domain>
         <domain name="mil.ng">
@@ -21327,6 +21515,48 @@
         <registrationService>http://www.nic.ni</registrationService>
         <state>ACTIVE</state>
         <countryCode>NI</countryCode>
+        <domain name="ac.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="biz.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="co.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="com.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="edu.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="gob.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="in.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="info.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="int.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="mil.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="net.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="nom.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="org.ni">
+            <source>PSL</source>
+        </domain>
+        <domain name="web.ni">
+            <source>PSL</source>
+        </domain>
     </domain>
     <domain name="nico">
         <source>IANA</source>
@@ -21377,6 +21607,9 @@
         <changed>2015-10-14T00:00:00+02:00</changed>
         <registrationService>http://www.gmoregistry.com/en/</registrationService>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="nissay">
+        <source>PSL</source>
     </domain>
     <domain name="nl">
         <source>XML</source>
@@ -23680,6 +23913,7 @@
         <source>IANA</source>
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-04-23T00:00:00+02:00</created>
         <changed>2015-08-06T00:00:00+02:00</changed>
@@ -23812,6 +24046,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.nyc">
             <source>WHOIS_RB</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-13T00:00:00+01:00</created>
         <changed>2015-07-30T00:00:00+02:00</changed>
@@ -23826,7 +24061,7 @@
             <errorPattern>\Q440 Request Denied\E</errorPattern>
         </whoisServer>
         <created>1987-01-19T00:00:00+01:00</created>
-        <changed>2015-02-24T00:00:00+01:00</changed>
+        <changed>2016-03-16T00:00:00+01:00</changed>
         <state>ACTIVE</state>
         <countryCode>NZ</countryCode>
         <domain name="ac.nz">
@@ -23834,7 +24069,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="blogspot.co.nz">
@@ -23845,7 +24080,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="cri.nz">
@@ -23856,7 +24091,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="gen.nz">
@@ -23864,7 +24099,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="govt.nz">
@@ -23878,7 +24113,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="kiwi.nz">
@@ -23886,7 +24121,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="maori.nz">
@@ -23894,7 +24129,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="mil.nz">
@@ -23908,7 +24143,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="org.nz">
@@ -23916,7 +24151,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
         <domain name="parliament.nz">
@@ -23927,7 +24162,7 @@
             <whoisServer host="whois.srs.net.nz">
                 <source>PHOIS</source>
                 <availablePattern>\Q220 Available\E</availablePattern>
-		<errorPattern>\Q440 Request Denied\E</errorPattern>
+                <errorPattern>\Q440 Request Denied\E</errorPattern>
             </whoisServer>
         </domain>
     </domain>
@@ -24196,6 +24431,9 @@
         <domain name="doomdns.org">
             <source>PSL</source>
         </domain>
+        <domain name="dsmynas.org">
+            <source>PSL</source>
+        </domain>
         <domain name="duckdns.org">
             <source>PSL</source>
         </domain>
@@ -24228,6 +24466,9 @@
             <whoisServer host="whois.eu.org">
                 <source>MD_WHOIS</source>
             </whoisServer>
+        </domain>
+        <domain name="familyds.org">
+            <source>PSL</source>
         </domain>
         <domain name="fi.eu.org">
             <source>PSL</source>
@@ -24540,6 +24781,7 @@
         <source>IANA</source>
         <whoisServer host="whois-ovh.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-01T00:00:00+02:00</created>
         <changed>2014-06-19T00:00:00+02:00</changed>
@@ -24591,10 +24833,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-02-05T00:00:00+01:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-19T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -24619,6 +24860,7 @@
         <source>IANA</source>
         <whoisServer host="whois-paris.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-27T00:00:00+01:00</created>
         <changed>2015-05-13T00:00:00+02:00</changed>
@@ -25804,10 +26046,9 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.google">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-06-04T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-19T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -25854,7 +26095,6 @@
         </whoisServer>
         <created>1997-08-20T00:00:00+02:00</created>
         <changed>2016-01-25T00:00:00+01:00</changed>
-        <registrationService>http://www.afnic.fr/fr/produits-et-services/autres-domaines-de-premier-niveau-francais/</registrationService>
         <state>ACTIVE</state>
         <countryCode>PM</countryCode>
     </domain>
@@ -25888,6 +26128,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-27T00:00:00+01:00</changed>
@@ -26023,7 +26264,16 @@
         <changed>2016-02-18T00:00:00+01:00</changed>
         <registrationService>http://registry.pro/</registrationService>
         <state>ACTIVE</state>
+        <domain name="aaa.pro">
+            <source>PSL</source>
+        </domain>
         <domain name="aca.pro">
+            <source>PSL</source>
+        </domain>
+        <domain name="acct.pro">
+            <source>PSL</source>
+        </domain>
+        <domain name="avocat.pro">
             <source>PSL</source>
         </domain>
         <domain name="bar.pro">
@@ -26044,15 +26294,17 @@
         <domain name="med.pro">
             <source>PSL</source>
         </domain>
+        <domain name="recht.pro">
+            <source>PSL</source>
+        </domain>
     </domain>
     <domain name="prod">
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-19T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -26070,7 +26322,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
@@ -26466,8 +26717,12 @@
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
         </whoisServer>
+        <whoisServer host="whois.nic.redstone">
+            <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
+        </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
-        <changed>2015-03-30T00:00:00+02:00</changed>
+        <changed>2016-03-16T00:00:00+01:00</changed>
         <state>ACTIVE</state>
     </domain>
     <domain name="redumbrella">
@@ -26662,7 +26917,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-03-06T00:00:00+01:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://www.ricoh.com</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -26676,6 +26931,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtlds.nic.br">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-15T00:00:00+02:00</created>
         <changed>2014-05-22T00:00:00+02:00</changed>
@@ -26691,6 +26947,9 @@
         <changed>2015-06-11T00:00:00+02:00</changed>
         <registrationService>http://rightside.co/registry/</registrationService>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="rmit">
+        <source>PSL</source>
     </domain>
     <domain name="ro">
         <source>XML</source>
@@ -26875,10 +27134,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
-        <changed>2015-08-18T00:00:00+02:00</changed>
+        <changed>2016-03-21T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -27403,7 +27661,7 @@
     <domain name="ryukyu">
         <source>IANA</source>
         <created>2014-03-13T00:00:00+01:00</created>
-        <changed>2015-10-14T00:00:00+02:00</changed>
+        <changed>2016-03-17T00:00:00+01:00</changed>
         <registrationService>http://www.gmoregistry.com/en/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -27447,6 +27705,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-20T00:00:00+01:00</created>
         <changed>2016-01-30T00:00:00+01:00</changed>
@@ -28161,6 +28420,9 @@
         <domain name="gov.sh">
             <source>PSL</source>
         </domain>
+        <domain name="hashbang.sh">
+            <source>PSL</source>
+        </domain>
         <domain name="mil.sh">
             <source>PSL</source>
         </domain>
@@ -28187,6 +28449,13 @@
     </domain>
     <domain name="shaw">
         <source>PSL</source>
+        <whoisServer host="whois.afilias-srs.net">
+            <source>IANA</source>
+        </whoisServer>
+        <created>2016-03-10T00:00:00+01:00</created>
+        <changed>2016-03-22T00:00:00+01:00</changed>
+        <registrationService>http://www.shaw.ca/store/</registrationService>
+        <state>ACTIVE</state>
     </domain>
     <domain name="shell">
         <source>IANA</source>
@@ -28303,6 +28572,9 @@
         <changed>2015-07-20T00:00:00+02:00</changed>
         <registrationService>http://radix.website/</registrationService>
         <state>ACTIVE</state>
+        <domain name="cyon.site">
+            <source>PSL</source>
+        </domain>
     </domain>
     <domain name="sj">
         <source>IANA</source>
@@ -28336,6 +28608,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-05-14T00:00:00+02:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
@@ -28460,6 +28733,7 @@
         <source>IANA</source>
         <whoisServer host="whois-sncf.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-05-08T00:00:00+02:00</created>
         <changed>2015-06-03T00:00:00+02:00</changed>
@@ -28515,7 +28789,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-12-23T00:00:00+01:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://softbank.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -28534,6 +28808,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtld.knet.cn">
             <source>PHP_WHOIS</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-02-27T00:00:00+01:00</created>
         <changed>2014-03-25T00:00:00+01:00</changed>
@@ -28581,7 +28856,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-03-20T00:00:00+01:00</created>
         <changed>2016-01-15T00:00:00+01:00</changed>
@@ -28603,6 +28877,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-06-19T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -28808,8 +29083,15 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2016-02-11T00:00:00+01:00</created>
-        <changed>2016-02-22T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://radix.website/</registrationService>
+        <state>ACTIVE</state>
+    </domain>
+    <domain name="stream">
+        <source>IANA</source>
+        <created>2016-02-26T00:00:00+01:00</created>
+        <changed>2016-03-18T00:00:00+01:00</changed>
+        <registrationService>https://www.famousfourmedia.com/stream/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="studio">
@@ -29102,6 +29384,7 @@
         </whoisServer>
         <created>1996-02-20T00:00:00+01:00</created>
         <changed>2015-05-22T00:00:00+02:00</changed>
+        <registrationService>http://tld.sy</registrationService>
         <state>ACTIVE</state>
         <countryCode>SY</countryCode>
         <domain name="com.sy">
@@ -29187,6 +29470,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.taipei">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-25T00:00:00+02:00</created>
         <changed>2016-01-06T00:00:00+01:00</changed>
@@ -29195,6 +29479,8 @@
     </domain>
     <domain name="talk">
         <source>PSL</source>
+        <created>2016-03-18T00:00:00+01:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="taobao">
         <source>IANA</source>
@@ -29220,6 +29506,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.tatar">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-07-03T00:00:00+02:00</created>
         <changed>2015-11-26T00:00:00+01:00</changed>
@@ -29403,7 +29690,6 @@
         </whoisServer>
         <created>1997-08-26T00:00:00+02:00</created>
         <changed>2016-01-25T00:00:00+01:00</changed>
-        <registrationService>http://www.afnic.fr/fr/produits-et-services/autres-domaines-de-premier-niveau-francais/</registrationService>
         <state>ACTIVE</state>
         <countryCode>TF</countryCode>
     </domain>
@@ -29415,7 +29701,6 @@
         </whoisServer>
         <created>1996-09-05T00:00:00+02:00</created>
         <changed>2016-02-10T00:00:00+01:00</changed>
-        <registrationService>http://www.netmaster.tg/manager/</registrationService>
         <state>ACTIVE</state>
         <countryCode>TG</countryCode>
     </domain>
@@ -29579,6 +29864,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.tirol">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-29T00:00:00+02:00</created>
         <changed>2016-01-21T00:00:00+01:00</changed>
@@ -29801,7 +30087,6 @@
         </whoisServer>
         <created>1995-12-18T00:00:00+01:00</created>
         <changed>2014-06-05T00:00:00+02:00</changed>
-        <registrationService>http://www.tonic.to/</registrationService>
         <state>ACTIVE</state>
         <countryCode>TO</countryCode>
         <domain name="com.to">
@@ -29858,6 +30143,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.top">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-07-24T00:00:00+02:00</created>
         <changed>2015-04-14T00:00:00+02:00</changed>
@@ -29890,6 +30176,7 @@
         <source>IANA</source>
         <whoisServer host="whois-total.nic.fr">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2016-02-05T00:00:00+01:00</created>
         <changed>2016-03-09T00:00:00+01:00</changed>
@@ -29923,7 +30210,7 @@
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2015-07-16T00:00:00+02:00</created>
-        <changed>2016-03-03T00:00:00+01:00</changed>
+        <changed>2016-03-11T00:00:00+01:00</changed>
         <registrationService>http://toyota.jp/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -29950,7 +30237,7 @@
             <source>XML</source>
         </whoisServer>
         <created>1990-09-17T00:00:00+02:00</created>
-        <changed>2015-12-29T00:00:00+01:00</changed>
+        <changed>2016-03-17T00:00:00+01:00</changed>
         <registrationService>http://www.nic.tr</registrationService>
         <state>ACTIVE</state>
         <countryCode>TR</countryCode>
@@ -30206,12 +30493,14 @@
         <source>IANA</source>
         <created>2015-12-23T00:00:00+01:00</created>
         <changed>2016-01-11T00:00:00+01:00</changed>
+        <registrationService>https://www.tubegtld.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="tui">
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -30243,7 +30532,7 @@
             <availablePattern>\QNo match for\E</availablePattern>
         </whoisServer>
         <created>1996-03-18T00:00:00+01:00</created>
-        <changed>2013-06-19T00:00:00+02:00</changed>
+        <changed>2016-03-14T00:00:00+01:00</changed>
         <state>ACTIVE</state>
         <countryCode>TV</countryCode>
         <domain name="better-than.tv">
@@ -30337,9 +30626,12 @@
     </domain>
     <domain name="tz">
         <source>IANA</source>
+        <whoisServer host="whois.tznic.or.tz">
+            <source>IANA</source>
+            <availablePattern>\Q% No entries found.\E</availablePattern>
+        </whoisServer>
         <created>1995-07-14T00:00:00+02:00</created>
         <changed>2015-03-19T00:00:00+01:00</changed>
-        <registrationService>https://tznic.or.tz/</registrationService>
         <state>ACTIVE</state>
         <countryCode>TZ</countryCode>
         <domain name="ac.tz">
@@ -30391,7 +30683,6 @@
         </whoisServer>
         <created>1992-12-01T00:00:00+01:00</created>
         <changed>2014-08-27T00:00:00+02:00</changed>
-        <registrationService>http://nic.net.ua/</registrationService>
         <state>ACTIVE</state>
         <countryCode>UA</countryCode>
         <domain name="biz.ua">
@@ -30739,7 +31030,6 @@
         </whoisServer>
         <created>1985-07-24T00:00:00+02:00</created>
         <changed>2015-09-01T00:00:00+02:00</changed>
-        <registrationService>http://www.nic.uk/</registrationService>
         <state>ACTIVE</state>
         <countryCode>GB</countryCode>
         <domain name="ac.uk">
@@ -30870,6 +31160,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtlds.nic.br">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-08-07T00:00:00+02:00</created>
         <changed>2014-08-16T00:00:00+02:00</changed>
@@ -30886,7 +31177,6 @@
         </whoisServer>
         <created>1985-02-15T00:00:00+01:00</created>
         <changed>2015-07-20T00:00:00+02:00</changed>
-        <registrationService>http://www.neustar.us/</registrationService>
         <state>ACTIVE</state>
         <countryCode>US</countryCode>
         <domain name="ak.us">
@@ -31582,7 +31872,6 @@
         </whoisServer>
         <created>1990-09-10T00:00:00+02:00</created>
         <changed>2015-08-24T00:00:00+02:00</changed>
-        <registrationService>http://www.nic.org.uy/</registrationService>
         <state>ACTIVE</state>
         <countryCode>UY</countryCode>
         <domain name="blogspot.com.uy">
@@ -31705,7 +31994,6 @@
         </whoisServer>
         <created>1991-03-07T00:00:00+01:00</created>
         <changed>2015-07-15T00:00:00+02:00</changed>
-        <registrationService>https://registro.nic.ve/</registrationService>
         <state>ACTIVE</state>
         <countryCode>VE</countryCode>
         <domain name="arts.ve">
@@ -31813,13 +32101,13 @@
         </whoisServer>
         <created>2015-11-06T00:00:00+01:00</created>
         <changed>2016-03-02T00:00:00+01:00</changed>
-        <registrationService>http://www.verisign.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="vermögensberater">
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-28T00:00:00+01:00</changed>
@@ -31830,6 +32118,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-18T00:00:00+02:00</created>
         <changed>2016-01-28T00:00:00+01:00</changed>
@@ -31840,6 +32129,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.versicherung">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-05-15T00:00:00+02:00</created>
         <changed>2016-01-21T00:00:00+01:00</changed>
@@ -32101,6 +32391,9 @@
         <registrationService>http://en.volkswagen.com/en.html</registrationService>
         <state>ACTIVE</state>
     </domain>
+    <domain name="volvo">
+        <source>PSL</source>
+    </domain>
     <domain name="vote">
         <source>IANA</source>
         <whoisServer host="whois.afilias.net">
@@ -32116,6 +32409,7 @@
         <source>IANA</source>
         <whoisServer host="whois.voting.tld-box.at">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-01-16T00:00:00+01:00</created>
         <changed>2016-01-21T00:00:00+01:00</changed>
@@ -32151,7 +32445,6 @@
         </whoisServer>
         <created>1995-04-10T00:00:00+02:00</created>
         <changed>2016-01-20T00:00:00+01:00</changed>
-        <registrationService>http://www.vunic.vu</registrationService>
         <state>ACTIVE</state>
         <countryCode>VU</countryCode>
         <domain name="com.vu">
@@ -32203,6 +32496,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtld.knet.cn">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2014-06-19T00:00:00+02:00</changed>
@@ -32321,7 +32615,6 @@
         </whoisServer>
         <created>1997-11-14T00:00:00+01:00</created>
         <changed>2016-01-25T00:00:00+01:00</changed>
-        <registrationService>http://www.afnic.fr/fr/produits-et-services/autres-domaines-de-premier-niveau-francais/</registrationService>
         <state>ACTIVE</state>
         <countryCode>WF</countryCode>
     </domain>
@@ -32340,10 +32633,10 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.wien">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2013-12-19T00:00:00+01:00</created>
         <changed>2016-01-21T00:00:00+01:00</changed>
-        <registrationService>https://www.nic.wien/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="wiki">
@@ -32461,11 +32754,10 @@
         <whoisServer host="whois.website.ws">
             <source>IANA</source>
             <availablePattern>\Qno match for\E</availablePattern>
-	    <errorPattern>\QYou exceeded the maximum allowable number of whois lookups\E</errorPattern>
+            <errorPattern>\QYou exceeded the maximum allowable number of whois lookups\E</errorPattern>
         </whoisServer>
         <created>1995-07-14T00:00:00+02:00</created>
         <changed>2012-01-21T00:00:00+01:00</changed>
-        <registrationService>http://www.website.ws</registrationService>
         <state>ACTIVE</state>
         <countryCode>WS</countryCode>
         <domain name="com.ws">
@@ -32539,8 +32831,12 @@
         <whoisServer host="whois.afilias-srs.net">
             <source>IANA</source>
         </whoisServer>
+        <whoisServer host="whois.nic.xin">
+            <source>IANA</source>
+            <availablePattern>\Qnot found\E</availablePattern>
+        </whoisServer>
         <created>2015-02-19T00:00:00+01:00</created>
-        <changed>2015-03-07T00:00:00+01:00</changed>
+        <changed>2016-03-16T00:00:00+01:00</changed>
         <registrationService>http://www.dotxin.org</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -32641,21 +32937,22 @@
     <domain name="yokohama">
         <source>IANA</source>
         <created>2014-03-27T00:00:00+01:00</created>
-        <changed>2015-10-16T00:00:00+02:00</changed>
+        <changed>2016-03-17T00:00:00+01:00</changed>
         <registrationService>http://www.gmoregistry.com/en/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="you">
         <source>PSL</source>
+        <created>2016-03-18T00:00:00+01:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="youtube">
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-21T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -32671,7 +32968,6 @@
         </whoisServer>
         <created>1997-11-17T00:00:00+01:00</created>
         <changed>2016-01-25T00:00:00+01:00</changed>
-        <registrationService>http://www.afnic.fr/fr/produits-et-services/autres-domaines-de-premier-niveau-francais/</registrationService>
         <state>ACTIVE</state>
         <countryCode>YT</countryCode>
     </domain>
@@ -32694,6 +32990,9 @@
                 <source>PHOIS</source>
                 <availablePattern>\QNo information available\E</availablePattern>
             </whoisServer>
+        </domain>
+        <domain name="agric.za">
+            <source>PSL</source>
         </domain>
         <domain name="agrica.za">
             <source>PSL</source>
@@ -32831,7 +33130,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-08-23T00:00:00+02:00</created>
         <changed>2015-12-15T00:00:00+01:00</changed>
@@ -32867,6 +33165,7 @@
         <source>IANA</source>
         <whoisServer host="whois.ksregistry.net">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-12-18T00:00:00+01:00</created>
         <changed>2016-01-29T00:00:00+01:00</changed>
@@ -32897,6 +33196,7 @@
     <domain name="бг">
         <source>IANA</source>
         <created>2016-03-05T00:00:00+01:00</created>
+        <changed>2016-03-15T00:00:00+01:00</changed>
         <state>ACTIVE</state>
     </domain>
     <domain name="бел">
@@ -32913,6 +33213,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.xn--d1acj3b">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2015-06-24T00:00:00+02:00</changed>
@@ -32933,6 +33234,9 @@
         <registrationService>http://www.iana.org/domains/idn-test/</registrationService>
         <state>INACTIVE</state>
     </domain>
+    <domain name="католик">
+        <source>PSL</source>
+    </domain>
     <domain name="ком">
         <source>IANA</source>
         <whoisServer host="whois.nic.xn--j1aef">
@@ -32952,7 +33256,6 @@
         </whoisServer>
         <created>2014-04-21T00:00:00+02:00</created>
         <changed>2014-10-24T00:00:00+02:00</changed>
-        <registrationService>http://marnet.mk/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="мон">
@@ -33147,7 +33450,7 @@
     <domain name="الاردن">
         <source>IANA</source>
         <created>2010-08-20T00:00:00+02:00</created>
-        <changed>2016-03-01T00:00:00+01:00</changed>
+        <changed>2016-03-14T00:00:00+01:00</changed>
         <state>ACTIVE</state>
     </domain>
     <domain name="الجزائر">
@@ -33271,6 +33574,7 @@
         </whoisServer>
         <created>2011-02-05T00:00:00+01:00</created>
         <changed>2015-05-22T00:00:00+02:00</changed>
+        <registrationService>http://tld.sy</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="شبكة">
@@ -33294,6 +33598,9 @@
         <changed>2015-11-03T00:00:00+01:00</changed>
         <registrationService>http://www.cmc.iq/en/iq.html</registrationService>
         <state>ACTIVE</state>
+    </domain>
+    <domain name="عرب">
+        <source>PSL</source>
     </domain>
     <domain name="عمان">
         <source>IANA</source>
@@ -33328,6 +33635,9 @@
         <registrationService>http://www.domains.qa/ar</registrationService>
         <state>ACTIVE</state>
     </domain>
+    <domain name="كاثوليك">
+        <source>PSL</source>
+    </domain>
     <domain name="كوم">
         <source>IANA</source>
         <whoisServer host="whois.nic.xn--fhbei">
@@ -33336,7 +33646,6 @@
         </whoisServer>
         <created>2015-07-02T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
-        <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="مصر">
@@ -33402,7 +33711,6 @@
         </whoisServer>
         <created>2015-07-02T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
-        <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="नेट">
@@ -33544,7 +33852,6 @@
         </whoisServer>
         <created>2015-07-02T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
-        <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="ไทย">
@@ -33571,10 +33878,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2013-11-13T00:00:00+01:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-21T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -33589,10 +33895,9 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-10-09T00:00:00+02:00</created>
-        <changed>2015-08-14T00:00:00+02:00</changed>
+        <changed>2016-03-19T00:00:00+01:00</changed>
         <registrationService>http://www.google.com/registry/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -33658,6 +33963,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtld.knet.cn">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-01-09T00:00:00+01:00</created>
         <changed>2014-01-22T00:00:00+01:00</changed>
@@ -33728,18 +34034,21 @@
         </whoisServer>
         <created>2015-02-05T00:00:00+01:00</created>
         <changed>2016-02-19T00:00:00+01:00</changed>
+        <registrationService>http://www.teleinfo.cn</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="健康">
         <source>IANA</source>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-04-02T00:00:00+02:00</changed>
+        <registrationService>http://www.stabletone.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="八卦">
         <source>PSL</source>
         <whoisServer host="whois.nic.xn--45q11c">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-11-06T00:00:00+01:00</created>
         <changed>2014-11-25T00:00:00+01:00</changed>
@@ -33765,7 +34074,6 @@
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2013-12-17T00:00:00+01:00</changed>
-        <registrationService>http://www.conac.cn</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="台湾">
@@ -33792,6 +34100,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtld.knet.cn">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-02-27T00:00:00+01:00</created>
         <changed>2014-07-26T00:00:00+02:00</changed>
@@ -33853,6 +34162,9 @@
         <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
     </domain>
+    <domain name="天主教">
+        <source>PSL</source>
+    </domain>
     <domain name="娱乐">
         <source>PSL</source>
         <whoisServer host="whois.donuts.co">
@@ -33865,6 +34177,8 @@
     </domain>
     <domain name="家電">
         <source>PSL</source>
+        <created>2016-03-18T00:00:00+01:00</created>
+        <state>NEW</state>
     </domain>
     <domain name="工行">
         <source>IANA</source>
@@ -33896,6 +34210,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.wang">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
         <changed>2015-03-31T00:00:00+02:00</changed>
@@ -33906,6 +34221,7 @@
         <source>IANA</source>
         <whoisServer host="whois.gtld.knet.cn">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
         <changed>2014-04-11T00:00:00+02:00</changed>
@@ -33969,19 +34285,24 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.xn--efvy88h">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-08-06T00:00:00+02:00</created>
         <changed>2015-08-24T00:00:00+02:00</changed>
-        <registrationService>http://www.gd.xinhua.org</registrationService>
         <state>NEW</state>
     </domain>
     <domain name="时尚">
         <source>IANA</source>
+        <whoisServer host="whois.gtld.knet.cn">
+            <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
+        </whoisServer>
         <whoisServer host="whois.nic.wang">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2015-03-12T00:00:00+01:00</created>
-        <changed>2015-03-27T00:00:00+01:00</changed>
+        <changed>2016-03-17T00:00:00+01:00</changed>
         <registrationService>http://www.nic.wang</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -34094,16 +34415,18 @@
         <source>IANA</source>
         <whoisServer host="whois.registry.knet.cn">
             <source>IANA</source>
-            <availablePattern>\Qno match\E</availablePattern>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-03-13T00:00:00+01:00</created>
         <changed>2015-12-11T00:00:00+01:00</changed>
+        <registrationService>http://www.knet.cn/domain/wagnzhi/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="网店">
         <source>PSL</source>
         <whoisServer host="whois.nic.xn--hxt814e">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-11-20T00:00:00+01:00</created>
         <changed>2014-12-02T00:00:00+01:00</changed>
@@ -34148,7 +34471,6 @@
         <source>IANA</source>
         <whoisServer host="domain-registry-whois.l.google.com">
             <source>IANA</source>
-            <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-10-09T00:00:00+02:00</created>
         <changed>2016-02-19T00:00:00+01:00</changed>
@@ -34172,9 +34494,10 @@
         <source>IANA</source>
         <whoisServer host="whois.gtld.knet.cn">
             <source>IANA</source>
+            <availablePattern>\Qobject does not exist\E</availablePattern>
         </whoisServer>
         <created>2013-12-12T00:00:00+01:00</created>
-        <changed>2014-04-11T00:00:00+02:00</changed>
+        <changed>2016-03-17T00:00:00+01:00</changed>
         <registrationService>http://zodiacregistry.com/</registrationService>
         <state>ACTIVE</state>
     </domain>
@@ -34238,7 +34561,6 @@
         </whoisServer>
         <created>2015-07-02T00:00:00+02:00</created>
         <changed>2016-03-03T00:00:00+01:00</changed>
-        <registrationService>http://www.verisign.com/?inc=www.verisigninc.com</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="삼성">
