@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xs:schema version="2.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema version="2.2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:element name="domainList" type="domainList"/>
 
@@ -49,6 +49,7 @@
       <xs:extension base="listObject">
         <xs:sequence>
           <xs:element name="availablePattern" type="xs:string" minOccurs="0"/>
+          <xs:element name="queryFormat" type="xs:string" minOccurs="0"/>
           <xs:element name="errorPattern" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attribute name="host" type="xs:string"/>

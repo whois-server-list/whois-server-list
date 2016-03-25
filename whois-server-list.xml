@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.1.8">
-    <date>2016-03-24T13:02:24.504+01:00</date>
+<domainList version="2.2.0">
+    <date>2016-03-25T20:41:24.504+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -4420,10 +4420,12 @@
         <whoisServer host="whois.crsnic.net">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
+	    <queryFormat>=%s</queryFormat>
         </whoisServer>
         <whoisServer host="whois.verisign-grs.com">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
+	    <queryFormat>=%s</queryFormat>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
@@ -11215,9 +11217,11 @@
         <whoisServer host="whois.jprs.jp">
             <source>XML</source>
             <availablePattern>\Qno match\E</availablePattern>
+	    <queryFormat>%s/e</queryFormat>
         </whoisServer>
         <whoisServer host="whois.nic.ad.jp">
             <source>XML</source>
+	    <queryFormat>%s/e</queryFormat>
         </whoisServer>
         <created>1986-08-05T00:00:00+02:00</created>
         <changed>2015-10-16T00:00:00+02:00</changed>
@@ -11241,6 +11245,11 @@
         </domain>
         <domain name="ac.jp">
             <source>XML</source>
+        <whoisServer host="whois.jprs.jp">
+            <source>XML</source>
+            <availablePattern>\Qno match\E</availablePattern>
+	    <queryFormat>%s/e</queryFormat>
+        </whoisServer>
             <whoisServer host="whois.nic.ad.jp">
                 <source>PHOIS</source>
                 <availablePattern>\QNo match!!\E</availablePattern>
@@ -11884,6 +11893,11 @@
         </domain>
         <domain name="go.jp">
             <source>XML</source>
+        <whoisServer host="whois.jprs.jp">
+            <source>XML</source>
+            <availablePattern>\Qno match\E</availablePattern>
+	    <queryFormat>%s/e</queryFormat>
+        </whoisServer>
             <whoisServer host="whois.nic.ad.jp">
                 <source>PHOIS</source>
                 <availablePattern>\QNo match!!\E</availablePattern>
@@ -14213,6 +14227,11 @@
         </domain>
         <domain name="ne.jp">
             <source>XML</source>
+        <whoisServer host="whois.jprs.jp">
+            <source>XML</source>
+            <availablePattern>\Qno match\E</availablePattern>
+	    <queryFormat>%s/e</queryFormat>
+        </whoisServer>
             <whoisServer host="whois.nic.ad.jp">
                 <source>PHOIS</source>
                 <availablePattern>\QNo match!!\E</availablePattern>
@@ -14658,6 +14677,11 @@
         </domain>
         <domain name="or.jp">
             <source>XML</source>
+        <whoisServer host="whois.jprs.jp">
+            <source>XML</source>
+            <availablePattern>\Qno match\E</availablePattern>
+	    <queryFormat>%s/e</queryFormat>
+        </whoisServer>
             <whoisServer host="whois.nic.ad.jp">
                 <source>PHOIS</source>
                 <availablePattern>\QNo match!!\E</availablePattern>
@@ -21106,10 +21130,12 @@
         <whoisServer host="whois.crsnic.net">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
+	    <queryFormat>=%s</queryFormat>
         </whoisServer>
         <whoisServer host="whois.verisign-grs.com">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
+	    <queryFormat>=%s</queryFormat>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
