@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="2.2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="domainList" type="domainList"/>
+
+  <xs:complexType name="domainList" final="extension restriction">
+    <xs:sequence>
+      <xs:element name="date" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="domain" type="topLevelDomain" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="version" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="topLevelDomain" final="extension restriction">
+    <xs:complexContent>
+      <xs:extension base="domain">
+        <xs:sequence>
+          <xs:element name="registrationService" type="xs:anyURI" minOccurs="0"/>
+          <xs:element name="state" type="state" minOccurs="0"/>
+          <xs:element name="countryCode" type="xs:string" minOccurs="0"/>
+          <xs:element name="domain" type="domain" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="domain">
+    <xs:complexContent>
+      <xs:extension base="listObject">
+        <xs:sequence>
+          <xs:element name="whoisServer" type="whoisServer" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="created" type="xs:dateTime" minOccurs="0"/>
+          <xs:element name="changed" type="xs:dateTime" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="listObject" abstract="true">
+    <xs:sequence>
+      <xs:element name="source" type="source" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="whoisServer" final="extension restriction">
+    <xs:complexContent>
+      <xs:extension base="listObject">
+        <xs:sequence>
+          <xs:element name="availablePattern" type="xs:string" minOccurs="0"/>
+          <xs:element name="queryFormat" type="xs:string" minOccurs="0"/>
+          <xs:element name="errorPattern" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="host" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:simpleType name="state">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ACTIVE"/>
+      <xs:enumeration value="INACTIVE"/>
+      <xs:enumeration value="NEW"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="source">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="XML"/>
+      <xs:enumeration value="IANA"/>
+      <xs:enumeration value="PSL"/>
+      <xs:enumeration value="MD_WHOIS"/>
+      <xs:enumeration value="WHOIS_RB"/>
+      <xs:enumeration value="PHP_WHOIS"/>
+      <xs:enumeration value="PHOIS"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+
