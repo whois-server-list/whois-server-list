@@ -6165,6 +6165,7 @@
         <whoisServer host="whois.dk-hostmaster.dk">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
+	    <errorPattern>\QToo many connections\E</errorPattern>
         </whoisServer>
         <created>1987-07-14T00:00:00+02:00</created>
         <changed>2015-11-04T00:00:00+01:00</changed>
@@ -25151,6 +25152,7 @@
         <whoisServer host="whois.nic.pid">
             <source>IANA</source>
             <availablePattern>\Qnot found\E</availablePattern>
+	    <errorPattern>\Qqueries per hour exceeded\E</errorPattern>
         </whoisServer>
         <created>2015-12-10T00:00:00+01:00</created>
         <changed>2016-01-08T00:00:00+01:00</changed>
@@ -29567,6 +29569,7 @@
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
             <availablePattern>\QNo Object Found\E</availablePattern>
+	    <errorPattern>\QLookup quota exceeded\E</errorPattern>
         </whoisServer>
         <whoisServer host="whois.meridiantld.net">
             <source>IANA</source>
