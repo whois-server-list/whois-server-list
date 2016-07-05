@@ -18317,10 +18317,6 @@
     </domain>
     <domain name="me">
         <source>IANA</source>
-        <whoisServer host="whois.meregistry.net">
-            <source>PHOIS</source>
-            <availablePattern>\QNOT FOUND\E</availablePattern>
-        </whoisServer>
         <whoisServer host="whois.nic.me">
             <source>IANA</source>
             <availablePattern>\Qnot found\E</availablePattern>
