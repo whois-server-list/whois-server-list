@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.2.1">
-    <date>2016-03-27T19:02:24.504+01:00</date>
+<domainList version="2.2.2">
+    <date>2016-07-05T23:43:00+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -6165,6 +6165,7 @@
         <whoisServer host="whois.dk-hostmaster.dk">
             <source>XML</source>
             <availablePattern>\Qno entries found\E</availablePattern>
+	    <errorPattern>\QToo many connections\E</errorPattern>
         </whoisServer>
         <created>1987-07-14T00:00:00+02:00</created>
         <changed>2015-11-04T00:00:00+01:00</changed>
@@ -18317,10 +18318,6 @@
     </domain>
     <domain name="me">
         <source>IANA</source>
-        <whoisServer host="whois.meregistry.net">
-            <source>PHOIS</source>
-            <availablePattern>\QNOT FOUND\E</availablePattern>
-        </whoisServer>
         <whoisServer host="whois.nic.me">
             <source>IANA</source>
             <availablePattern>\Qnot found\E</availablePattern>
@@ -25155,6 +25152,7 @@
         <whoisServer host="whois.nic.pid">
             <source>IANA</source>
             <availablePattern>\Qnot found\E</availablePattern>
+	    <errorPattern>\Qqueries per hour exceeded\E</errorPattern>
         </whoisServer>
         <created>2015-12-10T00:00:00+01:00</created>
         <changed>2016-01-08T00:00:00+01:00</changed>
@@ -29571,6 +29569,7 @@
         <whoisServer host="whois.adamsnames.tc">
             <source>XML</source>
             <availablePattern>\QNo Object Found\E</availablePattern>
+	    <errorPattern>\QLookup quota exceeded\E</errorPattern>
         </whoisServer>
         <whoisServer host="whois.meridiantld.net">
             <source>IANA</source>
