@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.2.3">
-    <date>2016-07-06T13:32:59.790+02:00</date>
+<domainList version="2.2.4">
+    <date>2016-07-06T14:32:59.790+02:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -12284,10 +12284,6 @@
         </domain>
         <domain name="co.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="daigo.ibaraki.jp">
             <source>PSL</source>
