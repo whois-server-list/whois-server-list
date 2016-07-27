@@ -34201,7 +34201,7 @@
         </domain>
         <domain name="co.za">
             <source>MD_WHOIS</source>
-            <whoisServer host="whois.registry.net.za">
+            <whoisServer host="co-whois.registry.net.za">
                 <source>MD_WHOIS</source>
             </whoisServer>
         </domain>
