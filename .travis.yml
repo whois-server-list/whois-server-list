@@ -1,0 +1,4 @@
+sudo: false
+
+script:
+  - xmllint --noout --schema whois-server-list.xsd whois-server-list.xml

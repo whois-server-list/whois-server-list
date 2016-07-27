@@ -36,3 +36,5 @@ those licenses. These are the licenses and its corresponding sources:
 If you like this project and feel generous donate a few Bitcoins here:
 [1335STSwu9hST4vcMRppEPgENMHD2r1REK](bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK)
 
+[![Build Status](https://travis-ci.org/whois-server-list/whois-server-list.svg?branch=master)](https://travis-ci.org/whois-server-list/whois-server-list)
+
