@@ -16,6 +16,16 @@ You can find the latest list online at http://whois-server-list.github.io/whois-
 
 We do also provide an online <a href="http://whois-api.domaininformation.de/">Whois API</a> which uses this list.
 
+# Contribution
+
+If you want to change anything to the list feel free to submit a pull request.
+Please include a `<source>XML</source>` to your contributed elements, otherwise
+they would get lost during next compilation. E.g.:
+
+    <whoisServer host="whois.example.net">
+        <source>XML</source>
+    </whoisServer>
+
 # License and author
 
 Markus Malkusch <markus@malkusch.de> is the author of this project. This project is free and under the WTFPL.
