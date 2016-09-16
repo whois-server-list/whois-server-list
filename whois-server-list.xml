@@ -4627,9 +4627,10 @@
             </whoisServer>
         </domain>
         <domain name="africa.com">
-            <source>PSL</source>
-            <whoisServer host="whois.centralnic.com">
-                <source>WHOIS_RB</source>
+            <source>XML</source>
+            <whoisServer host="srs-whois.dns.net.za">
+                <source>XML</source>
+                <availablePattern>\QNo information was found\E</availablePattern>
             </whoisServer>
         </domain>
         <domain name="alpha.bounty-full.com">
@@ -5302,6 +5303,13 @@
         </domain>
         <domain name="logoip.com">
             <source>PSL</source>
+        </domain>
+        <domain name="lovesnaija.com">
+            <source>XML</source>
+            <whoisServer host="srs-whois.dns.net.za">
+                <source>XML</source>
+                <availablePattern>\QNo information was found\E</availablePattern>
+            </whoisServer>
         </domain>
         <domain name="mex.com">
             <source>PSL</source>
