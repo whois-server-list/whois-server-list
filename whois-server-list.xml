@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="2.2.4">
-    <date>2016-07-06T14:32:59.790+02:00</date>
-    <description>This list is hosted at https://github.com/whois-server-list/whois-server-list
+<domainList version="3.0.0">
+    <date>2016-11-07T23:41:59.790+02:00</date>
+    <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
         <source>IANA</source>
@@ -6285,10 +6285,12 @@
         <whoisServer host="whois.denic.de">
             <source>XML</source>
             <availablePattern>\QStatus: free\E</availablePattern>
+	    <queryFormat>-T dn,ace %s</queryFormat>
         </whoisServer>
         <whoisServer host="whois.nic.de">
             <source>XML</source>
             <availablePattern>\QStatus: free\E</availablePattern>
+	    <queryFormat>-T dn,ace %s</queryFormat>
         </whoisServer>
         <created>1986-11-05T00:00:00+01:00</created>
         <changed>2012-04-19T00:00:00+02:00</changed>

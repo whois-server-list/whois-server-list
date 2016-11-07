@@ -16,6 +16,10 @@ You can find the latest list online at http://whois-server-list.github.io/whois-
 
 We do also provide an online <a href="http://whois-api.domaininformation.de/">Whois API</a> which uses this list.
 
+# IDN
+
+Queries for IDN domain names should be done in the ACE representation.
+
 # Contribution
 
 If you want to change anything to the list feel free to submit a pull request.
