@@ -12,7 +12,7 @@ Sources are:
 * [PHOIS] [php-whois](https://raw.githubusercontent.com/regru/php-whois/master/src/Phois/Whois/whois.servers.json)
 * [PHP_WHOIS] [phpWhois](https://raw.githubusercontent.com/phpWhois/phpWhois/master/src/whois.servers.php)
 
-You can find the latest list online at http://whois-server-list.github.io/whois-server-list/2.2/whois-server-list.xml
+You can find the latest list online at http://whois-server-list.github.io/whois-server-list/3.0/whois-server-list.xml
 
 We do also provide an online <a href="http://whois-api.domaininformation.de/">Whois API</a> which uses this list.
 
