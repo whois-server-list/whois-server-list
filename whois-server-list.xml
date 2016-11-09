@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="3.0.1">
-    <date>2016-11-08T23:52:12.659+01:00</date>
+<domainList version="3.0.2">
+    <date>2016-11-09T00:00:12.659+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -12688,10 +12688,6 @@
         </domain>
         <domain name="ac.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
             <whoisServer host="whois.jprs.jp">
                 <source>XML</source>
                 <availablePattern>\Qno match\E</availablePattern>
@@ -13093,10 +13089,6 @@
         </domain>
         <domain name="co.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="daigo.ibaraki.jp">
             <source>PSL</source>
@@ -13340,15 +13332,6 @@
         </domain>
         <domain name="go.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
-            <whoisServer host="whois.jprs.jp">
-                <source>XML</source>
-                <availablePattern>\Qno match\E</availablePattern>
-                <queryFormat>%s/e</queryFormat>
-            </whoisServer>
         </domain>
         <domain name="gobo.wakayama.jp">
             <source>PSL</source>
@@ -15674,15 +15657,6 @@
         </domain>
         <domain name="ne.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
-            <whoisServer host="whois.jprs.jp">
-                <source>XML</source>
-                <availablePattern>\Qno match\E</availablePattern>
-                <queryFormat>%s/e</queryFormat>
-            </whoisServer>
         </domain>
         <domain name="nemuro.hokkaido.jp">
             <source>PSL</source>
@@ -16124,15 +16098,6 @@
         </domain>
         <domain name="or.jp">
             <source>XML</source>
-            <whoisServer host="whois.nic.ad.jp">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match!!\E</availablePattern>
-            </whoisServer>
-            <whoisServer host="whois.jprs.jp">
-                <source>XML</source>
-                <availablePattern>\Qno match\E</availablePattern>
-                <queryFormat>%s/e</queryFormat>
-            </whoisServer>
         </domain>
         <domain name="ora.gunma.jp">
             <source>PSL</source>
