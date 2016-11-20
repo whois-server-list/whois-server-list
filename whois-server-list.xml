@@ -1395,10 +1395,7 @@
         <whoisServer host="whois.audns.net.au">
             <source>IANA</source>
             <availablePattern>\Qno data found\E</availablePattern>
-        </whoisServer>
-        <whoisServer host="whois.aunic.net">
-            <source>XML</source>
-            <availablePattern>\Qno data found\E</availablePattern>
+            <errorPattern>You have exceeded</errorPattern>
         </whoisServer>
         <created>1986-03-05T00:00:00+01:00</created>
         <changed>2016-04-01T00:00:00+02:00</changed>
@@ -1413,51 +1410,30 @@
         </domain>
         <domain name="asn.au">
             <source>XML</source>
-            <whoisServer host="whois.aunic.net">
-                <source>PHOIS</source>
-                <availablePattern>\QNo Data Found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="blogspot.com.au">
             <source>PSL</source>
         </domain>
         <domain name="com.au">
             <source>XML</source>
-            <whoisServer host="whois.aunic.net">
-                <source>PHOIS</source>
-                <availablePattern>\QNo Data Found\E</availablePattern>
-                <errorPattern>You have exceeded</errorPattern>
-            </whoisServer>
         </domain>
         <domain name="conf.au">
             <source>PSL</source>
         </domain>
         <domain name="edu.au">
             <source>XML</source>
-            <whoisServer host="whois.aunic.net">
-                <source>PHOIS</source>
-                <availablePattern>\QNo Data Found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="gov.au">
             <source>PSL</source>
         </domain>
         <domain name="id.au">
             <source>XML</source>
-            <whoisServer host="whois.aunic.net">
-                <source>PHOIS</source>
-                <availablePattern>\QNo Data Found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="info.au">
             <source>PSL</source>
         </domain>
         <domain name="net.au">
             <source>XML</source>
-            <whoisServer host="whois.aunic.net">
-                <source>PHOIS</source>
-                <availablePattern>\QNo Data Found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="nsw.au">
             <source>PSL</source>
@@ -1473,10 +1449,6 @@
         </domain>
         <domain name="org.au">
             <source>XML</source>
-            <whoisServer host="whois.aunic.net">
-                <source>PHOIS</source>
-                <availablePattern>\QNo Data Found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="oz.au">
             <source>PSL</source>
