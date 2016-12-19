@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="3.0.3">
-    <date>2016-11-20T00:00:12.659+01:00</date>
+<domainList version="3.0.4">
+    <date>2016-12-18T00:00:12.659+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -1987,7 +1987,7 @@
         <source>XML</source>
         <whoisServer host="whois.dns.be">
             <source>XML</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>Status:\s+AVAILABLE</availablePattern>
         </whoisServer>
         <created>1988-08-05T00:00:00+02:00</created>
         <changed>2016-06-28T00:00:00+02:00</changed>
