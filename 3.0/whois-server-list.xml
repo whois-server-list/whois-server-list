@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="3.0.5">
-    <date>2016-12-19T00:00:12.659+01:00</date>
+<domainList version="3.0.6">
+    <date>2016-12-19T16:21:12.659+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -9442,11 +9442,6 @@
     </domain>
     <domain name="gr">
         <source>XML</source>
-        <whoisServer host="whois.ripe.net">
-            <source>XML</source>
-            <availablePattern>\Qno entries found\E</availablePattern>
-            <errorPattern>\Qaccess denied\E</errorPattern>
-        </whoisServer>
         <created>1989-02-19T00:00:00+01:00</created>
         <changed>2016-06-17T00:00:00+02:00</changed>
         <registrationService>http://www.gr</registrationService>
@@ -19419,12 +19414,7 @@
         <source>XML</source>
         <whoisServer host="whois.domreg.lt">
             <source>XML</source>
-            <availablePattern>\Qavailable\E</availablePattern>
-        </whoisServer>
-        <whoisServer host="whois.ripe.net">
-            <source>XML</source>
-            <availablePattern>\Qno entries found\E</availablePattern>
-            <errorPattern>\Qaccess denied\E</errorPattern>
+            <availablePattern>Status:\s+available</availablePattern>
         </whoisServer>
         <created>1992-06-03T00:00:00+02:00</created>
         <changed>2016-09-30T00:00:00+02:00</changed>
