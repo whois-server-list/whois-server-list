@@ -6257,7 +6257,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.cr">
             <source>IANA</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\QNo entries found\E</availablePattern>
         </whoisServer>
         <created>1990-09-10T00:00:00+02:00</created>
         <changed>2016-09-13T00:00:00+02:00</changed>
