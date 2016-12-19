@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="3.0.6">
-    <date>2016-12-19T16:21:12.659+01:00</date>
+<domainList version="3.0.7">
+    <date>2016-12-19T17:21:12.659+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -6257,7 +6257,7 @@
         <source>IANA</source>
         <whoisServer host="whois.nic.cr">
             <source>IANA</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\QNo entries found\E</availablePattern>
         </whoisServer>
         <created>1990-09-10T00:00:00+02:00</created>
         <changed>2016-09-13T00:00:00+02:00</changed>
@@ -30843,11 +30843,6 @@
     </domain>
     <domain name="sk">
         <source>XML</source>
-        <whoisServer host="whois.ripe.net">
-            <source>XML</source>
-            <availablePattern>\Qno entries found\E</availablePattern>
-            <errorPattern>\Qaccess denied\E</errorPattern>
-        </whoisServer>
         <whoisServer host="whois.sk-nic.sk">
             <source>IANA</source>
             <availablePattern>\Qnot found\E</availablePattern>
