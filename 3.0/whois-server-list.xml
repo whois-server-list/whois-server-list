@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="3.0.7">
-    <date>2016-12-19T17:21:12.659+01:00</date>
+<domainList version="3.0.8">
+    <date>2017-01-20T17:21:12.659+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
     <domain name="aaa">
@@ -35801,7 +35801,8 @@
     <domain name="бел">
         <source>IANA</source>
         <whoisServer host="whois.cctld.by">
-            <source>IANA</source>
+            <source>XML</source>
+	    <availablePattern>\QObject does not exist\E</availablePattern>
         </whoisServer>
         <created>2014-09-29T00:00:00+02:00</created>
         <changed>2015-12-08T00:00:00+01:00</changed>
