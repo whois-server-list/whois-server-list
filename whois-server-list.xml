@@ -32587,9 +32587,9 @@
         <countryCode>TL</countryCode>
     </domain>
     <domain name="tr">
-        <source>XML</source>
         <whoisServer host="whois.nic.tr">
             <source>XML</source>
+            <availablePattern>\QNo match found\E</availablePattern>
         </whoisServer>
         <created>1990-09-17T00:00:00+02:00</created>
         <changed>2016-08-02T00:00:00+02:00</changed>
@@ -32597,105 +32597,73 @@
         <state>ACTIVE</state>
         <countryCode>TR</countryCode>
         <domain name="av.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="bbs.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="bel.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="biz.tr">
-            <source>PSL</source>
-        </domain>
-        <domain name="blogspot.com.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="com.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="dr.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="edu.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="gen.tr">
-            <source>PSL</source>
-        </domain>
-        <domain name="gov.nc.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="gov.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="info.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="k12.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="kep.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="mil.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="name.tr">
-            <source>PSL</source>
-        </domain>
-        <domain name="nc.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="net.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="org.tr">
             <source>XML</source>
-            <whoisServer host="whois.metu.edu.tr">
-                <source>PHOIS</source>
-                <availablePattern>\QNo match found\E</availablePattern>
-            </whoisServer>
         </domain>
         <domain name="pol.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="tel.tr">
-            <source>PSL</source>
+            <source>XML</source>
+        </domain>
+        <domain name="tsk.tr">
+            <source>XML</source>
         </domain>
         <domain name="tv.tr">
-            <source>PSL</source>
+            <source>XML</source>
         </domain>
         <domain name="web.tr">
-            <source>PSL</source>
+            <source>XML</source>
+        </domain>
+        <domain name="nc.tr">
+            <source>XML</source>
+        </domain>
+        <domain name="gov.nc.tr">
+            <source>XML</source>
         </domain>
     </domain>
     <domain name="trade">
