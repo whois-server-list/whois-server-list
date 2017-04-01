@@ -4922,12 +4922,12 @@
         <whoisServer host="whois.crsnic.net">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
-            <queryFormat>=%s</queryFormat>
+            <queryFormat>DOMAIN =%s</queryFormat>
         </whoisServer>
         <whoisServer host="whois.verisign-grs.com">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
-            <queryFormat>=%s</queryFormat>
+            <queryFormat>DOMAIN =%s</queryFormat>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
@@ -22829,12 +22829,12 @@
         <whoisServer host="whois.crsnic.net">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
-            <queryFormat>=%s</queryFormat>
+            <queryFormat>DOMAIN =%s</queryFormat>
         </whoisServer>
         <whoisServer host="whois.verisign-grs.com">
             <source>XML</source>
             <availablePattern>\Qno match for\E</availablePattern>
-            <queryFormat>=%s</queryFormat>
+            <queryFormat>DOMAIN =%s</queryFormat>
         </whoisServer>
         <created>1985-01-01T00:00:00+01:00</created>
         <changed>2015-05-29T00:00:00+02:00</changed>
