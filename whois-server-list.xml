@@ -664,7 +664,11 @@
         <state>ACTIVE</state>
     </domain>
     <domain name="africa">
-        <source>PSL</source>
+        <source>XML</source>
+        <whoisServer host="africa-whois.dns.net.za">
+            <source>XML</source>
+            <availablePattern>\QAvailable\E</availablePattern>
+        </whoisServer>
     </domain>
     <domain name="africamagic">
         <source>PSL</source>
@@ -4953,9 +4957,6 @@
             <whoisServer host="srs-whois.dns.net.za">
                 <source>XML</source>
                 <availablePattern>\QNo information was found\E</availablePattern>
-            </whoisServer>
-            <whoisServer host="whois.centralnic.com">
-                <source>WHOIS_RB</source>
             </whoisServer>
         </domain>
         <domain name="alpha-myqnapcloud.com">
