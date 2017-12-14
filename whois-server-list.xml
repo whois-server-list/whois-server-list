@@ -665,7 +665,7 @@
     </domain>
     <domain name="africa">
         <source>XML</source>
-        <whoisServer host="africa-whois.dns.net.za">
+        <whoisServer host="africa-whois.registry.net.za">
             <source>XML</source>
             <availablePattern>\QAvailable\E</availablePattern>
         </whoisServer>
