@@ -19308,13 +19308,13 @@
     </domain>
     <domain name="london">
         <source>IANA</source>
-        <whoisServer host="whois-lon.mm-registry.com">
+        <whoisServer host="whois.nic.london">
             <source>IANA</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\QThis domain name has not been registered\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2016-04-16T00:00:00+02:00</changed>
-        <registrationService>http://domains.london/</registrationService>
+        <registrationService>http://www.dotlondondomains.london/</registrationService>
         <state>ACTIVE</state>
     </domain>
     <domain name="lotte">
