@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domainList version="3.0.8">
+<domainList version="3.0.9">
     <date>2017-01-20T17:21:12.659+01:00</date>
     <description>This list is hosted at https://github.com/whois-server-list/whois-server-list. In case of querying for IDN domain names, use the ACE representation.
 		Donations go to bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK</description>
@@ -664,10 +664,11 @@
         <state>ACTIVE</state>
     </domain>
     <domain name="africa">
-        <source>PSL</source>
-    </domain>
-    <domain name="africamagic">
-        <source>PSL</source>
+        <source>XML</source>
+        <whoisServer host="africa-whois.registry.net.za">
+            <source>XML</source>
+            <availablePattern>\QAvailable\E</availablePattern>
+        </whoisServer>
     </domain>
     <domain name="ag">
         <source>XML</source>
@@ -9141,13 +9142,9 @@
         <state>ACTIVE</state>
     </domain>
     <domain name="gle">
-        <source>IANA</source>
-        <whoisServer host="domain-registry-whois.l.google.com">
-            <source>IANA</source>
-            <availablePattern>\QDomain not found.\E</availablePattern>
-        </whoisServer>
+        <source>XML</source>
         <whoisServer host="whois.nic.google">
-            <source>IANA</source>
+            <source>XML</source>
             <availablePattern>\Qnot found\E</availablePattern>
         </whoisServer>
         <created>2014-09-04T00:00:00+02:00</created>
@@ -19308,9 +19305,9 @@
     </domain>
     <domain name="london">
         <source>IANA</source>
-        <whoisServer host="whois-lon.mm-registry.com">
+        <whoisServer host="whois.nic.london">
             <source>IANA</source>
-            <availablePattern>\Qavailable\E</availablePattern>
+            <availablePattern>\QThis domain name has not been registered\E</availablePattern>
         </whoisServer>
         <created>2014-02-13T00:00:00+01:00</created>
         <changed>2016-04-16T00:00:00+02:00</changed>
@@ -27266,8 +27263,8 @@
         <source>XML</source>
         <whoisServer host="whois.dns.pl">
             <source>XML</source>
-            <availablePattern>\QNo information available\E</availablePattern>
-            <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+            <availablePattern>(available for registration|No information available)</availablePattern>
+            <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
         </whoisServer>
         <created>1990-07-30T00:00:00+02:00</created>
         <changed>2016-10-20T00:00:00+02:00</changed>
@@ -27280,17 +27277,17 @@
         <domain name="agro.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="aid.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="ap.gov.pl">
@@ -27302,65 +27299,125 @@
         <domain name="atm.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="augustow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="auto.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="babia-gora.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bedzin.pl">
-            <source>PSL</source>
+            <source>XML</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="beep.pl">
             <source>PSL</source>
         </domain>
         <domain name="beskidy.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bialowieza.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bialystok.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bielawa.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bieszczady.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="biz.pl">
-            <source>XML</source>
+            <source>PHOIS</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="boleslawiec.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bydgoszcz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="bytom.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="cieszyn.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="co.pl">
             <source>PSL</source>
@@ -27371,31 +27428,58 @@
         <domain name="com.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="czeladz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="czest.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="dlugoleka.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="edu.pl">
-            <source>XML</source>
+            <source>PHOIS</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="elblag.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="elk.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="gda.pl">
             <source>PSL</source>
@@ -27411,34 +27495,56 @@
         </domain>
         <domain name="glogow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="gmina.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="gniezno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="gorlice.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="grajewo.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="griw.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="gsm.pl">
-            <source>XML</source>
+            <source>PSL</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="ic.gov.pl">
@@ -27446,6 +27552,11 @@
         </domain>
         <domain name="ilawa.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="info.pl">
             <source>XML</source>
@@ -27462,54 +27573,134 @@
         </domain>
         <domain name="jaworzno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="jelenia-gora.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="jgora.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kalisz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="karpacz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kartuzy.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kaszuby.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="katowice.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kazimierz-dolny.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kepno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="ketrzyn.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="klodzko.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kmpsp.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="kobierzyce.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kolobrzeg.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="konin.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="konskowola.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="konsulat.gov.pl">
             <source>PSL</source>
@@ -27522,6 +27713,11 @@
         </domain>
         <domain name="kutno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="kwp.gov.pl">
             <source>PSL</source>
@@ -27531,49 +27727,115 @@
         </domain>
         <domain name="lapy.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="lebork.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="legnica.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="lezajsk.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="limanowa.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="lomza.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="lowicz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="lubin.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="lukow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mail.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="malbork.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="malopolska.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mazowsze.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mazury.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mbone.pl">
             <source>PSL</source>
@@ -27582,10 +27844,11 @@
             <source>PSL</source>
         </domain>
         <domain name="media.pl">
-            <source>XML</source>
+            <source>PHOIS</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="miasta.pl">
@@ -27597,20 +27860,35 @@
         </domain>
         <domain name="mielec.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mielno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mil.pl">
-            <source>XML</source>
+            <source>PHOIS</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qprevious request is being processed for\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="mragowo.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="mup.gov.pl">
             <source>PSL</source>
@@ -27620,12 +27898,18 @@
         </domain>
         <domain name="naklo.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="net.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="ngo.pl">
@@ -27633,59 +27917,126 @@
         </domain>
         <domain name="nieruchomosci.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="nom.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="nowaruda.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="nysa.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="oirm.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="olawa.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="olecko.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="olkusz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="olsztyn.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="opoczno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="opole.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="org.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="ostroda.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="ostroleka.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="ostrowiec.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="ostrowwlkp.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="oum.gov.pl">
             <source>PSL</source>
@@ -27696,18 +28047,34 @@
         <domain name="pc.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="pila.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="pinb.gov.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="pisz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="piw.gov.pl">
             <source>PSL</source>
@@ -27717,21 +28084,51 @@
         </domain>
         <domain name="podhale.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="podlasie.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="polkowice.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="pomorskie.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="pomorze.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="powiat.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="poznan.pl">
             <source>PSL</source>
@@ -27739,18 +28136,34 @@
         <domain name="priv.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="prochowice.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="pruszkow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="przeworsk.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="psp.gov.pl">
             <source>PSL</source>
@@ -27760,37 +28173,62 @@
         </domain>
         <domain name="pulawy.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="pup.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="radom.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="rawa-maz.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="realestate.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="rel.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="rybnik.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="rzeszow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="rzgw.gov.pl">
             <source>PSL</source>
@@ -27800,22 +28238,37 @@
         </domain>
         <domain name="sanok.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="sdn.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="sejny.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="sex.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="shop.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="siedlce.pl">
@@ -27824,9 +28277,9 @@
         <domain name="sklep.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="sko.gov.pl">
@@ -27834,12 +28287,27 @@
         </domain>
         <domain name="skoczow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="slask.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="slupsk.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="so.gov.pl">
             <source>PSL</source>
@@ -27850,101 +28318,176 @@
         <domain name="sos.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="sosnowiec.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="sr.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="stalowa-wola.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="starachowice.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="stargard.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="starostwo.gov.pl">
             <source>PSL</source>
         </domain>
         <domain name="suwalki.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="swidnica.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="swiebodzin.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="swinoujscie.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="szczecin.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="szczytno.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="szkola.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="targi.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tarnobrzeg.pl">
-            <source>PSL</source>
+            <source>XML</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="tgory.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="tm.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tourism.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="travel.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="turek.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="turystyka.pl">
             <source>XML</source>
             <whoisServer host="whois.dns.pl">
-                <source>PHOIS</source>
-                <availablePattern>\QNo information available\E</availablePattern>
-                <errorPattern>\Qrequest limit exceeded\E</errorPattern>
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
             </whoisServer>
         </domain>
         <domain name="tychy.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="ug.gov.pl">
             <source>PSL</source>
@@ -27972,6 +28515,11 @@
         </domain>
         <domain name="ustka.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="uw.gov.pl">
             <source>PSL</source>
@@ -27981,21 +28529,51 @@
         </domain>
         <domain name="walbrzych.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="warmia.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="warszawa.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="waw.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wegrow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wielun.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wif.gov.pl">
             <source>PSL</source>
@@ -28017,21 +28595,46 @@
         </domain>
         <domain name="wlocl.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wloclawek.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wodzislaw.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wolomin.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wroc.pl">
             <source>PSL</source>
         </domain>
         <domain name="wroclaw.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="wsa.gov.pl">
             <source>PSL</source>
@@ -28047,21 +28650,46 @@
         </domain>
         <domain name="zachpomor.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="zagan.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="zakopane.pl">
             <source>PSL</source>
         </domain>
         <domain name="zarow.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="zgora.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="zgorzelec.pl">
             <source>PSL</source>
+            <whoisServer host="whois.dns.pl">
+                <source>XML</source>
+                <availablePattern>(available for registration|No information available)</availablePattern>
+                <errorPattern>(previous request is being processed for|request limit exceeded|over the limit)</errorPattern>
+            </whoisServer>
         </domain>
         <domain name="zp.gov.pl">
             <source>PSL</source>
